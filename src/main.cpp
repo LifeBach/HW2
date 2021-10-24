@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <unordered_map>
 #include <deque>
+#include <set>
 using namespace std;
 
 struct Cell
@@ -19,6 +20,10 @@ struct Cell
     bool operator < (const Cell &cell) const
     {
         return this->size < cell.size;
+    }
+    friend  ostream  &operator<<(ostream &os, const Cell &cell){  //声明为友元，重载输出运算符
+        os << cell.name << ":" << cell.size;
+        return os;
     }
 };
 
@@ -122,12 +127,36 @@ vector<Net> net_parser(char *filename, unordered_map<string,Cell> &cells)
                 net.cells.push_back(p_cell);
                 temp_s.pop_front();
             }
-            sort(net.cells.begin(),net.cells.end());
+            //sort(net.cells.begin(),net.cells.end());
             nets.push_back(net);
             net.cells.clear();
         }
     }
     return nets;
+}
+
+inline bool constraint_check(int area_A, int area_B, int area_n) { return abs(area_A - area_B) < (area_n/10); }
+
+void init_solution(vector<Cell> cells_vec, unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &set_B, int &n, int &area_A, int &area_B)
+{
+    for(auto iter=cells_vec.begin(); iter!=cells_vec.end();iter++)
+    {
+        n += (iter->size);
+    }
+    area_A = n;
+    int i=0;
+    string cells_key;
+    Cell cell;
+    while(constraint_check(area_A,area_B,n) != true)
+    {
+        cells_key = cells_vec[i].name;
+        cell = set_A[cells_key];
+        set_B.insert(make_pair(cells_key,cell));
+        area_B += cell.size;
+        set_A.erase(cells_key);
+        area_A -= cell.size;
+        i++;
+    }
 }
 
 int main(int argc, char *argv[])
@@ -140,19 +169,26 @@ int main(int argc, char *argv[])
     char *net_filename = argv[1];
     vector<Net> nets;
     nets=net_parser(net_filename,cells_hash);
-    for(auto &i : nets){
-        Net net = i;
-        cout << i.name <<": ";
-        for(auto &j : i.cells){
-            cout<<(j->name)<<",";
-        }
-        cout << '\n';
-    }
+    unordered_map<string,Cell> set_A = cells_hash;
+    unordered_map<string,Cell> set_B;
+    int area_n = 0;
+    int area_A = 0;
+    int area_B = 0;
+    init_solution(cells_vec, set_A, set_B, area_n, area_A, area_B);
+    cout << area_n << area_A << area_B;
+    // for(auto &i : nets){
+    //     Net net = i;
+    //     cout << i.name <<": ";
+    //     for(auto &j : i.cells){
+    //         cout<<(j->name)<<",";
+    //     }
+    //     cout << '\n';
+    // }
 
-    for(auto &i : cells_vec){
-        Cell cell = i;
-        cout << i.name<<":"<<i.size ;
-        cout << '\n';
-    }
+    // for(auto &i : cells_vec){
+    //     Cell cell = i;
+    //     cout << i.name<<":"<<i.size ;
+    //     cout << '\n';
+    // }
 }
 
