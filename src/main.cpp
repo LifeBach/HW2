@@ -13,6 +13,8 @@ struct Cell
     string name = "";
     int size = 0;
     int gain = 0;
+    int set = 'A';
+    vector<string> nets;
     bool operator == (const string &cell_name) const
     {
         return this->name == cell_name;
@@ -22,7 +24,12 @@ struct Cell
         return this->size < cell.size;
     }
     friend  ostream  &operator<<(ostream &os, const Cell &cell){  //声明为友元，重载输出运算符
-        os << cell.name << ":" << cell.size;
+        os << cell.name << ":" << cell.size << " nets: ";
+        for(auto iter=cell.nets.begin(); iter!=cell.nets.end(); iter++)
+        {
+            os << (*iter) <<", ";
+        }
+        os <<"gain: "<<cell.gain<<endl;
         return os;
     }
 };
@@ -135,27 +142,113 @@ vector<Net> net_parser(char *filename, unordered_map<string,Cell> &cells)
     return nets;
 }
 
+void create_net_array(vector<Net> &nets)
+{
+    for(auto &i : nets){
+        for(auto &j : i.cells){
+        j->nets.push_back(i.name);
+        }
+    }
+}
+
+vector<string> get_cell_hash_key(vector<Cell> &cells_vec)
+{
+    vector<string> cells_key;
+    for(auto &i : cells_vec){
+        string cell_key = i.name;
+        cells_key.push_back(cell_key);
+    }
+    return cells_key;
+}
+
 inline bool constraint_check(int area_A, int area_B, int area_n) { return abs(area_A - area_B) < (area_n/10); }
 
-void init_solution(vector<Cell> cells_vec, unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &set_B, int &n, int &area_A, int &area_B)
+void init_solution(vector<string> cells_key, unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &set_B, int &n, int &area_A, int &area_B)
 {
-    for(auto iter=cells_vec.begin(); iter!=cells_vec.end();iter++)
+    for(auto iter=cells_key.begin(); iter!=cells_key.end();iter++)
     {
-        n += (iter->size);
+        n += set_A[*iter].size;
     }
     area_A = n;
     int i=0;
-    string cells_key;
+    string cell_key;
     Cell cell;
     while(constraint_check(area_A,area_B,n) != true)
     {
-        cells_key = cells_vec[i].name;
-        cell = set_A[cells_key];
-        set_B.insert(make_pair(cells_key,cell));
+        cell_key = cells_key[i];
+        cell = set_A[cell_key];
+        set_B.insert(make_pair(cell_key,cell));
         area_B += cell.size;
-        set_A.erase(cells_key);
+        set_A.erase(cell_key);
         area_A -= cell.size;
         i++;
+    }
+}
+
+void init_gain(unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &set_B, unordered_map<string,Cell> &cells_hash, vector<Net> nets)
+{
+    vector<Cell*> curr_net_cell;
+    int A_n = 0;
+    int B_n = 0;
+    vector<string> temp_A_key;
+    vector<string> temp_B_key;
+    for(auto &i : nets)
+    {
+        curr_net_cell = i.cells;
+        for(auto &j : curr_net_cell)
+        {
+            if (set_A.find(j->name) != set_A.end())
+            {
+                A_n += 1;
+                temp_A_key.push_back(j->name);
+            }
+            else
+            {
+                B_n += 1;
+                temp_B_key.push_back(j->name);
+            }
+        }
+        if(A_n == 1)
+        {
+            for(auto &k : temp_A_key)
+            {
+                set_A[k].gain += 1;
+                cells_hash[k].gain += 1;
+            }
+        }
+        if(B_n == 1)
+        {
+            for(auto &k : temp_B_key)
+            {
+                set_B[k].gain += 1;
+                cells_hash[k].gain += 1;
+            }
+        }
+        if(B_n == 0)
+        {
+            for(auto &k : temp_A_key)
+            {
+                set_A[k].gain -= 1;
+                cells_hash[k].gain -= 1;
+            }
+        }
+        if(A_n == 0)
+        {
+            for(auto &k : temp_B_key)
+            {
+                set_B[k].gain -= 1;
+                cells_hash[k].gain -= 1;
+            }
+        }
+        // cout <<i.name<<": "<< A_n <<":" << B_n<<endl;
+        // cout << "setA:"<<endl;
+        // print_d<vector<string>>(temp_A_key);
+        // cout << "setB:"<<endl;
+        // print_d<vector<string>>(temp_B_key);
+        temp_A_key.clear();
+        temp_B_key.clear();
+        A_n = 0;
+        B_n = 0;
     }
 }
 
@@ -164,18 +257,22 @@ int main(int argc, char *argv[])
     char *cell_filename = argv[2];
     unordered_map<string,Cell> cells_hash;
     vector<Cell> cells_vec;
+    vector<string> cells_key;
     cell_parser(cell_filename,cells_hash,cells_vec);
     sort(cells_vec.begin(),cells_vec.end());
+    cells_key = get_cell_hash_key(cells_vec);
+    cells_vec.clear();
     char *net_filename = argv[1];
     vector<Net> nets;
     nets=net_parser(net_filename,cells_hash);
+    create_net_array(nets);
     unordered_map<string,Cell> set_A = cells_hash;
     unordered_map<string,Cell> set_B;
     int area_n = 0;
     int area_A = 0;
     int area_B = 0;
-    init_solution(cells_vec, set_A, set_B, area_n, area_A, area_B);
-    cout << area_n << area_A << area_B;
+    init_solution(cells_key, set_A, set_B, area_n, area_A, area_B);
+    init_gain(set_A, set_B, cells_hash, nets);
     // for(auto &i : nets){
     //     Net net = i;
     //     cout << i.name <<": ";
@@ -184,11 +281,8 @@ int main(int argc, char *argv[])
     //     }
     //     cout << '\n';
     // }
-
-    // for(auto &i : cells_vec){
-    //     Cell cell = i;
-    //     cout << i.name<<":"<<i.size ;
-    //     cout << '\n';
+    // for(auto &j : cells_key){
+    //     cout<<"set_B: "<<set_B[j];
     // }
 }
 

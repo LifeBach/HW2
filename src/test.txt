@@ -1,0 +1,2485 @@
+n1: 0:2
+setA:
+setB:
+data[0]c12
+data[1]c78
+n2: 2:2
+setA:
+data[0]c57
+data[1]c80
+setB:
+data[0]c190
+data[1]c76
+n3: 1:1
+setA:
+data[0]c59
+setB:
+data[0]c191
+n4: 3:8
+setA:
+data[0]c53
+data[1]c57
+data[2]c83
+setB:
+data[0]c191
+data[1]c66
+data[2]c68
+data[3]c72
+data[4]c74
+data[5]c81
+data[6]c82
+data[7]c86
+n5: 4:4
+setA:
+data[0]c50
+data[1]c71
+data[2]c80
+data[3]c85
+setB:
+data[0]c191
+data[1]c58
+data[2]c72
+data[3]c84
+n6: 1:2
+setA:
+data[0]c83
+setB:
+data[0]c191
+data[1]c68
+n7: 2:3
+setA:
+data[0]c55
+data[1]c61
+setB:
+data[0]c191
+data[1]c60
+data[2]c77
+n8: 1:1
+setA:
+data[0]c49
+setB:
+data[0]c36
+n9: 2:1
+setA:
+data[0]c49
+data[1]c69
+setB:
+data[0]c75
+n10: 2:0
+setA:
+data[0]c49
+data[1]c59
+setB:
+n11: 1:2
+setA:
+data[0]c50
+setB:
+data[0]c78
+data[1]c79
+n12: 0:2
+setA:
+setB:
+data[0]c33
+data[1]c51
+n13: 0:2
+setA:
+setB:
+data[0]c51
+data[1]c52
+n14: 0:2
+setA:
+setB:
+data[0]c51
+data[1]c81
+n15: 0:2
+setA:
+setB:
+data[0]c51
+data[1]c79
+n16: 1:2
+setA:
+data[0]c55
+setB:
+data[0]c52
+data[1]c73
+n17: 2:0
+setA:
+data[0]c53
+data[1]c55
+setB:
+n18: 1:2
+setA:
+data[0]c53
+setB:
+data[0]c74
+data[1]c84
+n19: 0:2
+setA:
+setB:
+data[0]c54
+data[1]c78
+n20: 1:2
+setA:
+data[0]c83
+setB:
+data[0]c54
+data[1]c58
+n21: 1:1
+setA:
+data[0]c55
+setB:
+data[0]c10
+n22: 1:1
+setA:
+data[0]c55
+setB:
+data[0]c70
+n23: 0:2
+setA:
+setB:
+data[0]c56
+data[1]c77
+n24: 0:2
+setA:
+setB:
+data[0]c56
+data[1]c74
+n25: 1:2
+setA:
+data[0]c57
+setB:
+data[0]c63
+data[1]c67
+n26: 2:3
+setA:
+data[0]c57
+data[1]c71
+setB:
+data[0]c62
+data[1]c65
+data[2]c82
+n27: 1:1
+setA:
+data[0]c61
+setB:
+data[0]c58
+n28: 1:1
+setA:
+data[0]c61
+setB:
+data[0]c35
+n29: 1:2
+setA:
+data[0]c61
+setB:
+data[0]c64
+data[1]c78
+n30: 1:1
+setA:
+data[0]c69
+setB:
+data[0]c63
+n31: 0:3
+setA:
+setB:
+data[0]c63
+data[1]c64
+data[2]c82
+n32: 1:2
+setA:
+data[0]c83
+setB:
+data[0]c63
+data[1]c76
+n33: 0:4
+setA:
+setB:
+data[0]c65
+data[1]c72
+data[2]c79
+data[3]c81
+n34: 1:1
+setA:
+data[0]c69
+setB:
+data[0]c66
+n35: 1:2
+setA:
+data[0]c80
+setB:
+data[0]c66
+data[1]c73
+n36: 0:2
+setA:
+setB:
+data[0]c67
+data[1]c70
+n37: 1:1
+setA:
+data[0]c71
+setB:
+data[0]c74
+n38: 0:2
+setA:
+setB:
+data[0]c72
+data[1]c75
+n39: 0:2
+setA:
+setB:
+data[0]c11
+data[1]c75
+n40: 0:2
+setA:
+setB:
+data[0]c8
+data[1]c77
+n41: 0:3
+setA:
+setB:
+data[0]c156
+data[1]c173
+data[2]c86
+n42: 1:1
+setA:
+data[0]c159
+setB:
+data[0]c156
+n43: 1:5
+setA:
+data[0]c158
+setB:
+data[0]c157
+data[1]c176
+data[2]c60
+data[3]c62
+data[4]c84
+n44: 1:1
+setA:
+data[0]c158
+setB:
+data[0]c157
+n45: 3:2
+setA:
+data[0]c158
+data[1]c159
+data[2]c161
+setB:
+data[0]c160
+data[1]c179
+n46: 2:0
+setA:
+data[0]c158
+data[1]c169
+setB:
+n47: 2:0
+setA:
+data[0]c159
+data[1]c182
+setB:
+n48: 1:1
+setA:
+data[0]c164
+setB:
+data[0]c160
+n49: 2:0
+setA:
+data[0]c161
+data[1]c170
+setB:
+n50: 1:1
+setA:
+data[0]c164
+setB:
+data[0]c162
+n51: 2:3
+setA:
+data[0]c165
+data[1]c180
+setB:
+data[0]c162
+data[1]c166
+data[2]c187
+n52: 1:1
+setA:
+data[0]c164
+setB:
+data[0]c163
+n53: 13:16
+setA:
+data[0]c177
+data[1]c183
+data[2]c189
+data[3]c247
+data[4]c258
+data[5]c266
+data[6]c144
+data[7]c343
+data[8]c348
+data[9]c225
+data[10]c239
+data[11]c286
+data[12]c292
+setB:
+data[0]c2
+data[1]c163
+data[2]c168
+data[3]c179
+data[4]c187
+data[5]c99
+data[6]c256
+data[7]c262
+data[8]c268
+data[9]c140
+data[10]c150
+data[11]c336
+data[12]c344
+data[13]c230
+data[14]c241
+data[15]c290
+n54: 1:1
+setA:
+data[0]c27
+setB:
+data[0]c163
+n55: 1:1
+setA:
+data[0]c186
+setB:
+data[0]c163
+n56: 3:2
+setA:
+data[0]c167
+data[1]c175
+data[2]c177
+setB:
+data[0]c163
+data[1]c168
+n57: 2:0
+setA:
+data[0]c165
+data[1]c169
+setB:
+n58: 1:1
+setA:
+data[0]c170
+setB:
+data[0]c166
+n59: 2:0
+setA:
+data[0]c167
+data[1]c169
+setB:
+n60: 3:1
+setA:
+data[0]c167
+data[1]c174
+data[2]c185
+setB:
+data[0]c181
+n61: 2:1
+setA:
+data[0]c167
+data[1]c185
+setB:
+data[0]c176
+n62: 1:1
+setA:
+data[0]c170
+setB:
+data[0]c168
+n63: 1:1
+setA:
+data[0]c172
+setB:
+data[0]c168
+n64: 1:1
+setA:
+data[0]c4
+setB:
+data[0]c168
+n65: 2:0
+setA:
+data[0]c169
+data[1]c189
+setB:
+n66: 1:1
+setA:
+data[0]c174
+setB:
+data[0]c171
+n67: 1:2
+setA:
+data[0]c186
+setB:
+data[0]c171
+data[1]c188
+n68: 0:3
+setA:
+setB:
+data[0]c171
+data[1]c173
+data[2]c181
+n69: 2:0
+setA:
+data[0]c174
+data[1]c177
+setB:
+n70: 2:0
+setA:
+data[0]c175
+data[1]c183
+setB:
+n71: 2:0
+setA:
+data[0]c177
+data[1]c182
+setB:
+n72: 2:0
+setA:
+data[0]c5
+data[1]c177
+setB:
+n73: 0:2
+setA:
+setB:
+data[0]c178
+data[1]c187
+n74: 4:3
+setA:
+data[0]c183
+data[1]c185
+data[2]c203
+data[3]c210
+setB:
+data[0]c178
+data[1]c208
+data[2]c212
+n75: 1:1
+setA:
+data[0]c210
+setB:
+data[0]c179
+n76: 2:0
+setA:
+data[0]c180
+data[1]c182
+setB:
+n77: 1:1
+setA:
+data[0]c186
+setB:
+data[0]c184
+n78: 2:0
+setA:
+data[0]c28
+data[1]c189
+setB:
+n79: 0:2
+setA:
+setB:
+data[0]c99
+data[1]c265
+n80: 1:4
+setA:
+data[0]c247
+setB:
+data[0]c99
+data[1]c246
+data[2]c254
+data[3]c256
+n81: 1:1
+setA:
+data[0]c248
+setB:
+data[0]c244
+n82: 1:1
+setA:
+data[0]c249
+setB:
+data[0]c245
+n83: 1:1
+setA:
+data[0]c248
+setB:
+data[0]c246
+n84: 2:2
+setA:
+data[0]c253
+data[1]c264
+setB:
+data[0]c246
+data[1]c260
+n85: 2:1
+setA:
+data[0]c255
+data[1]c264
+setB:
+data[0]c246
+n86: 2:0
+setA:
+data[0]c247
+data[1]c249
+setB:
+n87: 2:0
+setA:
+data[0]c247
+data[1]c251
+setB:
+n88: 2:0
+setA:
+data[0]c39
+data[1]c247
+setB:
+n89: 1:1
+setA:
+data[0]c248
+setB:
+data[0]c268
+n90: 1:1
+setA:
+data[0]c253
+setB:
+data[0]c250
+n91: 0:3
+setA:
+setB:
+data[0]c250
+data[1]c265
+data[2]c267
+n92: 1:2
+setA:
+data[0]c252
+setB:
+data[0]c250
+data[1]c260
+n93: 1:1
+setA:
+data[0]c253
+setB:
+data[0]c256
+n94: 0:2
+setA:
+setB:
+data[0]c254
+data[1]c262
+n95: 1:1
+setA:
+data[0]c261
+setB:
+data[0]c256
+n96: 1:1
+setA:
+data[0]c38
+setB:
+data[0]c256
+n97: 1:1
+setA:
+data[0]c266
+setB:
+data[0]c257
+n98: 1:4
+setA:
+data[0]c264
+setB:
+data[0]c257
+data[1]c262
+data[2]c204
+data[3]c212
+n99: 1:1
+setA:
+data[0]c258
+setB:
+data[0]c204
+n100: 1:1
+setA:
+data[0]c261
+setB:
+data[0]c259
+n101: 0:2
+setA:
+setB:
+data[0]c263
+data[1]c265
+n102: 0:2
+setA:
+setB:
+data[0]c14
+data[1]c268
+n103: 2:2
+setA:
+data[0]c279
+data[1]c118
+setB:
+data[0]c269
+data[1]c114
+n104: 1:1
+setA:
+data[0]c281
+setB:
+data[0]c270
+n105: 6:5
+setA:
+data[0]c275
+data[1]c279
+data[2]c106
+data[3]c112
+data[4]c120
+data[5]c124
+setB:
+data[0]c270
+data[1]c104
+data[2]c110
+data[3]c119
+data[4]c121
+n106: 3:5
+setA:
+data[0]c280
+data[1]c118
+data[2]c122
+setB:
+data[0]c270
+data[1]c272
+data[2]c109
+data[3]c110
+data[4]c123
+n107: 1:2
+setA:
+data[0]c106
+setB:
+data[0]c270
+data[1]c121
+n108: 1:4
+setA:
+data[0]c282
+setB:
+data[0]c270
+data[1]c277
+data[2]c283
+data[3]c115
+n109: 1:1
+setA:
+data[0]c9
+setB:
+data[0]c271
+n110: 1:2
+setA:
+data[0]c113
+setB:
+data[0]c271
+data[1]c107
+n111: 1:1
+setA:
+data[0]c281
+setB:
+data[0]c271
+n112: 1:2
+setA:
+data[0]c117
+setB:
+data[0]c272
+data[1]c116
+n113: 1:1
+setA:
+data[0]c6
+setB:
+data[0]c273
+n114: 1:1
+setA:
+data[0]c274
+setB:
+data[0]c273
+n115: 0:2
+setA:
+setB:
+data[0]c273
+data[1]c119
+n116: 1:1
+setA:
+data[0]c117
+setB:
+data[0]c273
+n117: 1:2
+setA:
+data[0]c274
+setB:
+data[0]c277
+data[1]c111
+n118: 1:1
+setA:
+data[0]c275
+setB:
+data[0]c277
+n119: 1:2
+setA:
+data[0]c200
+setB:
+data[0]c369
+data[1]c198
+n120: 1:1
+setA:
+data[0]c373
+setB:
+data[0]c370
+n121: 1:1
+setA:
+data[0]c371
+setB:
+data[0]c193
+n122: 2:0
+setA:
+data[0]c371
+data[1]c374
+setB:
+n123: 2:0
+setA:
+data[0]c372
+data[1]c200
+setB:
+n124: 1:1
+setA:
+data[0]c375
+setB:
+data[0]c194
+n125: 1:1
+setA:
+data[0]c20
+setB:
+data[0]c195
+n126: 1:1
+setA:
+data[0]c24
+setB:
+data[0]c196
+n127: 1:1
+setA:
+data[0]c203
+setB:
+data[0]c204
+n128: 3:1
+setA:
+data[0]c41
+data[1]c203
+data[2]c205
+setB:
+data[0]c208
+n129: 1:2
+setA:
+data[0]c207
+setB:
+data[0]c204
+data[1]c208
+n130: 3:0
+setA:
+data[0]c205
+data[1]c209
+data[2]c210
+setB:
+n131: 1:1
+setA:
+data[0]c211
+setB:
+data[0]c206
+n132: 2:3
+setA:
+data[0]c207
+data[1]c286
+setB:
+data[0]c212
+data[1]c240
+data[2]c288
+n133: 0:2
+setA:
+setB:
+data[0]c208
+data[1]c241
+n134: 2:1
+setA:
+data[0]c209
+data[1]c211
+setB:
+data[0]c212
+n135: 2:0
+setA:
+data[0]c25
+data[1]c211
+setB:
+n136: 1:1
+setA:
+data[0]c97
+setB:
+data[0]c87
+n137: 1:1
+setA:
+data[0]c90
+setB:
+data[0]c87
+n138: 1:1
+setA:
+data[0]c95
+setB:
+data[0]c88
+n139: 1:1
+setA:
+data[0]c92
+setB:
+data[0]c88
+n140: 1:1
+setA:
+data[0]c96
+setB:
+data[0]c89
+n141: 1:1
+setA:
+data[0]c91
+setB:
+data[0]c89
+n142: 2:4
+setA:
+data[0]c90
+data[1]c251
+setB:
+data[0]c260
+data[1]c263
+data[2]c267
+data[3]c123
+n143: 2:0
+setA:
+data[0]c90
+data[1]c97
+setB:
+n144: 4:5
+setA:
+data[0]c91
+data[1]c282
+data[2]c117
+data[3]c122
+setB:
+data[0]c260
+data[1]c263
+data[2]c267
+data[3]c269
+data[4]c121
+n145: 2:0
+setA:
+data[0]c91
+data[1]c96
+setB:
+n146: 3:0
+setA:
+data[0]c92
+data[1]c252
+data[2]c124
+setB:
+n147: 2:0
+setA:
+data[0]c92
+data[1]c95
+setB:
+n148: 4:2
+setA:
+data[0]c94
+data[1]c255
+data[2]c282
+data[3]c122
+setB:
+data[0]c93
+data[1]c100
+n149: 1:1
+setA:
+data[0]c94
+setB:
+data[0]c93
+n150: 5:0
+setA:
+data[0]c94
+data[1]c95
+data[2]c96
+data[3]c97
+data[4]c258
+setB:
+n151: 2:0
+setA:
+data[0]c94
+data[1]c248
+setB:
+n152: 2:0
+setA:
+data[0]c95
+data[1]c261
+setB:
+n153: 1:1
+setA:
+data[0]c96
+setB:
+data[0]c243
+n154: 2:0
+setA:
+data[0]c97
+data[1]c249
+setB:
+n155: 1:1
+setA:
+data[0]c98
+setB:
+data[0]c243
+n156: 2:3
+setA:
+data[0]c98
+data[1]c266
+setB:
+data[0]c244
+data[1]c245
+data[2]c259
+n157: 0:2
+setA:
+setB:
+data[0]c99
+data[1]c243
+n158: 0:2
+setA:
+setB:
+data[0]c15
+data[1]c99
+n159: 1:1
+setA:
+data[0]c16
+setB:
+data[0]c150
+n160: 2:2
+setA:
+data[0]c337
+data[1]c347
+setB:
+data[0]c334
+data[1]c338
+n161: 2:0
+setA:
+data[0]c337
+data[1]c342
+setB:
+n162: 1:1
+setA:
+data[0]c341
+setB:
+data[0]c338
+n163: 1:1
+setA:
+data[0]c345
+setB:
+data[0]c339
+n164: 2:0
+setA:
+data[0]c341
+data[1]c343
+setB:
+n165: 1:1
+setA:
+data[0]c342
+setB:
+data[0]c206
+n166: 2:0
+setA:
+data[0]c343
+data[1]c345
+setB:
+n167: 2:0
+setA:
+data[0]c42
+data[1]c343
+setB:
+n168: 1:1
+setA:
+data[0]c209
+setB:
+data[0]c344
+n169: 2:4
+setA:
+data[0]c359
+data[1]c200
+setB:
+data[0]c349
+data[1]c367
+data[2]c369
+data[3]c197
+n170: 1:1
+setA:
+data[0]c350
+setB:
+data[0]c22
+n171: 1:1
+setA:
+data[0]c350
+setB:
+data[0]c192
+n172: 3:0
+setA:
+data[0]c350
+data[1]c351
+data[2]c373
+setB:
+n173: 2:0
+setA:
+data[0]c46
+data[1]c351
+setB:
+n174: 1:1
+setA:
+data[0]c351
+setB:
+data[0]c193
+n175: 1:3
+setA:
+data[0]c371
+setB:
+data[0]c352
+data[1]c195
+data[2]c198
+n176: 1:1
+setA:
+data[0]c355
+setB:
+data[0]c353
+n177: 4:7
+setA:
+data[0]c359
+data[1]c371
+data[2]c372
+data[3]c200
+setB:
+data[0]c353
+data[1]c357
+data[2]c370
+data[3]c192
+data[4]c194
+data[5]c199
+data[6]c202
+n178: 1:3
+setA:
+data[0]c366
+setB:
+data[0]c353
+data[1]c192
+data[2]c198
+n179: 1:1
+setA:
+data[0]c355
+setB:
+data[0]c354
+n180: 0:4
+setA:
+setB:
+data[0]c354
+data[1]c360
+data[2]c370
+data[3]c197
+n181: 1:1
+setA:
+data[0]c355
+setB:
+data[0]c1
+n182: 1:1
+setA:
+data[0]c355
+setB:
+data[0]c198
+n183: 1:1
+setA:
+data[0]c356
+setB:
+data[0]c195
+n184: 2:1
+setA:
+data[0]c356
+data[1]c200
+setB:
+data[0]c362
+n185: 0:2
+setA:
+setB:
+data[0]c357
+data[1]c360
+n186: 1:2
+setA:
+data[0]c201
+setB:
+data[0]c357
+data[1]c194
+n187: 1:1
+setA:
+data[0]c358
+setB:
+data[0]c196
+n188: 1:1
+setA:
+data[0]c358
+setB:
+data[0]c194
+n189: 2:1
+setA:
+data[0]c359
+data[1]c365
+setB:
+data[0]c367
+n190: 3:2
+setA:
+data[0]c359
+data[1]c366
+data[2]c375
+setB:
+data[0]c363
+data[1]c199
+n191: 0:2
+setA:
+setB:
+data[0]c23
+data[1]c360
+n192: 1:1
+setA:
+data[0]c365
+setB:
+data[0]c360
+n193: 2:3
+setA:
+data[0]c364
+data[1]c374
+setB:
+data[0]c360
+data[1]c361
+data[2]c196
+n194: 1:1
+setA:
+data[0]c364
+setB:
+data[0]c362
+n195: 2:0
+setA:
+data[0]c48
+data[1]c364
+setB:
+n196: 1:2
+setA:
+data[0]c364
+setB:
+data[0]c368
+data[1]c195
+n197: 1:1
+setA:
+data[0]c373
+setB:
+data[0]c367
+n198: 0:3
+setA:
+setB:
+data[0]c367
+data[1]c368
+data[2]c199
+n199: 1:1
+setA:
+data[0]c320
+setB:
+data[0]c317
+n200: 1:1
+setA:
+data[0]c321
+setB:
+data[0]c318
+n201: 2:0
+setA:
+data[0]c43
+data[1]c321
+setB:
+n202: 1:1
+setA:
+data[0]c47
+setB:
+data[0]c323
+n203: 1:1
+setA:
+data[0]c40
+setB:
+data[0]c324
+n204: 1:1
+setA:
+data[0]c131
+setB:
+data[0]c127
+n205: 2:3
+setA:
+data[0]c132
+data[1]c134
+setB:
+data[0]c127
+data[1]c133
+data[2]c344
+n206: 3:3
+setA:
+data[0]c131
+data[1]c340
+data[2]c201
+setB:
+data[0]c127
+data[1]c361
+data[2]c363
+n207: 1:1
+setA:
+data[0]c335
+setB:
+data[0]c127
+n208: 2:8
+setA:
+data[0]c375
+data[1]c201
+setB:
+data[0]c128
+data[1]c138
+data[2]c149
+data[3]c346
+data[4]c352
+data[5]c362
+data[6]c192
+data[7]c197
+n209: 1:1
+setA:
+data[0]c134
+setB:
+data[0]c128
+n210: 1:6
+setA:
+data[0]c201
+setB:
+data[0]c129
+data[1]c133
+data[2]c138
+data[3]c346
+data[4]c349
+data[5]c361
+n211: 0:2
+setA:
+setB:
+data[0]c129
+data[1]c133
+n212: 0:3
+setA:
+setB:
+data[0]c130
+data[1]c334
+data[2]c202
+n213: 1:1
+setA:
+data[0]c132
+setB:
+data[0]c130
+n214: 2:0
+setA:
+data[0]c132
+data[1]c345
+setB:
+n215: 0:2
+setA:
+setB:
+data[0]c133
+data[1]c142
+n216: 1:1
+setA:
+data[0]c134
+setB:
+data[0]c146
+n217: 1:1
+setA:
+data[0]c335
+setB:
+data[0]c135
+n218: 1:2
+setA:
+data[0]c342
+setB:
+data[0]c136
+data[1]c141
+n219: 1:2
+setA:
+data[0]c340
+setB:
+data[0]c136
+data[1]c147
+n220: 2:3
+setA:
+data[0]c144
+data[1]c343
+setB:
+data[0]c137
+data[1]c140
+data[2]c150
+n221: 1:1
+setA:
+data[0]c348
+setB:
+data[0]c137
+n222: 0:2
+setA:
+setB:
+data[0]c138
+data[1]c139
+n223: 0:2
+setA:
+setB:
+data[0]c139
+data[1]c140
+n224: 2:3
+setA:
+data[0]c337
+data[1]c347
+setB:
+data[0]c139
+data[1]c338
+data[2]c346
+n225: 0:2
+setA:
+setB:
+data[0]c140
+data[1]c142
+n226: 0:2
+setA:
+setB:
+data[0]c18
+data[1]c140
+n227: 1:2
+setA:
+data[0]c348
+setB:
+data[0]c141
+data[1]c143
+n228: 1:2
+setA:
+data[0]c347
+setB:
+data[0]c141
+data[1]c145
+n229: 0:2
+setA:
+setB:
+data[0]c142
+data[1]c333
+n230: 2:3
+setA:
+data[0]c335
+data[1]c345
+setB:
+data[0]c142
+data[1]c143
+data[2]c146
+n231: 0:2
+setA:
+setB:
+data[0]c143
+data[1]c336
+n232: 1:1
+setA:
+data[0]c144
+setB:
+data[0]c146
+n233: 1:1
+setA:
+data[0]c144
+setB:
+data[0]c149
+n234: 1:1
+setA:
+data[0]c144
+setB:
+data[0]c44
+n235: 1:2
+setA:
+data[0]c341
+setB:
+data[0]c145
+data[1]c147
+n236: 0:2
+setA:
+setB:
+data[0]c146
+data[1]c148
+n237: 0:2
+setA:
+setB:
+data[0]c147
+data[1]c150
+n238: 1:1
+setA:
+data[0]c335
+setB:
+data[0]c150
+n239: 1:1
+setA:
+data[0]c239
+setB:
+data[0]c3
+n240: 0:2
+setA:
+setB:
+data[0]c240
+data[1]c290
+n241: 0:2
+setA:
+setB:
+data[0]c242
+data[1]c285
+n242: 0:2
+setA:
+setB:
+data[0]c287
+data[1]c289
+n243: 1:1
+setA:
+data[0]c292
+setB:
+data[0]c26
+n244: 0:4
+setA:
+setB:
+data[0]c293
+data[1]c303
+data[2]c322
+data[3]c326
+n245: 0:2
+setA:
+setB:
+data[0]c294
+data[1]c305
+n246: 1:10
+setA:
+data[0]c320
+setB:
+data[0]c294
+data[1]c299
+data[2]c303
+data[3]c312
+data[4]c314
+data[5]c318
+data[6]c327
+data[7]c328
+data[8]c329
+data[9]c332
+n247: 1:7
+setA:
+data[0]c331
+setB:
+data[0]c294
+data[1]c296
+data[2]c304
+data[3]c317
+data[4]c318
+data[5]c326
+data[6]c330
+n248: 0:3
+setA:
+setB:
+data[0]c294
+data[1]c314
+data[2]c329
+n249: 2:3
+setA:
+data[0]c301
+data[1]c307
+setB:
+data[0]c294
+data[1]c306
+data[2]c323
+n250: 1:1
+setA:
+data[0]c295
+setB:
+data[0]c17
+n251: 3:0
+setA:
+data[0]c295
+data[1]c315
+data[2]c321
+setB:
+n252: 1:1
+setA:
+data[0]c295
+setB:
+data[0]c305
+n253: 0:3
+setA:
+setB:
+data[0]c296
+data[1]c324
+data[2]c325
+n254: 1:1
+setA:
+data[0]c297
+setB:
+data[0]c21
+n255: 2:0
+setA:
+data[0]c297
+data[1]c298
+setB:
+n256: 1:1
+setA:
+data[0]c297
+setB:
+data[0]c327
+n257: 1:1
+setA:
+data[0]c297
+setB:
+data[0]c325
+n258: 2:1
+setA:
+data[0]c298
+data[1]c301
+setB:
+data[0]c319
+n259: 1:1
+setA:
+data[0]c301
+setB:
+data[0]c299
+n260: 1:2
+setA:
+data[0]c320
+setB:
+data[0]c299
+data[1]c330
+n261: 0:2
+setA:
+setB:
+data[0]c300
+data[1]c324
+n262: 0:3
+setA:
+setB:
+data[0]c300
+data[1]c304
+data[2]c329
+n263: 2:0
+setA:
+data[0]c45
+data[1]c301
+setB:
+n264: 2:0
+setA:
+data[0]c301
+data[1]c316
+setB:
+n265: 0:2
+setA:
+setB:
+data[0]c302
+data[1]c323
+n266: 1:1
+setA:
+data[0]c320
+setB:
+data[0]c302
+n267: 1:2
+setA:
+data[0]c309
+setB:
+data[0]c303
+data[1]c313
+n268: 1:4
+setA:
+data[0]c308
+setB:
+data[0]c303
+data[1]c311
+data[2]c317
+data[3]c328
+n269: 1:1
+setA:
+data[0]c307
+setB:
+data[0]c304
+n270: 1:1
+setA:
+data[0]c307
+setB:
+data[0]c19
+n271: 2:1
+setA:
+data[0]c307
+data[1]c310
+setB:
+data[0]c324
+n272: 2:0
+setA:
+data[0]c309
+data[1]c315
+setB:
+n273: 2:1
+setA:
+data[0]c309
+data[1]c310
+setB:
+data[0]c328
+n274: 1:2
+setA:
+data[0]c309
+setB:
+data[0]c322
+data[1]c329
+n275: 0:4
+setA:
+setB:
+data[0]c311
+data[1]c318
+data[2]c325
+data[3]c327
+n276: 1:1
+setA:
+data[0]c315
+setB:
+data[0]c312
+n277: 0:3
+setA:
+setB:
+data[0]c312
+data[1]c319
+data[2]c326
+n278: 1:1
+setA:
+data[0]c316
+setB:
+data[0]c313
+n279: 1:1
+setA:
+data[0]c223
+setB:
+data[0]c213
+n280: 1:1
+setA:
+data[0]c216
+setB:
+data[0]c213
+n281: 1:1
+setA:
+data[0]c221
+setB:
+data[0]c214
+n282: 1:1
+setA:
+data[0]c218
+setB:
+data[0]c214
+n283: 1:1
+setA:
+data[0]c222
+setB:
+data[0]c215
+n284: 1:1
+setA:
+data[0]c217
+setB:
+data[0]c215
+n285: 3:3
+setA:
+data[0]c216
+data[1]c234
+data[2]c331
+setB:
+data[0]c284
+data[1]c287
+data[2]c291
+n286: 2:0
+setA:
+data[0]c216
+data[1]c223
+setB:
+n287: 1:8
+setA:
+data[0]c217
+setB:
+data[0]c284
+data[1]c287
+data[2]c291
+data[3]c293
+data[4]c306
+data[5]c325
+data[6]c329
+data[7]c330
+n288: 2:0
+setA:
+data[0]c217
+data[1]c222
+setB:
+n289: 2:1
+setA:
+data[0]c218
+data[1]c235
+setB:
+data[0]c332
+n290: 2:0
+setA:
+data[0]c218
+data[1]c221
+setB:
+n291: 1:5
+setA:
+data[0]c308
+setB:
+data[0]c219
+data[1]c220
+data[2]c238
+data[3]c306
+data[4]c330
+n292: 0:2
+setA:
+setB:
+data[0]c219
+data[1]c220
+n293: 3:2
+setA:
+data[0]c221
+data[1]c222
+data[2]c223
+setB:
+data[0]c220
+data[1]c241
+n294: 0:2
+setA:
+setB:
+data[0]c220
+data[1]c231
+n295: 1:1
+setA:
+data[0]c221
+setB:
+data[0]c285
+n296: 1:1
+setA:
+data[0]c222
+setB:
+data[0]c226
+n297: 1:1
+setA:
+data[0]c223
+setB:
+data[0]c232
+n298: 0:2
+setA:
+setB:
+data[0]c224
+data[1]c226
+n299: 0:5
+setA:
+setB:
+data[0]c224
+data[1]c227
+data[2]c228
+data[3]c242
+data[4]c290
+n300: 1:1
+setA:
+data[0]c225
+setB:
+data[0]c226
+n301: 1:1
+setA:
+data[0]c225
+setB:
+data[0]c13
+n302: 1:1
+setA:
+data[0]c225
+setB:
+data[0]c289
+n303: 3:2
+setA:
+data[0]c225
+data[1]c237
+data[2]c239
+setB:
+data[0]c229
+data[1]c230
+n304: 0:2
+setA:
+setB:
+data[0]c227
+data[1]c231
+n305: 0:2
+setA:
+setB:
+data[0]c228
+data[1]c232
+n306: 0:2
+setA:
+setB:
+data[0]c229
+data[1]c231
+n307: 1:3
+setA:
+data[0]c236
+setB:
+data[0]c229
+data[1]c284
+data[2]c288
+n308: 0:3
+setA:
+setB:
+data[0]c229
+data[1]c238
+data[2]c288
+n309: 0:2
+setA:
+setB:
+data[0]c230
+data[1]c232
+n310: 1:1
+setA:
+data[0]c234
+setB:
+data[0]c230
+n311: 1:1
+setA:
+data[0]c37
+setB:
+data[0]c230
+n312: 1:1
+setA:
+data[0]c292
+setB:
+data[0]c231
+n313: 1:1
+setA:
+data[0]c236
+setB:
+data[0]c233
+n314: 0:3
+setA:
+setB:
+data[0]c233
+data[1]c289
+data[2]c291
+n315: 1:2
+setA:
+data[0]c235
+setB:
+data[0]c233
+data[1]c284
+n316: 2:0
+setA:
+data[0]c236
+data[1]c239
+setB:
+n317: 2:0
+setA:
+data[0]c237
+data[1]c286
+setB:
+n318: 1:1
+setA:
+data[0]c239
+setB:
+data[0]c285
+n319: 3:0
+setA:
+data[0]c275
+data[1]c112
+data[2]c122
+setB:
+n320: 1:1
+setA:
+data[0]c276
+setB:
+data[0]c116
+n321: 2:1
+setA:
+data[0]c276
+data[1]c280
+setB:
+data[0]c121
+n322: 1:1
+setA:
+data[0]c31
+setB:
+data[0]c277
+n323: 0:2
+setA:
+setB:
+data[0]c277
+data[1]c108
+n324: 1:1
+setA:
+data[0]c278
+setB:
+data[0]c115
+n325: 2:0
+setA:
+data[0]c278
+data[1]c112
+setB:
+n326: 2:1
+setA:
+data[0]c279
+data[1]c105
+setB:
+data[0]c101
+n327: 3:2
+setA:
+data[0]c279
+data[1]c103
+data[2]c120
+setB:
+data[0]c100
+data[1]c109
+n328: 1:1
+setA:
+data[0]c280
+setB:
+data[0]c283
+n329: 1:1
+setA:
+data[0]c7
+setB:
+data[0]c283
+n330: 0:3
+setA:
+setB:
+data[0]c283
+data[1]c102
+data[2]c116
+n331: 0:2
+setA:
+setB:
+data[0]c101
+data[1]c107
+n332: 1:2
+setA:
+data[0]c120
+setB:
+data[0]c101
+data[1]c102
+n333: 0:3
+setA:
+setB:
+data[0]c101
+data[1]c114
+data[2]c121
+n334: 2:2
+setA:
+data[0]c103
+data[1]c117
+setB:
+data[0]c110
+data[1]c119
+n335: 0:2
+setA:
+setB:
+data[0]c104
+data[1]c107
+n336: 1:2
+setA:
+data[0]c118
+setB:
+data[0]c104
+data[1]c111
+n337: 1:1
+setA:
+data[0]c105
+setB:
+data[0]c108
+n338: 1:1
+setA:
+data[0]c112
+setB:
+data[0]c109
+n339: 1:1
+setA:
+data[0]c113
+setB:
+data[0]c110
+n340: 2:0
+setA:
+data[0]c32
+data[1]c113
+setB:
+n341: 1:1
+setA:
+data[0]c30
+setB:
+data[0]c115
+n342: 1:1
+setA:
+data[0]c34
+setB:
+data[0]c116
+n343: 1:1
+setA:
+data[0]c132
+setB:
+data[0]c125
+n344: 0:2
+setA:
+setB:
+data[0]c125
+data[1]c130
+n345: 1:1
+setA:
+data[0]c134
+setB:
+data[0]c126
+n346: 0:2
+setA:
+setB:
+data[0]c126
+data[1]c128
+n347: 1:1
+setA:
+data[0]c161
+setB:
+data[0]c151
+n348: 1:1
+setA:
+data[0]c154
+setB:
+data[0]c151
+n349: 1:1
+setA:
+data[0]c159
+setB:
+data[0]c152
+n350: 0:2
+setA:
+setB:
+data[0]c152
+data[1]c156
+n351: 0:2
+setA:
+setB:
+data[0]c153
+data[1]c160
+n352: 1:1
+setA:
+data[0]c155
+setB:
+data[0]c153
+n353: 3:3
+setA:
+data[0]c154
+data[1]c172
+data[2]c85
+setB:
+data[0]c181
+data[1]c184
+data[2]c188
+n354: 9:8
+setA:
+data[0]c154
+data[1]c155
+data[2]c90
+data[3]c91
+data[4]c92
+data[5]c131
+data[6]c216
+data[7]c217
+data[8]c218
+setB:
+data[0]c29
+data[1]c156
+data[2]c157
+data[3]c93
+data[4]c128
+data[5]c129
+data[6]c130
+data[7]c219
+n355: 2:0
+setA:
+data[0]c154
+data[1]c161
+setB:
+n356: 2:7
+setA:
+data[0]c155
+data[1]c83
+setB:
+data[0]c181
+data[1]c184
+data[2]c188
+data[3]c190
+data[4]c60
+data[5]c79
+data[6]c84
+n357: 1:1
+setA:
+data[0]c155
+setB:
+data[0]c160
+set_B: c339:1 nets: n163, gain: 1
+set_B: c195:1 nets: n125, n175, n183, n196, gain: 2
+set_B: c196:1 nets: n126, n187, n193, gain: 2
+set_B: c12:1 nets: n1, gain: -1
+set_B: c240:1 nets: n132, n240, gain: -1
+set_B: c288:1 nets: n132, n307, n308, gain: -1
+set_B: c87:1 nets: n136, n137, gain: 2
+set_B: c88:1 nets: n138, n139, gain: 2
+set_B: c89:1 nets: n140, n141, gain: 2
+set_B: c100:1 nets: n148, n327, gain: 0
+set_B: c93:1 nets: n148, n149, n354, gain: 1
+set_B: c243:1 nets: n153, n155, n157, gain: 1
+set_B: c15:1 nets: n158, gain: -1
+set_B: c334:1 nets: n160, n212, gain: -1
+set_B: c338:1 nets: n160, n162, n224, gain: 1
+set_B: c194:1 nets: n124, n177, n186, n188, gain: 2
+set_B: c197:1 nets: n169, n180, n208, gain: -1
+set_B: c349:1 nets: n169, n210, gain: 0
+set_B: c367:1 nets: n169, n189, n197, n198, gain: 1
+set_B: c22:1 nets: n170, gain: 1
+set_B: c192:1 nets: n171, n177, n178, n208, gain: 1
+set_B: c352:1 nets: n175, n208, gain: 0
+set_B: c353:1 nets: n176, n177, n178, gain: 1
+set_B: c199:1 nets: n177, n190, n198, gain: -1
+set_B: c202:1 nets: n177, n212, gain: -1
+set_B: c357:1 nets: n177, n185, n186, gain: -1
+set_B: c354:1 nets: n179, n180, gain: 0
+set_B: c360:1 nets: n180, n185, n191, n192, n193, gain: -2
+set_B: c1:1 nets: n181, gain: 1
+set_B: c362:1 nets: n184, n194, n208, gain: 2
+set_B: c109:1 nets: n106, n327, n338, gain: 1
+set_B: c250:1 nets: n90, n91, n92, gain: 0
+set_B: c267:1 nets: n91, n142, n144, gain: -1
+set_B: c257:1 nets: n97, n98, gain: 1
+set_B: c204:1 nets: n98, n99, n127, n129, gain: 2
+set_B: c259:1 nets: n100, n156, gain: 1
+set_B: c263:1 nets: n101, n142, n144, gain: -1
+set_B: c14:1 nets: n102, gain: -1
+set_B: c114:1 nets: n103, n333, gain: -1
+set_B: c269:1 nets: n103, n144, gain: 0
+set_B: c270:1 nets: n104, n105, n106, n107, n108, gain: 1
+set_B: c104:1 nets: n105, n335, n336, gain: -1
+set_B: c110:1 nets: n105, n106, n334, n339, gain: 1
+set_B: c119:1 nets: n105, n115, n334, gain: -1
+set_B: c121:1 nets: n105, n107, n144, n321, n333, gain: 0
+set_B: c363:1 nets: n190, n206, gain: 0
+set_B: c123:1 nets: n106, n142, gain: 0
+set_B: c272:1 nets: n106, n112, gain: 0
+set_B: c115:1 nets: n108, n324, n341, gain: 2
+set_B: c277:1 nets: n108, n117, n118, n322, n323, gain: 1
+set_B: c283:1 nets: n108, n328, n329, n330, gain: 1
+set_B: c271:1 nets: n109, n110, n111, gain: 2
+set_B: c107:1 nets: n110, n331, n335, gain: -2
+set_B: c116:1 nets: n112, n320, n330, n342, gain: 1
+set_B: c273:1 nets: n113, n114, n115, n116, gain: 2
+set_B: c111:1 nets: n117, n336, gain: 0
+set_B: c198:1 nets: n119, n175, n178, n182, gain: 1
+set_B: c369:1 nets: n119, n169, gain: 0
+set_B: c370:1 nets: n120, n177, n180, gain: 0
+set_B: c193:1 nets: n121, n174, gain: 2
+set_B: c219:1 nets: n291, n292, n354, gain: -1
+set_B: c17:1 nets: n250, gain: 1
+set_B: c325:1 nets: n253, n257, n275, n287, gain: -1
+set_B: c21:1 nets: n254, gain: 1
+set_B: c319:1 nets: n258, n277, gain: 0
+set_B: c300:1 nets: n261, n262, gain: -2
+set_B: c302:1 nets: n265, n266, gain: 0
+set_B: c313:1 nets: n267, n278, gain: 1
+set_B: c311:1 nets: n268, n275, gain: -1
+set_B: c19:1 nets: n270, gain: 1
+set_B: c213:1 nets: n279, n280, gain: 2
+set_B: c214:1 nets: n281, n282, gain: 2
+set_B: c215:1 nets: n283, n284, gain: 2
+set_B: c284:1 nets: n285, n287, n307, n315, gain: 0
+set_B: c291:1 nets: n285, n287, n314, gain: -1
+set_B: c306:1 nets: n249, n287, n291, gain: 0
+set_B: c238:1 nets: n291, n308, gain: -1
+set_B: c224:1 nets: n298, n299, gain: -2
+set_B: c228:1 nets: n299, n305, gain: -2
+set_B: c13:1 nets: n301, gain: 1
+set_B: c233:1 nets: n313, n314, n315, gain: 0
+set_B: c108:1 nets: n323, n337, gain: 0
+set_B: c101:1 nets: n326, n331, n332, n333, gain: -1
+set_B: c102:1 nets: n330, n332, gain: -1
+set_B: c125:1 nets: n343, n344, gain: 0
+set_B: c126:1 nets: n345, n346, gain: 0
+set_B: c151:1 nets: n347, n348, gain: 2
+set_B: c152:1 nets: n349, n350, gain: 0
+set_B: c153:1 nets: n351, n352, gain: 0
+set_B: c29:1 nets: n354, gain: 0
+set_B: c135:1 nets: n217, gain: 1
+set_B: c23:1 nets: n191, gain: -1
+set_B: c361:1 nets: n193, n206, n210, gain: 0
+set_B: c368:1 nets: n196, n198, gain: -1
+set_B: c317:1 nets: n199, n247, n268, gain: 1
+set_B: c318:1 nets: n200, n246, n247, n275, gain: 0
+set_B: c323:1 nets: n202, n249, n265, gain: 0
+set_B: c324:1 nets: n203, n253, n261, n271, gain: 0
+set_B: c127:1 nets: n204, n205, n206, n207, gain: 2
+set_B: c133:1 nets: n205, n210, n211, n215, gain: -2
+set_B: c128:1 nets: n208, n209, n346, n354, gain: 0
+set_B: c149:1 nets: n208, n233, gain: 1
+set_B: c346:1 nets: n208, n210, n224, gain: 0
+set_B: c129:1 nets: n210, n211, n354, gain: -1
+set_B: c130:1 nets: n212, n213, n344, n354, gain: -1
+set_B: c206:1 nets: n131, n165, gain: 2
+set_B: c136:1 nets: n218, n219, gain: 0
+set_B: c137:1 nets: n220, n221, gain: 1
+set_B: c242:1 nets: n241, n299, gain: -2
+set_B: c287:1 nets: n242, n285, n287, gain: -1
+set_B: c26:1 nets: n243, gain: 1
+set_B: c293:1 nets: n244, n287, gain: -1
+set_B: c322:1 nets: n244, n274, gain: -1
+set_B: c294:1 nets: n245, n246, n247, n248, n249, gain: -2
+set_B: c314:1 nets: n246, n248, gain: -1
+set_B: c328:1 nets: n246, n268, n273, gain: 1
+set_B: c332:1 nets: n246, n289, gain: 1
+set_B: c304:1 nets: n247, n262, n269, gain: 0
+set_B: c330:1 nets: n247, n260, n287, n291, gain: 0
+set_B: c56:1 nets: n23, n24, gain: -2
+set_B: c84:1 nets: n5, n18, n43, n356, gain: 0
+set_B: c336:1 nets: n53, n231, gain: -1
+set_B: c150:1 nets: n53, n159, n220, n237, n238, gain: 1
+set_B: c344:1 nets: n53, n168, n205, gain: 1
+set_B: c140:1 nets: n53, n220, n223, n225, n226, gain: -3
+set_B: c163:1 nets: n52, n53, n54, n55, n56, gain: 3
+set_B: c58:1 nets: n5, n20, n27, gain: 1
+set_B: c187:1 nets: n51, n53, n73, gain: -1
+set_B: c10:1 nets: n21, gain: 1
+set_B: c99:1 nets: n53, n79, n80, n157, n158, gain: -3
+set_B: c166:1 nets: n51, n58, gain: 1
+set_B: c86:1 nets: n4, n41, gain: -1
+set_B: c67:1 nets: n25, n36, gain: -1
+set_B: c162:1 nets: n50, n51, gain: 1
+set_B: c181:1 nets: n60, n68, n353, n356, gain: 0
+set_B: c74:1 nets: n4, n18, n24, n37, gain: 0
+set_B: c171:1 nets: n66, n67, n68, gain: 0
+set_B: c2:1 nets: n53, gain: 0
+set_B: c230:1 nets: n53, n303, n309, n310, n311, gain: 1
+set_B: c79:1 nets: n11, n15, n33, n356, gain: -2
+set_B: c241:1 nets: n53, n133, n293, gain: -1
+set_B: c33:1 nets: n12, gain: -1
+set_B: c75:1 nets: n9, n38, n39, gain: -1
+set_B: c256:1 nets: n53, n80, n93, n95, n96, gain: 3
+set_B: c262:1 nets: n53, n94, n98, gain: -1
+set_B: c73:1 nets: n16, n35, gain: 0
+set_B: c82:1 nets: n4, n26, n31, gain: -1
+set_B: c36:1 nets: n8, gain: 1
+set_B: c77:1 nets: n7, n23, n40, gain: -2
+set_B: c268:1 nets: n53, n89, n102, gain: 0
+set_B: c54:1 nets: n19, n20, gain: -1
+set_B: c290:1 nets: n53, n240, n299, gain: -2
+set_B: c60:1 nets: n7, n43, n356, gain: 0
+set_B: c168:1 nets: n53, n56, n62, n63, n64, gain: 3
+set_B: c244:1 nets: n81, n156, gain: 1
+set_B: c208:1 nets: n74, n128, n129, n133, gain: 0
+set_B: c160:1 nets: n45, n48, n351, n357, gain: 1
+set_B: c35:1 nets: n28, gain: 1
+set_B: c212:1 nets: n74, n98, n132, n134, gain: 1
+set_B: c176:1 nets: n43, n61, gain: 1
+set_B: c265:1 nets: n79, n91, n101, gain: -3
+set_B: c246:1 nets: n80, n83, n84, n85, gain: 2
+set_B: c254:1 nets: n80, n94, gain: -1
+set_B: c184:1 nets: n77, n353, n356, gain: 1
+set_B: c11:1 nets: n39, gain: -1
+set_B: c245:1 nets: n82, n156, gain: 1
+set_B: c157:1 nets: n43, n44, n354, gain: 1
+set_B: c191:1 nets: n3, n4, n5, n6, n7, gain: 1
+set_B: c76:1 nets: n2, n32, gain: 0
+set_B: c156:1 nets: n41, n42, n350, n354, gain: -1
+set_B: c190:1 nets: n2, n356, gain: 0
+set_B: c260:1 nets: n84, n92, n142, n144, gain: 0
+set_B: c65:1 nets: n26, n33, gain: -1
+set_B: c68:1 nets: n4, n6, gain: 0
+set_B: c179:1 nets: n45, n53, n75, gain: 1
+set_B: c188:1 nets: n67, n353, n356, gain: 0
+set_B: c178:1 nets: n73, n74, gain: -1
+set_B: c327:2 nets: n246, n256, n275, gain: 0
+set_B: c145:2 nets: n228, n235, gain: 0
+set_B: c62:2 nets: n26, n43, gain: 0
+set_B: c3:2 nets: n239, gain: 1
+set_B: c18:2 nets: n226, gain: -1
+set_B: c148:2 nets: n236, gain: -1
+set_B: c8:2 nets: n40, gain: -1
+set_B: c329:2 nets: n246, n248, n262, n274, n287, gain: -2
+set_B: c52:2 nets: n13, n16, gain: -1
+set_B: c296:2 nets: n247, n253, gain: -1
+set_B: c44:2 nets: n234, gain: 1
+set_B: c51:2 nets: n12, n13, n14, n15, gain: -4
+set_B: c173:2 nets: n41, n68, gain: -2
+set_B: c333:2 nets: n229, gain: -1
+set_B: c78:2 nets: n1, n11, n19, n29, gain: -2
+set_B: c147:2 nets: n219, n235, n237, gain: -1
+set_B: c285:2 nets: n241, n295, n318, gain: 1
+set_B: c138:2 nets: n208, n210, n222, gain: -1
+set_B: c312:2 nets: n246, n276, n277, gain: 0
+set_B: c299:2 nets: n246, n259, n260, gain: 1
+set_B: c305:2 nets: n245, n252, gain: 0
+set_B: c142:2 nets: n215, n225, n229, n230, gain: -3
+set_B: c146:2 nets: n216, n230, n232, n236, gain: 1
+set_B: c326:2 nets: n244, n247, n277, gain: -2
+set_B: c64:2 nets: n29, n31, gain: -1
+set_B: c143:2 nets: n227, n230, n231, gain: -1
+set_B: c289:2 nets: n242, n302, n314, gain: -1
+set_B: c70:2 nets: n22, n36, gain: 0
+set_B: c303:2 nets: n244, n246, n267, n268, gain: -1
+set_B: c139:2 nets: n222, n223, n224, gain: -2
+set_B: c63:2 nets: n25, n30, n31, n32, gain: 0
+set_B: c141:2 nets: n218, n227, n228, gain: 0
+set_B: c66:2 nets: n4, n34, n35, gain: 1
+set_B: c220:2 nets: n291, n292, n293, n294, gain: -2
+set_B: c231:2 nets: n294, n304, n306, n312, gain: -2
+set_B: c226:2 nets: n296, n298, n300, gain: 1
+set_B: c232:2 nets: n297, n305, n309, gain: -1
+set_B: c81:2 nets: n4, n14, n33, gain: -2
+set_B: c227:2 nets: n299, n304, gain: -2
+set_B: c72:2 nets: n4, n5, n33, n38, gain: -2
+set_B: c229:2 nets: n303, n306, n307, n308, gain: -2
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
+set_B: :0 nets: gain: 0
