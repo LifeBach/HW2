@@ -4,6 +4,7 @@
 #include <vector>
 #include <algorithm>
 #include <unordered_map>
+#include <map>
 #include <deque>
 #include <set>
 using namespace std;
@@ -13,7 +14,7 @@ struct Cell
     string name = "";
     int size = 0;
     int gain = 0;
-    int set = 'A';
+    char set = 'A';
     vector<string> nets;
     bool operator == (const string &cell_name) const
     {
@@ -29,7 +30,7 @@ struct Cell
         {
             os << (*iter) <<", ";
         }
-        os <<"gain: "<<cell.gain<<endl;
+        os <<"gain: "<<cell.gain<<" set: " <<cell.set<<endl;
         return os;
     }
 };
@@ -120,6 +121,10 @@ vector<Net> net_parser(char *filename, unordered_map<string,Cell> &cells)
                 }
                 else if((*iter) == ' ')
                 {
+                    if(buf == "")
+                    {
+                        continue;
+                    }
                     temp_s.push_back(buf);
                     buf = "";
                 }
@@ -145,8 +150,9 @@ vector<Net> net_parser(char *filename, unordered_map<string,Cell> &cells)
 void create_net_array(vector<Net> &nets)
 {
     for(auto &i : nets){
-        for(auto &j : i.cells){
-        j->nets.push_back(i.name);
+        for(auto &j : i.cells)
+        {
+            j->nets.push_back(i.name);
         }
     }
 }
@@ -252,6 +258,55 @@ void init_gain(unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &se
     }
 }
 
+void create_bucket(unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &set_B, map<int,unordered_map<string,Cell*>> &bucket_A, map<int,unordered_map<string,Cell*>> &bucket_B)
+{
+    int p_max_A=0;
+    //find max_pin of set A
+    for (auto& i : set_A)
+    {
+        //cout <<i.first<<":"<<i.second.nets.size()<<":"<<i.second.gain<<endl;
+        //cout<<i.second.nets.size()<<endl;
+        if(i.second.nets.size() > p_max_A)
+        {
+            p_max_A = i.second.nets.size();
+        }
+    }
+    //bucket A init
+    for (int i= -p_max_A; i<=p_max_A; i++)
+    {
+        unordered_map<string,Cell*> gain_A;
+        bucket_A.insert(make_pair(i,gain_A));
+    }
+    //create bucket_A
+    for (auto& i : set_A)
+    {
+        bucket_A[i.second.gain].insert(make_pair(i.first,&(i.second)));
+    }
+    
+    int p_max_B=0;
+    //find max_pin of set B
+    for (auto& i : set_B)
+    {
+        //cout <<i.first<<":"<<i.second.nets.size()<<":"<<i.second.gain<<endl;
+        //cout<<i.second.nets.size()<<endl;
+        if(i.second.nets.size() > p_max_B)
+        {
+            p_max_B= i.second.nets.size();
+        }
+    }
+    //bucket B init
+    for (int i= -p_max_B; i<=p_max_B; i++)
+    {
+        unordered_map<string,Cell*> gain_B;
+        bucket_B.insert(make_pair(i,gain_B));
+    }
+    for (auto& i : set_B)
+    {
+        i.second.set = 'B';
+        bucket_B[i.second.gain].insert(make_pair(i.first,&(i.second)));
+    }
+}
+
 int main(int argc, char *argv[])
 {
     char *cell_filename = argv[2];
@@ -273,6 +328,29 @@ int main(int argc, char *argv[])
     int area_B = 0;
     init_solution(cells_key, set_A, set_B, area_n, area_A, area_B);
     init_gain(set_A, set_B, cells_hash, nets);
+    map<int,unordered_map<string,Cell*>> bucket_A;
+    map<int,unordered_map<string,Cell*>> bucket_B;
+    create_bucket(set_A, set_B, bucket_A, bucket_B);
+    // cout << "bucket_A: "<<endl;
+    // for (auto& i : bucket_A)
+    // {
+    //     cout << "gain: " <<i.first << endl;
+    //     for (auto& j : i.second)
+    //     {
+    //         cout << j.second <<endl<<*(j.second);
+    //         cout << "name:" <<j.first<<": "<<&set_A[j.first]<<endl;
+    //     }
+    // }
+    // cout << "bucket_B: "<<endl;
+    // for (auto& i : bucket_B)
+    // {
+    //     cout << "gain: " <<i.first << endl;
+    //     for (auto& j : i.second)
+    //     {
+    //         cout << j.second <<endl<<*(j.second);
+    //         cout << "name:" <<j.first<<": "<<&set_A[j.first]<<endl;
+    //     }
+    // }
     // for(auto &i : nets){
     //     Net net = i;
     //     cout << i.name <<": ";
@@ -282,7 +360,8 @@ int main(int argc, char *argv[])
     //     cout << '\n';
     // }
     // for(auto &j : cells_key){
-    //     cout<<"set_B: "<<set_B[j];
+    //     cout<<"set_A: "<<set_A[j];
     // }
+    //cout <<"end"<<endl;
 }
 
