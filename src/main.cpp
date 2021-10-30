@@ -14,7 +14,7 @@ struct Cell
     string name = "";
     int size = 0;
     int gain = 0;
-    char set = 'A';
+    char set = 'A'; //test
     vector<string> nets;
     bool operator == (const string &cell_name) const
     {
@@ -39,6 +39,17 @@ struct Net
 {
     string name = "";
     vector<Cell*> cells;
+    int A_n = 0;
+    int B_n = 0;
+    friend  ostream  &operator<<(ostream &os, const Net &net){  //声明为友元，重载输出运算符
+        os << net.name << ":" << " cells: ";
+        for(auto iter=net.cells.begin(); iter!=net.cells.end(); iter++)
+        {
+            os << (*iter) <<", ";
+        }
+        os <<"A:B = "<< net.A_n <<":"<<net.B_n<<endl;
+        return os;
+    }
 };
 
 template<typename T>
@@ -147,13 +158,14 @@ vector<Net> net_parser(char *filename, unordered_map<string,Cell> &cells)
     return nets;
 }
 
-void create_net_array(vector<Net> &nets)
+void create_net_array(vector<Net> &nets, unordered_map<string,Net*> &nets_hash)
 {
     for(auto &i : nets){
         for(auto &j : i.cells)
         {
             j->nets.push_back(i.name);
         }
+        nets_hash.insert(make_pair(i.name,(&i)));
     }
 }
 
@@ -191,10 +203,10 @@ void init_solution(vector<string> cells_key, unordered_map<string,Cell> &set_A, 
     }
 }
 
-void init_gain(unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &set_B, unordered_map<string,Cell> &cells_hash, vector<Net> nets)
+void init_gain(unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &set_B, unordered_map<string,Cell> &cells_hash, vector<Net> &nets)
 {
     vector<Cell*> curr_net_cell;
-    int A_n = 0;
+    int A_n = 0; //当前net，setA
     int B_n = 0;
     vector<string> temp_A_key;
     vector<string> temp_B_key;
@@ -246,11 +258,13 @@ void init_gain(unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &se
                 cells_hash[k].gain -= 1;
             }
         }
-        // cout <<i.name<<": "<< A_n <<":" << B_n<<endl;
+        //cout <<i.name<<": "<< A_n <<":" << B_n<<endl;
         // cout << "setA:"<<endl;
         // print_d<vector<string>>(temp_A_key);
         // cout << "setB:"<<endl;
         // print_d<vector<string>>(temp_B_key);
+        i.A_n = A_n;
+        i.B_n = B_n;
         temp_A_key.clear();
         temp_B_key.clear();
         A_n = 0;
@@ -258,9 +272,9 @@ void init_gain(unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &se
     }
 }
 
-void create_bucket(unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &set_B, map<int,unordered_map<string,Cell*>> &bucket_A, map<int,unordered_map<string,Cell*>> &bucket_B)
+void create_bucket(unordered_map<string,Cell> &set_A, unordered_map<string,Cell> &set_B, map<int,unordered_map<string,Cell*>> &bucket_A, map<int,unordered_map<string,Cell*>> &bucket_B,int &max_gain_A, int &max_gain_B)
 {
-    int p_max_A=0;
+    int p_max_A = 0;
     //find max_pin of set A
     for (auto& i : set_A)
     {
@@ -281,6 +295,10 @@ void create_bucket(unordered_map<string,Cell> &set_A, unordered_map<string,Cell>
     for (auto& i : set_A)
     {
         bucket_A[i.second.gain].insert(make_pair(i.first,&(i.second)));
+        if(i.second.gain > max_gain_A)
+        {
+            max_gain_A = i.second.gain;
+        }
     }
     
     int p_max_B=0;
@@ -302,9 +320,17 @@ void create_bucket(unordered_map<string,Cell> &set_A, unordered_map<string,Cell>
     }
     for (auto& i : set_B)
     {
-        i.second.set = 'B';
+        i.second.set = 'B'; //test
         bucket_B[i.second.gain].insert(make_pair(i.first,&(i.second)));
+        if(i.second.gain > max_gain_B)
+        {
+            max_gain_B = i.second.gain;
+        }
     }
+}
+
+void update_Gain(map<int,unordered_map<string,Cell*>> bucket_A, map<int,unordered_map<string,Cell*>> bucket_B, unordered_map<string,Net*> nets_hash, int &area_A, int &area_B, int &max_gain_A, int &max_gain_B)
+{
 }
 
 int main(int argc, char *argv[])
@@ -320,7 +346,8 @@ int main(int argc, char *argv[])
     char *net_filename = argv[1];
     vector<Net> nets;
     nets=net_parser(net_filename,cells_hash);
-    create_net_array(nets);
+    unordered_map<string,Net*> nets_hash;
+    create_net_array(nets, nets_hash);
     unordered_map<string,Cell> set_A = cells_hash;
     unordered_map<string,Cell> set_B;
     int area_n = 0;
@@ -330,7 +357,10 @@ int main(int argc, char *argv[])
     init_gain(set_A, set_B, cells_hash, nets);
     map<int,unordered_map<string,Cell*>> bucket_A;
     map<int,unordered_map<string,Cell*>> bucket_B;
-    create_bucket(set_A, set_B, bucket_A, bucket_B);
+    int max_gain_A = 0;
+    int max_gain_B = 0;
+    create_bucket(set_A, set_B, bucket_A, bucket_B, max_gain_A, max_gain_B);
+    //update_Gain(bucket_A, bucket_B, nets_hash, area_A, area_B, max_gain_A, max_gain_B);
     // cout << "bucket_A: "<<endl;
     // for (auto& i : bucket_A)
     // {
@@ -341,7 +371,7 @@ int main(int argc, char *argv[])
     //         cout << "name:" <<j.first<<": "<<&set_A[j.first]<<endl;
     //     }
     // }
-    // cout << "bucket_B: "<<endl;
+    //cout << "bucket_B: "<<endl;
     // for (auto& i : bucket_B)
     // {
     //     cout << "gain: " <<i.first << endl;
@@ -363,5 +393,8 @@ int main(int argc, char *argv[])
     //     cout<<"set_A: "<<set_A[j];
     // }
     //cout <<"end"<<endl;
+    // for(auto &i : nets){
+    //     cout << i;
+    // }
 }
 
