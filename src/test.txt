@@ -1,1127 +1,6050 @@
-constraint:1 A: 314 B: 259n: 573
-cell:c355:2 nets: n176, n179, n181, n182, gain: 4 set: B lock: 1
-cut: 233
-constraint:1 A: 312 B: 261n: 573
-cell:c256:1 nets: n53, n80, n93, n95, n96, gain: 3 set: A lock: 1
-cut: 229
-constraint:1 A: 313 B: 260n: 573
-cell:c163:1 nets: n52, n53, n54, n55, n56, gain: 3 set: A lock: 1
-cut: 226
-constraint:1 A: 314 B: 259n: 573
-cell:c320:2 nets: n199, n246, n260, n266, gain: 4 set: B lock: 1
-cut: 223
-constraint:1 A: 312 B: 261n: 573
-cell:c83:2 nets: n4, n6, n20, n32, n356, gain: 3 set: B lock: 1
-cut: 219
-constraint:1 A: 310 B: 263n: 573
-cell:c335:2 nets: n207, n217, n230, n238, gain: 3 set: B lock: 1
-cut: 216
-constraint:1 A: 308 B: 265n: 573
-cell:c134:2 nets: n205, n209, n216, n345, gain: 3 set: B lock: 1
-cut: 213
-constraint:1 A: 306 B: 267n: 573
-cell:c144:2 nets: n53, n220, n232, n233, n234, gain: 3 set: B lock: 1
-cut: 210
-constraint:1 A: 304 B: 269n: 573
-cell:c61:2 nets: n7, n27, n28, n29, gain: 3 set: B lock: 1
-cut: 207
-constraint:1 A: 302 B: 271n: 573
-cell:c155:2 nets: n352, n354, n356, n357, gain: 3 set: B lock: 1
-cut: 204
-constraint:1 A: 300 B: 273n: 573
-cell:c55:2 nets: n7, n16, n17, n21, n22, gain: 3 set: B lock: 1
-cut: 201
-constraint:1 A: 298 B: 275n: 573
-cell:c225:2 nets: n53, n300, n301, n302, n303, gain: 3 set: B lock: 1
-cut: 198
-constraint:1 A: 296 B: 277n: 573
-cell:c201:2 nets: n186, n206, n208, n210, gain: 2 set: B lock: 1
-cut: 195
-constraint:1 A: 294 B: 279n: 573
-cell:c348:2 nets: n53, n221, n227, gain: 2 set: B lock: 1
-cut: 193
-constraint:1 A: 292 B: 281n: 573
-cell:c292:2 nets: n53, n243, n312, gain: 2 set: B lock: 1
-cut: 191
-constraint:1 A: 290 B: 283n: 573
-cell:c281:2 nets: n104, n111, gain: 2 set: B lock: 1
-cut: 189
-constraint:1 A: 288 B: 285n: 573
-cell:c274:2 nets: n114, n117, gain: 2 set: B lock: 1
-cut: 187
-constraint:1 A: 286 B: 287n: 573
-cell:c132:2 nets: n205, n213, n214, n343, gain: 2 set: B lock: 1
-cut: 185
-constraint:1 A: 284 B: 289n: 573
-cell:c248:2 nets: n81, n83, n89, n151, gain: 2 set: B lock: 1
-cut: 183
-constraint:1 A: 282 B: 291n: 573
-cell:c358:2 nets: n187, n188, gain: 2 set: B lock: 1
-cut: 181
-constraint:1 A: 280 B: 293n: 573
-cell:c69:2 nets: n9, n30, n34, gain: 2 set: B lock: 1
-cut: 179
-constraint:1 A: 278 B: 295n: 573
-cell:c297:2 nets: n254, n255, n256, n257, gain: 2 set: B lock: 1
-cut: 177
-constraint:1 A: 276 B: 297n: 573
-cell:c307:2 nets: n249, n269, n270, n271, gain: 2 set: B lock: 1
-cut: 175
-constraint:1 A: 274 B: 299n: 573
-cell:c53:2 nets: n4, n17, n18, gain: 2 set: B lock: 1
-cut: 173
-constraint:1 A: 272 B: 301n: 573
-cell:c375:2 nets: n124, n190, n208, gain: 2 set: B lock: 1
-cut: 171
-constraint:1 A: 270 B: 303n: 573
-cell:c117:2 nets: n112, n116, n144, n334, gain: 2 set: B lock: 1
-cut: 169
-constraint:1 A: 268 B: 305n: 573
-cell:c345:2 nets: n163, n166, n214, n230, gain: 2 set: B lock: 1
-cut: 167
-constraint:1 A: 266 B: 307n: 573
-cell:c57:2 nets: n2, n4, n25, n26, gain: 2 set: B lock: 1
-cut: 165
-constraint:1 A: 264 B: 309n: 573
-cell:c80:2 nets: n2, n5, n35, gain: 2 set: B lock: 1
-cut: 163
-constraint:1 A: 262 B: 311n: 573
-cell:c71:2 nets: n5, n26, n37, gain: 2 set: B lock: 1
-cut: 161
-constraint:1 A: 260 B: 313n: 573
-cell:c168:1 nets: n53, n56, n62, n63, n64, gain: 4 set: A lock: 1
-cut: 159
-constraint:1 A: 261 B: 312n: 573
-cell:c204:1 nets: n98, n99, n127, n129, gain: 2 set: A lock: 1
-cut: 155
-constraint:1 A: 262 B: 311n: 573
-cell:c215:1 nets: n283, n284, gain: 2 set: A lock: 1
-cut: 153
-constraint:1 A: 263 B: 310n: 573
-cell:c214:1 nets: n281, n282, gain: 2 set: A lock: 1
-cut: 151
-constraint:1 A: 264 B: 309n: 573
-cell:c87:1 nets: n136, n137, gain: 2 set: A lock: 1
-cut: 149
-constraint:1 A: 265 B: 308n: 573
-cell:c89:1 nets: n140, n141, gain: 2 set: A lock: 1
-cut: 147
-constraint:1 A: 266 B: 307n: 573
-cell:c213:1 nets: n279, n280, gain: 2 set: A lock: 1
-cut: 145
-constraint:1 A: 267 B: 306n: 573
-cell:c115:1 nets: n108, n324, n341, gain: 2 set: A lock: 1
-cut: 143
-constraint:1 A: 268 B: 305n: 573
-cell:c151:1 nets: n347, n348, gain: 2 set: A lock: 1
-cut: 141
-constraint:1 A: 269 B: 304n: 573
-cell:c206:1 nets: n131, n165, gain: 2 set: A lock: 1
-cut: 139
-constraint:1 A: 270 B: 303n: 573
-cell:c88:1 nets: n138, n139, gain: 2 set: A lock: 1
-cut: 137
-constraint:1 A: 271 B: 302n: 573
-cell:c193:1 nets: n121, n174, gain: 2 set: A lock: 1
-cut: 135
-constraint:1 A: 272 B: 301n: 573
-cell:c195:1 nets: n125, n175, n183, n196, gain: 2 set: A lock: 1
-cut: 133
-constraint:1 A: 273 B: 300n: 573
-cell:c93:1 nets: n148, n149, n354, gain: 1 set: A lock: 1
-cut: 131
-constraint:1 A: 274 B: 299n: 573
-cell:c3:2 nets: n239, gain: 1 set: A lock: 1
-cut: 130
-constraint:1 A: 276 B: 297n: 573
-cell:c285:2 nets: n241, n295, n318, gain: 1 set: A lock: 1
-cut: 129
-constraint:1 A: 278 B: 295n: 573
-cell:c259:1 nets: n100, n156, gain: 1 set: A lock: 1
-cut: 128
-constraint:1 A: 279 B: 294n: 573
-cell:c109:1 nets: n106, n327, n338, gain: 1 set: A lock: 1
-cut: 127
-constraint:1 A: 280 B: 293n: 573
-cell:c100:1 nets: n148, n327, gain: 2 set: A lock: 1
-cut: 126
-constraint:1 A: 281 B: 292n: 573
-cell:c17:1 nets: n250, gain: 1 set: A lock: 1
-cut: 124
-constraint:1 A: 282 B: 291n: 573
-cell:c110:1 nets: n105, n106, n334, n339, gain: 1 set: A lock: 1
-cut: 123
-constraint:1 A: 283 B: 290n: 573
-cell:c338:1 nets: n160, n162, n224, gain: 1 set: A lock: 1
-cut: 122
-constraint:1 A: 284 B: 289n: 573
-cell:c283:1 nets: n108, n328, n329, n330, gain: 1 set: A lock: 1
-cut: 121
-constraint:1 A: 285 B: 288n: 573
-cell:c22:1 nets: n170, gain: 1 set: A lock: 1
-cut: 120
-constraint:1 A: 286 B: 287n: 573
-cell:c313:1 nets: n267, n278, gain: 1 set: A lock: 1
-cut: 119
-constraint:1 A: 287 B: 286n: 573
-cell:c257:1 nets: n97, n98, gain: 1 set: A lock: 1
-cut: 118
-constraint:1 A: 288 B: 285n: 573
-cell:c367:1 nets: n169, n189, n197, n198, gain: 1 set: A lock: 1
-cut: 117
-constraint:1 A: 289 B: 284n: 573
-cell:c166:1 nets: n51, n58, gain: 1 set: A lock: 1
-cut: 116
-constraint:1 A: 290 B: 283n: 573
-cell:c36:1 nets: n8, gain: 1 set: A lock: 1
-cut: 115
-constraint:1 A: 291 B: 282n: 573
-cell:c162:1 nets: n50, n51, gain: 1 set: A lock: 1
-cut: 114
-constraint:1 A: 292 B: 281n: 573
-cell:c243:1 nets: n153, n155, n157, gain: 1 set: A lock: 1
-cut: 113
-constraint:1 A: 293 B: 280n: 573
-cell:c212:1 nets: n74, n98, n132, n134, gain: 1 set: A lock: 1
-cut: 112
-constraint:1 A: 294 B: 279n: 573
-cell:c245:1 nets: n82, n156, gain: 1 set: A lock: 1
-cut: 111
-constraint:1 A: 295 B: 278n: 573
-cell:c362:1 nets: n184, n194, n208, gain: 1 set: A lock: 1
-cut: 110
-constraint:1 A: 296 B: 277n: 573
-cell:c230:1 nets: n53, n303, n309, n310, n311, gain: 1 set: A lock: 1
-cut: 109
-constraint:1 A: 297 B: 276n: 573
-cell:c208:1 nets: n74, n128, n129, n133, gain: 1 set: A lock: 1
-cut: 108
-constraint:1 A: 298 B: 275n: 573
-cell:c176:1 nets: n43, n61, gain: 1 set: A lock: 1
-cut: 107
-constraint:1 A: 299 B: 274n: 573
-cell:c116:1 nets: n112, n320, n330, n342, gain: 1 set: A lock: 1
-cut: 106
-constraint:1 A: 300 B: 273n: 573
-cell:c232:2 nets: n297, n305, n309, gain: 1 set: A lock: 1
-cut: 105
-constraint:1 A: 302 B: 271n: 573
-cell:c368:1 nets: n196, n198, gain: 1 set: A lock: 1
-cut: 104
-constraint:1 A: 303 B: 270n: 573
-cell:c241:1 nets: n53, n133, n293, gain: 1 set: A lock: 1
-cut: 103
-constraint:1 A: 304 B: 269n: 573
-cell:c102:1 nets: n330, n332, gain: 1 set: A lock: 1
-cut: 102
-constraint:1 A: 305 B: 268n: 573
-cell:c192:1 nets: n171, n177, n178, n208, gain: 1 set: A lock: 1
-cut: 101
-constraint:1 A: 306 B: 267n: 573
-cell:c199:1 nets: n177, n190, n198, gain: 1 set: A lock: 1
-cut: 100
-constraint:1 A: 307 B: 266n: 573
-cell:c179:1 nets: n45, n53, n75, gain: 1 set: A lock: 1
-cut: 99
-constraint:1 A: 308 B: 265n: 573
-cell:c157:1 nets: n43, n44, n354, gain: 1 set: A lock: 1
-cut: 98
-constraint:1 A: 309 B: 264n: 573
-cell:c244:1 nets: n81, n156, gain: 0 set: A lock: 1
-cut: 97
-constraint:1 A: 310 B: 263n: 573
-cell:c260:1 nets: n84, n92, n142, n144, gain: 0 set: A lock: 1
-cut: 97
-constraint:1 A: 311 B: 262n: 573
-cell:c246:1 nets: n80, n83, n84, n85, gain: 1 set: A lock: 1
-cut: 97
-constraint:1 A: 312 B: 261n: 573
-cell:c250:1 nets: n90, n91, n92, gain: 1 set: A lock: 1
-cut: 96
-constraint:1 A: 313 B: 260n: 573
-cell:c323:1 nets: n202, n249, n265, gain: 0 set: A lock: 1
-cut: 95
-constraint:1 A: 314 B: 259n: 573
-cell:c308:2 nets: n268, n291, gain: 2 set: B lock: 1
-cut: 95
-constraint:1 A: 312 B: 261n: 573
-cell:c233:1 nets: n313, n314, n315, gain: 0 set: A lock: 1
-cut: 93
-constraint:1 A: 313 B: 260n: 573
-cell:c284:1 nets: n285, n287, n307, n315, gain: 1 set: A lock: 1
-cut: 93
-constraint:1 A: 314 B: 259n: 573
-cell:c298:2 nets: n255, n258, gain: 1 set: B lock: 1
-cut: 92
-constraint:1 A: 312 B: 261n: 573
-cell:c272:1 nets: n106, n112, gain: 0 set: A lock: 1
-cut: 91
-constraint:1 A: 313 B: 260n: 573
-cell:c121:1 nets: n105, n107, n144, n321, n333, gain: 0 set: A lock: 1
-cut: 91
-constraint:1 A: 314 B: 259n: 573
-cell:c186:2 nets: n55, n67, n77, gain: 1 set: B lock: 1
-cut: 91
-constraint:1 A: 312 B: 261n: 573
-cell:c101:1 nets: n326, n331, n332, n333, gain: 1 set: A lock: 1
-cut: 90
-constraint:1 A: 313 B: 260n: 573
-cell:c114:1 nets: n103, n333, gain: 1 set: A lock: 1
-cut: 89
-constraint:1 A: 314 B: 259n: 573
-cell:c159:2 nets: n42, n45, n47, n349, gain: 1 set: B lock: 1
-cut: 88
-constraint:1 A: 312 B: 261n: 573
-cell:c269:1 nets: n103, n144, gain: 1 set: A lock: 1
-cut: 87
-constraint:1 A: 313 B: 260n: 573
-cell:c29:1 nets: n354, gain: 0 set: A lock: 1
-cut: 86
-constraint:1 A: 314 B: 259n: 573
-cell:c310:2 nets: n271, n273, gain: 1 set: B lock: 1
-cut: 86
-constraint:1 A: 312 B: 261n: 573
-cell:c145:2 nets: n228, n235, gain: 0 set: A lock: 1
-cut: 85
-constraint:1 A: 314 B: 259n: 573
-cell:c309:2 nets: n267, n272, n273, n274, gain: 1 set: B lock: 1
-cut: 85
-constraint:1 A: 312 B: 261n: 573
-cell:c305:2 nets: n245, n252, gain: 0 set: A lock: 1
-cut: 84
-constraint:1 A: 314 B: 259n: 573
-cell:c315:2 nets: n251, n272, n276, gain: 1 set: B lock: 1
-cut: 84
-constraint:1 A: 312 B: 261n: 573
-cell:c187:1 nets: n51, n53, n73, gain: 0 set: A lock: 1
-cut: 83
-constraint:1 A: 313 B: 260n: 573
-cell:c50:2 nets: n5, n11, gain: 1 set: B lock: 1
-cut: 83
-constraint:1 A: 311 B: 262n: 573
-cell:c40:2 nets: n203, gain: 1 set: B lock: 1
-cut: 82
-constraint:1 A: 309 B: 264n: 573
-cell:c24:2 nets: n126, gain: 1 set: B lock: 1
-cut: 81
-constraint:1 A: 307 B: 266n: 573
-cell:c6:2 nets: n113, gain: 1 set: B lock: 1
-cut: 80
-constraint:1 A: 305 B: 268n: 573
-cell:c16:2 nets: n159, gain: 1 set: B lock: 1
-cut: 79
-constraint:1 A: 303 B: 270n: 573
-cell:c331:2 nets: n247, n285, gain: 1 set: B lock: 1
-cut: 78
-constraint:1 A: 301 B: 272n: 573
-cell:c340:2 nets: n206, n219, gain: 1 set: B lock: 1
-cut: 77
-constraint:1 A: 299 B: 274n: 573
-cell:c178:1 nets: n73, n74, gain: 2 set: A lock: 1
-cut: 76
-constraint:1 A: 300 B: 273n: 573
-cell:c369:1 nets: n119, n169, gain: 0 set: A lock: 1
-cut: 74
-constraint:1 A: 301 B: 272n: 573
-cell:c242:1 nets: n241, n299, gain: 0 set: A lock: 1
-cut: 74
-constraint:1 A: 302 B: 271n: 573
-cell:c228:1 nets: n299, n305, gain: 1 set: A lock: 1
-cut: 74
-constraint:1 A: 303 B: 270n: 573
-cell:c363:1 nets: n190, n206, gain: 0 set: A lock: 1
-cut: 73
-constraint:1 A: 304 B: 269n: 573
-cell:c107:1 nets: n110, n331, n335, gain: 0 set: A lock: 1
-cut: 73
-constraint:1 A: 305 B: 268n: 573
-cell:c271:1 nets: n109, n110, n111, gain: 1 set: A lock: 1
-cut: 73
-constraint:1 A: 306 B: 267n: 573
-cell:c104:1 nets: n105, n335, n336, gain: 1 set: A lock: 1
-cut: 72
-constraint:1 A: 307 B: 266n: 573
-cell:c370:1 nets: n120, n177, n180, gain: 0 set: A lock: 1
-cut: 71
-constraint:1 A: 308 B: 265n: 573
-cell:c108:1 nets: n323, n337, gain: 0 set: A lock: 1
-cut: 71
-constraint:1 A: 309 B: 264n: 573
-cell:c31:2 nets: n322, gain: 1 set: B lock: 1
-cut: 71
-constraint:1 A: 307 B: 266n: 573
-cell:c123:1 nets: n106, n142, gain: 0 set: A lock: 1
-cut: 70
-constraint:1 A: 308 B: 265n: 573
-cell:c270:1 nets: n104, n105, n106, n107, n108, gain: 1 set: A lock: 1
-cut: 70
-constraint:1 A: 309 B: 264n: 573
-cell:c277:1 nets: n108, n117, n118, n322, n323, gain: 1 set: A lock: 1
-cut: 69
-constraint:1 A: 310 B: 263n: 573
-cell:c111:1 nets: n117, n336, gain: 1 set: A lock: 1
-cut: 68
-constraint:1 A: 311 B: 262n: 573
-cell:c2:1 nets: n53, gain: 0 set: A lock: 1
-cut: 67
-constraint:1 A: 312 B: 261n: 573
-cell:c332:1 nets: n246, n289, gain: 0 set: A lock: 1
-cut: 67
-constraint:1 A: 313 B: 260n: 573
-cell:c262:1 nets: n53, n94, n98, gain: 0 set: A lock: 1
-cut: 67
-constraint:1 A: 314 B: 259n: 573
-cell:c131:2 nets: n204, n206, n354, gain: 1 set: B lock: 1
-cut: 67
-constraint:1 A: 312 B: 261n: 573
-cell:c254:1 nets: n80, n94, gain: 1 set: A lock: 1
-cut: 66
-constraint:1 A: 313 B: 260n: 573
-cell:c344:1 nets: n53, n168, n205, gain: 0 set: A lock: 1
-cut: 65
-constraint:1 A: 314 B: 259n: 573
-cell:c85:2 nets: n5, n353, gain: 1 set: B lock: 1
-cut: 65
-constraint:1 A: 312 B: 261n: 573
-cell:c334:1 nets: n160, n212, gain: 0 set: A lock: 1
-cut: 64
-constraint:1 A: 313 B: 260n: 573
-cell:c267:1 nets: n91, n142, n144, gain: 0 set: A lock: 1
-cut: 64
-constraint:1 A: 314 B: 259n: 573
-cell:c321:2 nets: n200, n201, n251, gain: 0 set: B lock: 1
-cut: 64
-constraint:1 A: 312 B: 261n: 573
-cell:c352:1 nets: n175, n208, gain: 0 set: A lock: 1
-cut: 64
-constraint:1 A: 313 B: 260n: 573
-cell:c198:1 nets: n119, n175, n178, n182, gain: 1 set: A lock: 1
-cut: 64
-constraint:1 A: 314 B: 259n: 573
-cell:c43:2 nets: n201, gain: 1 set: B lock: 1
-cut: 63
-constraint:1 A: 312 B: 261n: 573
-cell:c302:1 nets: n265, n266, gain: 0 set: A lock: 1
-cut: 62
-constraint:1 A: 313 B: 260n: 573
-cell:c291:1 nets: n285, n287, n314, gain: 0 set: A lock: 1
-cut: 62
-constraint:1 A: 314 B: 259n: 573
-cell:c366:2 nets: n178, n190, gain: 0 set: B lock: 1
-cut: 62
-constraint:1 A: 312 B: 261n: 573
-cell:c141:2 nets: n218, n227, n228, gain: 0 set: A lock: 1
-cut: 62
-constraint:1 A: 314 B: 259n: 573
-cell:c365:2 nets: n189, n192, gain: 0 set: B lock: 1
-cut: 62
-constraint:1 A: 312 B: 261n: 573
-cell:c197:1 nets: n169, n180, n208, gain: 0 set: A lock: 1
-cut: 62
-constraint:1 A: 313 B: 260n: 573
-cell:c119:1 nets: n105, n115, n334, gain: 0 set: A lock: 1
-cut: 62
-constraint:1 A: 314 B: 259n: 573
-cell:c359:2 nets: n169, n177, n189, n190, gain: 0 set: B lock: 1
-cut: 62
-constraint:1 A: 312 B: 261n: 573
-cell:c99:1 nets: n53, n79, n80, n157, n158, gain: 0 set: A lock: 1
-cut: 62
-constraint:1 A: 313 B: 260n: 573
-cell:c174:2 nets: n60, n66, n69, gain: 0 set: B lock: 1
-cut: 62
-constraint:1 A: 311 B: 262n: 573
-cell:c301:2 nets: n249, n258, n259, n263, n264, gain: 0 set: B lock: 1
-cut: 62
-constraint:1 A: 309 B: 264n: 573
-cell:c265:1 nets: n79, n91, n101, gain: 1 set: A lock: 1
-cut: 62
-constraint:1 A: 310 B: 263n: 573
-cell:c45:2 nets: n263, gain: 1 set: B lock: 1
-cut: 61
-constraint:1 A: 308 B: 265n: 573
-cell:c59:2 nets: n3, n10, gain: 0 set: B lock: 1
-cut: 60
-constraint:1 A: 306 B: 267n: 573
-cell:c49:2 nets: n8, n9, n10, gain: 1 set: B lock: 1
-cut: 60
-constraint:1 A: 304 B: 269n: 573
-cell:c343:2 nets: n53, n164, n166, n167, n220, gain: 0 set: B lock: 1
-cut: 59
-constraint:1 A: 302 B: 271n: 573
-cell:c42:2 nets: n167, gain: 1 set: B lock: 1
-cut: 59
-constraint:1 A: 300 B: 273n: 573
-cell:c316:2 nets: n264, n278, gain: 0 set: B lock: 1
-cut: 58
-constraint:1 A: 298 B: 275n: 573
-cell:c341:2 nets: n162, n164, n235, gain: 0 set: B lock: 1
-cut: 58
-constraint:1 A: 296 B: 277n: 573
-cell:c34:2 nets: n342, gain: -1 set: B lock: 1
-cut: 58
-constraint:1 A: 294 B: 279n: 573
-cell:c103:2 nets: n327, n334, gain: -1 set: B lock: 1
-cut: 59
-constraint:1 A: 292 B: 281n: 573
-cell:c30:2 nets: n341, gain: -1 set: B lock: 1
-cut: 60
-constraint:1 A: 290 B: 283n: 573
-cell:c372:2 nets: n123, n177, gain: -1 set: B lock: 1
-cut: 61
-constraint:1 A: 288 B: 285n: 573
-cell:c48:2 nets: n195, gain: -1 set: B lock: 1
-cut: 62
-constraint:1 A: 286 B: 287n: 573
-cell:c237:2 nets: n303, n317, gain: -1 set: B lock: 1
-cut: 63
-constraint:1 A: 284 B: 289n: 573
-cell:c286:2 nets: n53, n132, n317, gain: 1 set: B lock: 1
-cut: 64
-constraint:1 A: 282 B: 291n: 573
-cell:c39:2 nets: n88, gain: -1 set: B lock: 1
-cut: 63
-constraint:1 A: 280 B: 293n: 573
-cell:c27:2 nets: n54, gain: -1 set: B lock: 1
-cut: 64
-constraint:1 A: 278 B: 295n: 573
-cell:c28:2 nets: n78, gain: -1 set: B lock: 1
-cut: 65
-constraint:1 A: 276 B: 297n: 573
-cell:c189:2 nets: n53, n65, n78, gain: 0 set: B lock: 1
-cut: 66
-constraint:1 A: 274 B: 299n: 573
-cell:c25:2 nets: n135, gain: -1 set: B lock: 1
-cut: 66
-constraint:1 A: 272 B: 301n: 573
-cell:c38:2 nets: n96, gain: -1 set: B lock: 1
-cut: 67
-constraint:1 A: 270 B: 303n: 573
-cell:c222:2 nets: n283, n288, n293, n296, gain: -1 set: B lock: 1
-cut: 68
-constraint:1 A: 268 B: 305n: 573
-cell:c217:2 nets: n284, n287, n288, n354, gain: 0 set: B lock: 1
-cut: 69
-constraint:1 A: 266 B: 307n: 573
-cell:c20:2 nets: n125, gain: -1 set: B lock: 1
-cut: 69
-constraint:1 A: 264 B: 309n: 573
-cell:c32:2 nets: n340, gain: -1 set: B lock: 1
-cut: 70
-constraint:1 A: 262 B: 311n: 573
-cell:c4:2 nets: n64, gain: -1 set: B lock: 1
-cut: 71
-constraint:1 A: 260 B: 313n: 573
-cell:c263:1 nets: n101, n142, n144, gain: 2 set: A lock: 1
-cut: 72
-constraint:1 A: 261 B: 312n: 573
-cell:c164:2 nets: n48, n50, n52, gain: -1 set: B lock: 1
-cut: 70
-constraint:1 A: 259 B: 314n: 573
-cell:c15:1 nets: n158, gain: 1 set: A lock: 1
-cut: 71
-constraint:1 A: 260 B: 313n: 573
-cell:c136:1 nets: n218, n219, gain: 0 set: A lock: 1
-cut: 70
-constraint:1 A: 261 B: 312n: 573
-cell:c37:2 nets: n311, gain: -1 set: B lock: 1
-cut: 70
-constraint:1 A: 259 B: 314n: 573
-cell:c202:1 nets: n177, n212, gain: 0 set: A lock: 1
-cut: 71
-constraint:1 A: 260 B: 313n: 573
-cell:c240:1 nets: n132, n240, gain: -1 set: A lock: 1
-cut: 71
-constraint:1 A: 261 B: 312n: 573
-cell:c7:2 nets: n329, gain: -1 set: B lock: 1
-cut: 72
-constraint:1 A: 259 B: 314n: 573
-cell:c290:1 nets: n53, n240, n299, gain: 1 set: A lock: 1
-cut: 73
-constraint:1 A: 260 B: 313n: 573
-cell:c12:1 nets: n1, gain: -1 set: A lock: 1
-cut: 72
-constraint:1 A: 261 B: 312n: 573
-cell:c148:2 nets: n236, gain: -1 set: A lock: 1
-cut: 73
-constraint:1 A: 263 B: 310n: 573
-cell:c339:1 nets: n163, gain: -1 set: A lock: 1
-cut: 74
-constraint:1 A: 264 B: 309n: 573
-cell:c149:1 nets: n208, n233, gain: -1 set: A lock: 1
-cut: 75
-constraint:1 A: 265 B: 308n: 573
-cell:c18:2 nets: n226, gain: -1 set: A lock: 1
-cut: 76
-constraint:1 A: 267 B: 306n: 573
-cell:c361:1 nets: n193, n206, n210, gain: -1 set: A lock: 1
-cut: 77
-constraint:1 A: 268 B: 305n: 573
-cell:c172:2 nets: n63, n353, gain: -1 set: B lock: 1
-cut: 78
-constraint:1 A: 266 B: 307n: 573
-cell:c374:2 nets: n122, n193, gain: -1 set: B lock: 1
-cut: 79
-constraint:1 A: 264 B: 309n: 573
-cell:c5:2 nets: n72, gain: -1 set: B lock: 1
-cut: 80
-constraint:1 A: 262 B: 311n: 573
-cell:c346:1 nets: n208, n210, n224, gain: 0 set: A lock: 1
-cut: 81
-constraint:1 A: 263 B: 310n: 573
-cell:c349:1 nets: n169, n210, gain: 0 set: A lock: 1
-cut: 81
-constraint:1 A: 264 B: 309n: 573
-cell:c287:1 nets: n242, n285, n287, gain: -1 set: A lock: 1
-cut: 81
-constraint:1 A: 265 B: 308n: 573
-cell:c177:2 nets: n53, n56, n69, n71, n72, gain: 0 set: B lock: 1
-cut: 82
-constraint:1 A: 263 B: 310n: 573
-cell:c289:2 nets: n242, n302, n314, gain: 1 set: A lock: 1
-cut: 82
-constraint:1 A: 265 B: 308n: 573
-cell:c288:1 nets: n132, n307, n308, gain: -1 set: A lock: 1
-cut: 81
-constraint:1 A: 266 B: 307n: 573
-cell:c229:2 nets: n303, n306, n307, n308, gain: 0 set: A lock: 1
-cut: 82
-constraint:1 A: 268 B: 305n: 573
-cell:c238:1 nets: n291, n308, gain: 0 set: A lock: 1
-cut: 82
-constraint:1 A: 269 B: 304n: 573
-cell:c306:1 nets: n249, n287, n291, gain: 0 set: A lock: 1
-cut: 82
-constraint:1 A: 270 B: 303n: 573
-cell:c23:1 nets: n191, gain: -1 set: A lock: 1
-cut: 82
-constraint:1 A: 271 B: 302n: 573
-cell:c44:2 nets: n234, gain: -1 set: A lock: 1
-cut: 83
-constraint:1 A: 273 B: 300n: 573
-cell:c333:2 nets: n229, gain: -1 set: A lock: 1
-cut: 84
-constraint:1 A: 275 B: 298n: 573
-cell:c219:1 nets: n291, n292, n354, gain: -1 set: A lock: 1
-cut: 85
-constraint:1 A: 276 B: 297n: 573
-cell:c220:2 nets: n291, n292, n293, n294, gain: 0 set: A lock: 1
-cut: 86
-constraint:1 A: 278 B: 295n: 573
-cell:c231:2 nets: n294, n304, n306, n312, gain: 0 set: A lock: 1
-cut: 86
-constraint:1 A: 280 B: 293n: 573
-cell:c227:2 nets: n299, n304, gain: 1 set: A lock: 1
-cut: 86
-constraint:1 A: 282 B: 291n: 573
-cell:c224:1 nets: n298, n299, gain: 0 set: A lock: 1
-cut: 85
-constraint:1 A: 283 B: 290n: 573
-cell:c14:1 nets: n102, gain: -1 set: A lock: 1
-cut: 85
-constraint:1 A: 284 B: 289n: 573
-cell:c268:1 nets: n53, n89, n102, gain: 0 set: A lock: 1
-cut: 86
-constraint:1 A: 285 B: 288n: 573
-cell:c10:1 nets: n21, gain: -1 set: A lock: 1
-cut: 86
-constraint:1 A: 286 B: 287n: 573
-cell:c8:2 nets: n40, gain: -1 set: A lock: 1
-cut: 87
-constraint:1 A: 288 B: 285n: 573
-cell:c1:1 nets: n181, gain: -1 set: A lock: 1
-cut: 88
-constraint:1 A: 289 B: 284n: 573
-cell:c11:1 nets: n39, gain: -1 set: A lock: 1
-cut: 89
-constraint:1 A: 290 B: 283n: 573
-cell:c21:1 nets: n254, gain: -1 set: A lock: 1
-cut: 90
-constraint:1 A: 291 B: 282n: 573
-cell:c19:1 nets: n270, gain: -1 set: A lock: 1
-cut: 91
-constraint:1 A: 292 B: 281n: 573
-cell:c33:1 nets: n12, gain: -1 set: A lock: 1
-cut: 92
-constraint:1 A: 293 B: 280n: 573
-cell:c139:2 nets: n222, n223, n224, gain: -1 set: A lock: 1
-cut: 93
-constraint:1 A: 295 B: 278n: 573
-cell:c138:2 nets: n208, n210, n222, gain: 1 set: A lock: 1
-cut: 94
-constraint:1 A: 297 B: 276n: 573
-cell:c140:1 nets: n53, n220, n223, n225, n226, gain: 0 set: A lock: 1
-cut: 93
-constraint:1 A: 298 B: 275n: 573
-cell:c142:2 nets: n215, n225, n229, n230, gain: 0 set: A lock: 1
-cut: 93
-constraint:1 A: 300 B: 273n: 573
-cell:c133:1 nets: n205, n210, n211, n215, gain: 0 set: A lock: 1
-cut: 93
-constraint:1 A: 301 B: 272n: 573
-cell:c129:1 nets: n210, n211, n354, gain: 1 set: A lock: 1
-cut: 93
-constraint:1 A: 302 B: 271n: 573
-cell:c336:1 nets: n53, n231, gain: -1 set: A lock: 1
-cut: 92
-constraint:1 A: 303 B: 270n: 573
-cell:c143:2 nets: n227, n230, n231, gain: 1 set: A lock: 1
-cut: 93
-constraint:1 A: 305 B: 268n: 573
-cell:c77:1 nets: n7, n23, n40, gain: -1 set: A lock: 1
-cut: 92
-constraint:1 A: 306 B: 267n: 573
-cell:c56:1 nets: n23, n24, gain: 0 set: A lock: 1
-cut: 93
-constraint:1 A: 307 B: 266n: 573
-cell:c137:1 nets: n220, n221, gain: -1 set: A lock: 1
-cut: 93
-constraint:1 A: 308 B: 265n: 573
-cell:c293:1 nets: n244, n287, gain: -1 set: A lock: 1
-cut: 94
-constraint:1 A: 309 B: 264n: 573
-cell:c226:2 nets: n296, n298, n300, gain: -1 set: A lock: 1
-cut: 95
-constraint:1 A: 311 B: 262n: 573
-cell:c135:1 nets: n217, gain: -1 set: A lock: 1
-cut: 96
-constraint:1 A: 312 B: 261n: 573
-cell:c26:1 nets: n243, gain: -1 set: A lock: 1
-cut: 97
-constraint:1 A: 313 B: 260n: 573
-cell:c35:1 nets: n28, gain: -1 set: A lock: 1
-cut: 98
-constraint:1 A: 314 B: 259n: 573
-cell:c182:2 nets: n47, n71, n76, gain: 1 set: B lock: 1
-cut: 99
-constraint:1 A: 312 B: 261n: 573
-cell:c13:1 nets: n301, gain: -1 set: A lock: 1
-cut: 98
-constraint:1 A: 313 B: 260n: 573
-cell:c354:1 nets: n179, n180, gain: -1 set: A lock: 1
-cut: 99
-constraint:1 A: 314 B: 259n: 573
-cell:c180:2 nets: n51, n76, gain: 0 set: B lock: 1
-cut: 100
-constraint:1 A: 312 B: 261n: 573
-cell:c46:2 nets: n173, gain: -1 set: B lock: 1
-cut: 100
-constraint:1 A: 310 B: 263n: 573
-cell:c41:2 nets: n128, gain: -1 set: B lock: 1
-cut: 101
-constraint:1 A: 308 B: 265n: 573
-cell:c234:2 nets: n285, n310, gain: -1 set: B lock: 1
-cut: 102
-constraint:1 A: 306 B: 267n: 573
-cell:c207:2 nets: n129, n132, gain: -1 set: B lock: 1
-cut: 103
-constraint:1 A: 304 B: 269n: 573
-cell:c47:2 nets: n202, gain: -1 set: B lock: 1
-cut: 104
-constraint:1 A: 302 B: 271n: 573
-cell:c9:2 nets: n109, gain: -1 set: B lock: 1
-cut: 105
-constraint:1 A: 300 B: 273n: 573
-cell:c364:2 nets: n193, n194, n195, n196, gain: -1 set: B lock: 1
-cut: 106
-constraint:1 A: 298 B: 275n: 573
-cell:c351:2 nets: n172, n173, n174, gain: -1 set: B lock: 1
-cut: 107
-constraint:1 A: 296 B: 277n: 573
-cell:c295:2 nets: n250, n251, n252, gain: -1 set: B lock: 1
-cut: 108
-constraint:1 A: 294 B: 279n: 573
-cell:c200:2 nets: n119, n123, n169, n177, n184, gain: -1 set: B lock: 1
-cut: 109
-constraint:1 A: 292 B: 281n: 573
-cell:c113:2 nets: n110, n339, n340, gain: -1 set: B lock: 1
-cut: 110
-constraint:1 A: 290 B: 283n: 573
-cell:c154:2 nets: n348, n353, n354, n355, gain: -1 set: B lock: 1
-cut: 111
-constraint:1 A: 288 B: 285n: 573
-cell:c371:2 nets: n121, n122, n175, n177, gain: -1 set: B lock: 1
-cut: 112
-constraint:1 A: 286 B: 287n: 573
-cell:c175:2 nets: n56, n70, gain: -1 set: B lock: 1
-cut: 113
-constraint:1 A: 284 B: 289n: 573
-cell:c360:1 nets: n180, n185, n191, n192, n193, gain: 0 set: A lock: 1
-cut: 114
-constraint:1 A: 285 B: 288n: 573
-cell:c357:1 nets: n177, n185, n186, gain: 0 set: A lock: 1
-cut: 114
-constraint:1 A: 286 B: 287n: 573
-cell:c62:2 nets: n26, n43, gain: -1 set: A lock: 1
-cut: 114
-constraint:1 A: 288 B: 285n: 573
-cell:c60:1 nets: n7, n43, n356, gain: -1 set: A lock: 1
-cut: 115
-constraint:1 A: 289 B: 284n: 573
-cell:c294:1 nets: n245, n246, n247, n248, n249, gain: -1 set: A lock: 1
-cut: 116
-constraint:1 A: 290 B: 283n: 573
-cell:c314:1 nets: n246, n248, gain: 0 set: A lock: 1
-cut: 117
-constraint:1 A: 291 B: 282n: 573
-cell:c329:2 nets: n246, n248, n262, n274, n287, gain: -1 set: A lock: 1
-cut: 117
-constraint:1 A: 293 B: 280n: 573
-cell:c322:1 nets: n244, n274, gain: 0 set: A lock: 1
-cut: 118
-constraint:1 A: 294 B: 279n: 573
-cell:c353:1 nets: n176, n177, n178, gain: -1 set: A lock: 1
-cut: 118
-constraint:1 A: 295 B: 278n: 573
-cell:c130:1 nets: n212, n213, n344, n354, gain: -1 set: A lock: 1
-cut: 119
-constraint:1 A: 296 B: 277n: 573
-cell:c125:1 nets: n343, n344, gain: 0 set: A lock: 1
-cut: 120
-constraint:1 A: 297 B: 276n: 573
-cell:c147:2 nets: n219, n235, n237, gain: -1 set: A lock: 1
-cut: 120
-constraint:1 A: 299 B: 274n: 573
-cell:c75:1 nets: n9, n38, n39, gain: -1 set: A lock: 1
-cut: 121
-constraint:1 A: 300 B: 273n: 573
-cell:c65:1 nets: n26, n33, gain: -1 set: A lock: 1
-cut: 122
-constraint:1 A: 301 B: 272n: 573
-cell:c190:1 nets: n2, n356, gain: -1 set: A lock: 1
-cut: 123
-constraint:1 A: 302 B: 271n: 573
-cell:c303:2 nets: n244, n246, n267, n268, gain: -1 set: A lock: 1
-cut: 124
-constraint:1 A: 304 B: 269n: 573
-cell:c326:2 nets: n244, n247, n277, gain: 0 set: A lock: 1
-cut: 125
-constraint:1 A: 306 B: 267n: 573
-cell:c296:2 nets: n247, n253, gain: -1 set: A lock: 1
-cut: 125
-constraint:1 A: 308 B: 265n: 573
-cell:c146:2 nets: n216, n230, n232, n236, gain: -1 set: A lock: 1
-cut: 126
-constraint:1 A: 310 B: 263n: 573
-cell:c84:1 nets: n5, n18, n43, n356, gain: -1 set: A lock: 1
-cut: 127
-constraint:1 A: 311 B: 262n: 573
-cell:c72:2 nets: n4, n5, n33, n38, gain: 0 set: A lock: 1
-cut: 128
-constraint:1 A: 313 B: 260n: 573
-cell:c74:1 nets: n4, n18, n24, n37, gain: 0 set: A lock: 1
-cut: 128
-constraint:1 A: 314 B: 259n: 573
-cell:c183:2 nets: n53, n70, n74, gain: 0 set: B lock: 1
-cut: 128
-constraint:1 A: 312 B: 261n: 573
-cell:c330:1 nets: n247, n260, n287, n291, gain: -1 set: A lock: 1
-cut: 128
-constraint:1 A: 313 B: 260n: 573
-cell:c300:1 nets: n261, n262, gain: -1 set: A lock: 1
-cut: 129
-constraint:1 A: 314 B: 259n: 573
-cell:c211:2 nets: n131, n134, n135, gain: -1 set: B lock: 1
-cut: 130
-constraint:1 A: 312 B: 261n: 573
-cell:c165:2 nets: n51, n57, gain: -1 set: B lock: 1
-cut: 131
-constraint:1 A: 310 B: 263n: 573
-cell:c304:1 nets: n247, n262, n269, gain: 0 set: A lock: 1
-cut: 132
-constraint:1 A: 311 B: 262n: 573
-cell:c76:1 nets: n2, n32, gain: -1 set: A lock: 1
-cut: 132
-constraint:1 A: 312 B: 261n: 573
-cell:c311:1 nets: n268, n275, gain: -1 set: A lock: 1
-cut: 133
-constraint:1 A: 313 B: 260n: 573
-cell:c328:1 nets: n246, n268, n273, gain: -1 set: A lock: 1
-cut: 134
-constraint:1 A: 314 B: 259n: 573
-cell:c169:2 nets: n46, n57, n59, n65, gain: 0 set: B lock: 1
-cut: 135
-constraint:1 A: 312 B: 261n: 573
-cell:c312:2 nets: n246, n276, n277, gain: -1 set: A lock: 1
-cut: 135
-constraint:1 A: 314 B: 259n: 573
-cell:c167:2 nets: n56, n59, n60, n61, gain: 0 set: B lock: 1
-cut: 136
-constraint:1 A: 312 B: 261n: 573
-cell:c319:1 nets: n258, n277, gain: 0 set: A lock: 1
-cut: 136
-constraint:1 A: 313 B: 260n: 573
-cell:c150:1 nets: n53, n159, n220, n237, n238, gain: -1 set: A lock: 1
-cut: 136
-constraint:1 A: 314 B: 259n: 573
-cell:c185:2 nets: n60, n61, n74, gain: 1 set: B lock: 1
-cut: 137
-constraint:1 A: 312 B: 261n: 573
-cell:c317:1 nets: n199, n247, n268, gain: -1 set: A lock: 1
-cut: 136
-constraint:1 A: 313 B: 260n: 573
-cell:c68:1 nets: n4, n6, gain: -1 set: A lock: 1
-cut: 137
-constraint:1 A: 314 B: 259n: 573
-cell:c158:2 nets: n43, n44, n45, n46, gain: -1 set: B lock: 1
-cut: 138
-constraint:1 A: 312 B: 261n: 573
-cell:c81:2 nets: n4, n14, n33, gain: -1 set: A lock: 1
-cut: 139
-constraint:1 A: 314 B: 259n: 573
-cell:c205:2 nets: n128, n130, gain: -1 set: B lock: 1
-cut: 140
-constraint:1 A: 312 B: 261n: 573
-cell:c356:2 nets: n183, n184, gain: -1 set: B lock: 1
-cut: 141
-constraint:1 A: 310 B: 263n: 573
-cell:c161:2 nets: n45, n49, n347, n355, gain: -1 set: B lock: 1
-cut: 142
-constraint:1 A: 308 B: 265n: 573
-cell:c203:2 nets: n74, n127, n128, gain: -1 set: B lock: 1
-cut: 143
-constraint:1 A: 306 B: 267n: 573
-cell:c209:2 nets: n130, n134, n168, gain: -1 set: B lock: 1
-cut: 144
-constraint:1 A: 304 B: 269n: 573
-cell:c51:2 nets: n12, n13, n14, n15, gain: 0 set: A lock: 1
-cut: 145
-constraint:1 A: 306 B: 267n: 573
-cell:c210:2 nets: n74, n75, n130, gain: 0 set: B lock: 1
-cut: 145
-constraint:1 A: 304 B: 269n: 573
-cell:c170:2 nets: n49, n58, n62, gain: -1 set: B lock: 1
-cut: 145
-constraint:1 A: 302 B: 271n: 573
-cell:c255:2 nets: n85, n148, gain: -2 set: B lock: 1
-cut: 146
-constraint:1 A: 300 B: 273n: 573
-cell:c94:2 nets: n148, n149, n150, n151, gain: -1 set: B lock: 1
-cut: 148
-constraint:1 A: 298 B: 275n: 573
-cell:c282:2 nets: n108, n144, n148, gain: -1 set: B lock: 1
-cut: 149
-constraint:1 A: 296 B: 277n: 573
-cell:c258:2 nets: n53, n99, n150, gain: -1 set: B lock: 1
-cut: 150
-constraint:1 A: 294 B: 279n: 573
-cell:c105:2 nets: n326, n337, gain: -2 set: B lock: 1
-cut: 151
-constraint:1 A: 292 B: 281n: 573
-cell:c98:2 nets: n155, n156, gain: -2 set: B lock: 1
-cut: 153
-constraint:1 A: 290 B: 283n: 573
-cell:c266:2 nets: n53, n97, n156, gain: -1 set: B lock: 1
-cut: 155
-constraint:1 A: 288 B: 285n: 573
-cell:c350:2 nets: n170, n171, n172, gain: -2 set: B lock: 1
-cut: 156
-constraint:1 A: 286 B: 287n: 573
-cell:c373:2 nets: n120, n172, n197, gain: -1 set: B lock: 1
-cut: 158
-constraint:1 A: 284 B: 289n: 573
-cell:c278:2 nets: n324, n325, gain: -2 set: B lock: 1
-cut: 159
-constraint:1 A: 282 B: 291n: 573
-cell:c124:2 nets: n105, n146, gain: -2 set: B lock: 1
-cut: 161
-constraint:1 A: 280 B: 293n: 573
-cell:c279:2 nets: n103, n105, n326, n327, gain: -1 set: B lock: 1
-cut: 163
-constraint:1 A: 278 B: 295n: 573
-cell:c106:2 nets: n105, n107, gain: -1 set: B lock: 1
-cut: 164
-constraint:1 A: 276 B: 297n: 573
-cell:c112:2 nets: n105, n319, n325, n338, gain: -1 set: B lock: 1
-cut: 165
-constraint:1 A: 274 B: 299n: 573
-cell:c120:2 nets: n105, n327, n332, gain: -1 set: B lock: 1
-cut: 166
-constraint:1 A: 272 B: 301n: 573
-cell:c252:2 nets: n92, n146, gain: -1 set: B lock: 1
-cut: 167
-constraint:1 A: 270 B: 303n: 573
-cell:c275:2 nets: n105, n118, n319, gain: -1 set: B lock: 1
-cut: 168
-constraint:1 A: 268 B: 305n: 573
-cell:c122:2 nets: n106, n144, n148, n319, gain: 0 set: B lock: 1
-cut: 169
-constraint:1 A: 266 B: 307n: 573
-cell:c92:2 nets: n139, n146, n147, n354, gain: -1 set: B lock: 1
-cut: 169
-constraint:1 A: 264 B: 309n: 573
-cell:c118:2 nets: n103, n106, n336, gain: -1 set: B lock: 1
-cut: 170
-constraint:1 A: 262 B: 311n: 573
-cell:c95:2 nets: n138, n147, n150, n152, gain: -1 set: B lock: 1
-cut: 171
-constraint:1 A: 260 B: 313n: 573
-cell:c79:1 nets: n11, n15, n33, n356, gain: 1 set: A lock: 1
-cut: 172
-constraint:1 A: 261 B: 312n: 573
-cell:c261:2 nets: n95, n100, n152, gain: -1 set: B lock: 1
-cut: 171
-constraint:1 A: 259 B: 314n: 573
-cell:c52:2 nets: n13, n16, gain: 0 set: A lock: 1
-cut: 172
-constraint:1 A: 261 B: 312n: 573
-cell:c216:2 nets: n280, n285, n286, n354, gain: -2 set: B lock: 1
-cut: 172
-constraint:1 A: 259 B: 314n: 573
-cell:c82:1 nets: n4, n26, n31, gain: -1 set: A lock: 1
-cut: 174
-constraint:1 A: 260 B: 313n: 573
-cell:c86:1 nets: n4, n41, gain: -1 set: A lock: 1
-cut: 175
-constraint:1 A: 261 B: 312n: 573
-cell:c299:2 nets: n246, n259, n260, gain: -1 set: A lock: 1
-cut: 176
-constraint:1 A: 263 B: 310n: 573
-cell:c324:1 nets: n203, n253, n261, n271, gain: -1 set: A lock: 1
-cut: 177
-constraint:1 A: 264 B: 309n: 573
-cell:c223:2 nets: n279, n286, n293, n297, gain: -1 set: B lock: 1
-cut: 178
-constraint:1 A: 262 B: 311n: 573
-cell:c247:2 nets: n53, n80, n86, n87, n88, gain: -2 set: B lock: 1
-cut: 179
-constraint:1 A: 260 B: 313n: 573
-cell:c325:1 nets: n253, n257, n275, n287, gain: 0 set: A lock: 1
-cut: 181
-constraint:1 A: 261 B: 312n: 573
-cell:c318:1 nets: n200, n246, n247, n275, gain: -1 set: A lock: 1
-cut: 181
-constraint:1 A: 262 B: 311n: 573
-cell:c327:2 nets: n246, n256, n275, gain: 0 set: A lock: 1
-cut: 182
-constraint:1 A: 264 B: 309n: 573
-cell:c191:1 nets: n3, n4, n5, n6, n7, gain: -1 set: A lock: 1
-cut: 182
-constraint:1 A: 265 B: 308n: 573
-cell:c78:2 nets: n1, n11, n19, n29, gain: -1 set: A lock: 1
-cut: 183
-constraint:1 A: 267 B: 306n: 573
-cell:c54:1 nets: n19, n20, gain: 0 set: A lock: 1
-cut: 184
-constraint:1 A: 268 B: 305n: 573
-cell:c64:2 nets: n29, n31, gain: 0 set: A lock: 1
-cut: 184
-constraint:1 A: 270 B: 303n: 573
-cell:c73:1 nets: n16, n35, gain: -1 set: A lock: 1
-cut: 184
-constraint:1 A: 271 B: 302n: 573
-cell:c173:2 nets: n41, n68, gain: -1 set: A lock: 1
-cut: 185
-constraint:1 A: 273 B: 300n: 573
-cell:c58:1 nets: n5, n20, n27, gain: -1 set: A lock: 1
-cut: 186
-constraint:1 A: 274 B: 299n: 573
-cell:c63:2 nets: n25, n30, n31, n32, gain: -1 set: A lock: 1
-cut: 187
-constraint:1 A: 276 B: 297n: 573
-cell:c66:2 nets: n4, n34, n35, gain: -1 set: A lock: 1
-cut: 188
-constraint:1 A: 278 B: 295n: 573
-cell:c156:1 nets: n41, n42, n350, n354, gain: -1 set: A lock: 1
-cut: 189
-constraint:1 A: 279 B: 294n: 573
-cell:c152:1 nets: n349, n350, gain: 0 set: A lock: 1
-cut: 190
-constraint:1 A: 280 B: 293n: 573
-cell:c67:1 nets: n25, n36, gain: -1 set: A lock: 1
-cut: 190
-constraint:1 A: 281 B: 292n: 573
-cell:c70:2 nets: n22, n36, gain: 0 set: A lock: 1
-cut: 191
-constraint:1 A: 283 B: 290n: 573
-cell:c126:1 nets: n345, n346, gain: -2 set: A lock: 1
-cut: 191
-constraint:1 A: 284 B: 289n: 573
-cell:c128:1 nets: n208, n209, n346, n354, gain: 0 set: A lock: 1
-cut: 193
-constraint:1 A: 285 B: 288n: 573
-cell:c153:1 nets: n351, n352, gain: -2 set: A lock: 1
-cut: 193
-constraint:1 A: 286 B: 287n: 573
-cell:c160:1 nets: n45, n48, n351, n357, gain: -1 set: A lock: 1
-cut: 195
-constraint:1 A: 287 B: 286n: 573
-cell:c196:1 nets: n126, n187, n193, gain: -2 set: A lock: 1
-cut: 196
-constraint:1 A: 288 B: 285n: 573
-cell:c273:1 nets: n113, n114, n115, n116, gain: -2 set: A lock: 1
-cut: 198
-constraint:1 A: 289 B: 284n: 573
-cell:c127:1 nets: n204, n205, n206, n207, gain: -2 set: A lock: 1
-cut: 200
-constraint:1 A: 290 B: 283n: 573
-cell:c194:1 nets: n124, n177, n186, n188, gain: -2 set: A lock: 1
-cut: 202
-constraint:1 A: 291 B: 282n: 573
-cell:c184:1 nets: n77, n353, n356, gain: -2 set: A lock: 1
-cut: 204
-constraint:1 A: 292 B: 281n: 573
-cell:c181:1 nets: n60, n68, n353, n356, gain: -1 set: A lock: 1
-cut: 206
-constraint:1 A: 293 B: 280n: 573
-cell:c188:1 nets: n67, n353, n356, gain: -1 set: A lock: 1
-cut: 207
-constraint:1 A: 294 B: 279n: 573
-cell:c171:1 nets: n66, n67, n68, gain: 0 set: A lock: 1
-cut: 208
-constraint:1 A: 295 B: 278n: 573
-cell:c251:2 nets: n87, n142, gain: 0 set: B lock: 1
-cut: 208
-constraint:1 A: 293 B: 280n: 573
-cell:c249:2 nets: n82, n86, n154, gain: -1 set: B lock: 1
-cut: 208
-constraint:1 A: 291 B: 282n: 573
-cell:c97:2 nets: n136, n143, n150, n154, gain: -1 set: B lock: 1
-cut: 209
-constraint:1 A: 289 B: 284n: 573
-cell:c90:2 nets: n137, n142, n143, n354, gain: 0 set: B lock: 1
-cut: 210
-constraint:1 A: 287 B: 286n: 573
-cell:c276:2 nets: n320, n321, gain: -2 set: B lock: 1
-cut: 210
-constraint:1 A: 285 B: 288n: 573
-cell:c280:2 nets: n106, n321, n328, gain: -1 set: B lock: 1
-cut: 212
-constraint:1 A: 283 B: 290n: 573
-cell:c91:2 nets: n141, n144, n145, n354, gain: -2 set: B lock: 1
-cut: 213
-constraint:1 A: 281 B: 292n: 573
-cell:c96:2 nets: n140, n145, n150, n153, gain: 0 set: B lock: 1
-cut: 215
-constraint:1 A: 279 B: 294n: 573
-cell:c235:2 nets: n289, n315, gain: -2 set: B lock: 1
-cut: 215
-constraint:1 A: 277 B: 296n: 573
-cell:c264:2 nets: n84, n85, n98, gain: -2 set: B lock: 1
-cut: 217
-constraint:1 A: 275 B: 298n: 573
-cell:c218:2 nets: n282, n289, n290, n354, gain: -2 set: B lock: 1
-cut: 219
-constraint:1 A: 273 B: 300n: 573
-cell:c221:2 nets: n281, n290, n293, n295, gain: -1 set: B lock: 1
-cut: 221
-constraint:1 A: 271 B: 302n: 573
-cell:c253:2 nets: n84, n90, n93, gain: -2 set: B lock: 1
-cut: 222
-constraint:1 A: 269 B: 304n: 573
-cell:c337:2 nets: n160, n161, n224, gain: -3 set: B lock: 1
-cut: 224
-constraint:1 A: 267 B: 306n: 573
-cell:c342:2 nets: n161, n165, n218, gain: -1 set: B lock: 1
-cut: 227
-constraint:1 A: 265 B: 308n: 573
-cell:c347:2 nets: n160, n224, n228, gain: -1 set: B lock: 1
-cut: 228
-constraint:1 A: 263 B: 310n: 573
-cell:c239:2 nets: n53, n239, n303, n316, n318, gain: -3 set: B lock: 1
-cut: 229
-constraint:1 A: 261 B: 312n: 573
-cell:c236:2 nets: n307, n313, n316, gain: -1 set: B lock: 1
-cut: 232
-clock: 0.02
-init_cut: 233
+clock: 0  i: 0
+clock: 0  i: 1
+clock: 0  i: 2
+clock: 0  i: 3
+clock: 0  i: 4
+clock: 0  i: 5
+clock: 0  i: 6
+clock: 0  i: 7
+clock: 0  i: 8
+clock: 0  i: 9
+clock: 0  i: 10
+clock: 0  i: 11
+clock: 0  i: 12
+clock: 0  i: 13
+clock: 0  i: 14
+clock: 0  i: 15
+clock: 0  i: 16
+clock: 0  i: 17
+clock: 0  i: 18
+clock: 0  i: 19
+clock: 0  i: 20
+clock: 0  i: 21
+clock: 0  i: 22
+clock: 0.01  i: 23
+clock: 0  i: 24
+clock: 0  i: 25
+clock: 0  i: 26
+clock: 0  i: 27
+clock: 0  i: 28
+clock: 0  i: 29
+clock: 0  i: 30
+clock: 0  i: 31
+clock: 0  i: 32
+clock: 0  i: 33
+clock: 0  i: 34
+clock: 0  i: 35
+clock: 0  i: 36
+clock: 0  i: 37
+clock: 0  i: 38
+clock: 0  i: 39
+clock: 0  i: 40
+clock: 0  i: 41
+clock: 0  i: 42
+clock: 0  i: 43
+clock: 0  i: 44
+clock: 0  i: 45
+clock: 0  i: 46
+clock: 0  i: 47
+clock: 0  i: 48
+clock: 0  i: 49
+clock: 0  i: 50
+clock: 0  i: 51
+clock: 0  i: 52
+clock: 0  i: 53
+clock: 0  i: 54
+clock: 0  i: 55
+clock: 0  i: 56
+clock: 0  i: 57
+clock: 0  i: 58
+clock: 0  i: 59
+clock: 0  i: 60
+clock: 0  i: 61
+clock: 0  i: 62
+clock: 0  i: 63
+clock: 0  i: 64
+clock: 0  i: 65
+clock: 0  i: 66
+clock: 0  i: 67
+clock: 0.01  i: 68
+clock: 0  i: 69
+clock: 0  i: 70
+clock: 0  i: 71
+clock: 0  i: 72
+clock: 0  i: 73
+clock: 0  i: 74
+clock: 0  i: 75
+clock: 0  i: 76
+clock: 0  i: 77
+clock: 0  i: 78
+clock: 0  i: 79
+clock: 0  i: 80
+clock: 0  i: 81
+clock: 0  i: 82
+clock: 0  i: 83
+clock: 0  i: 84
+clock: 0  i: 85
+clock: 0  i: 86
+clock: 0  i: 87
+clock: 0  i: 88
+clock: 0  i: 89
+clock: 0  i: 90
+clock: 0  i: 91
+clock: 0  i: 92
+clock: 0  i: 93
+clock: 0  i: 94
+clock: 0  i: 95
+clock: 0  i: 96
+clock: 0  i: 97
+clock: 0  i: 98
+clock: 0  i: 99
+clock: 0  i: 100
+clock: 0  i: 101
+clock: 0  i: 102
+clock: 0  i: 103
+clock: 0  i: 104
+clock: 0  i: 105
+clock: 0  i: 106
+clock: 0  i: 107
+clock: 0  i: 108
+clock: 0  i: 109
+clock: 0  i: 110
+clock: 0  i: 111
+clock: 0  i: 112
+clock: 0.01  i: 113
+clock: 0  i: 114
+clock: 0  i: 115
+clock: 0  i: 116
+clock: 0  i: 117
+clock: 0  i: 118
+clock: 0  i: 119
+clock: 0  i: 120
+clock: 0  i: 121
+clock: 0  i: 122
+clock: 0  i: 123
+clock: 0  i: 124
+clock: 0  i: 125
+clock: 0  i: 126
+clock: 0  i: 127
+clock: 0  i: 128
+clock: 0  i: 129
+clock: 0  i: 130
+clock: 0  i: 131
+clock: 0  i: 132
+clock: 0  i: 133
+clock: 0  i: 134
+clock: 0  i: 135
+clock: 0  i: 136
+clock: 0  i: 137
+clock: 0  i: 138
+clock: 0  i: 139
+clock: 0  i: 140
+clock: 0  i: 141
+clock: 0  i: 142
+clock: 0  i: 143
+clock: 0  i: 144
+clock: 0  i: 145
+clock: 0  i: 146
+clock: 0  i: 147
+clock: 0.01  i: 148
+clock: 0  i: 149
+clock: 0  i: 150
+clock: 0  i: 151
+clock: 0  i: 152
+clock: 0  i: 153
+clock: 0  i: 154
+clock: 0  i: 155
+clock: 0  i: 156
+clock: 0  i: 157
+clock: 0  i: 158
+clock: 0  i: 159
+clock: 0  i: 160
+clock: 0  i: 161
+clock: 0  i: 162
+clock: 0  i: 163
+clock: 0  i: 164
+clock: 0  i: 165
+clock: 0  i: 166
+clock: 0  i: 167
+clock: 0  i: 168
+clock: 0  i: 169
+clock: 0  i: 170
+clock: 0  i: 171
+clock: 0  i: 172
+clock: 0  i: 173
+clock: 0  i: 174
+clock: 0  i: 175
+clock: 0  i: 176
+clock: 0  i: 177
+clock: 0  i: 178
+clock: 0  i: 179
+clock: 0  i: 180
+clock: 0  i: 181
+clock: 0  i: 182
+clock: 0  i: 183
+clock: 0  i: 184
+clock: 0  i: 185
+clock: 0  i: 186
+clock: 0  i: 187
+clock: 0  i: 188
+clock: 0  i: 189
+clock: 0.01  i: 190
+clock: 0  i: 191
+clock: 0  i: 192
+clock: 0  i: 193
+clock: 0  i: 194
+clock: 0  i: 195
+clock: 0  i: 196
+clock: 0  i: 197
+clock: 0  i: 198
+clock: 0  i: 199
+clock: 0  i: 200
+clock: 0  i: 201
+clock: 0  i: 202
+clock: 0  i: 203
+clock: 0  i: 204
+clock: 0  i: 205
+clock: 0  i: 206
+clock: 0  i: 207
+clock: 0  i: 208
+clock: 0  i: 209
+clock: 0  i: 210
+clock: 0  i: 211
+clock: 0  i: 212
+clock: 0  i: 213
+clock: 0  i: 214
+clock: 0  i: 215
+clock: 0  i: 216
+clock: 0  i: 217
+clock: 0  i: 218
+clock: 0  i: 219
+clock: 0  i: 220
+clock: 0  i: 221
+clock: 0  i: 222
+clock: 0  i: 223
+clock: 0  i: 224
+clock: 0  i: 225
+clock: 0  i: 226
+clock: 0  i: 227
+clock: 0.01  i: 228
+clock: 0  i: 229
+clock: 0  i: 230
+clock: 0  i: 231
+clock: 0  i: 232
+clock: 0  i: 233
+clock: 0  i: 234
+clock: 0  i: 235
+clock: 0  i: 236
+clock: 0  i: 237
+clock: 0  i: 238
+clock: 0  i: 239
+clock: 0  i: 240
+clock: 0  i: 241
+clock: 0  i: 242
+clock: 0  i: 243
+clock: 0  i: 244
+clock: 0  i: 245
+clock: 0  i: 246
+clock: 0  i: 247
+clock: 0  i: 248
+clock: 0  i: 249
+clock: 0  i: 250
+clock: 0  i: 251
+clock: 0  i: 252
+clock: 0  i: 253
+clock: 0  i: 254
+clock: 0  i: 255
+clock: 0  i: 256
+clock: 0  i: 257
+clock: 0  i: 258
+clock: 0  i: 259
+clock: 0  i: 260
+clock: 0  i: 261
+clock: 0  i: 262
+clock: 0  i: 263
+clock: 0  i: 264
+clock: 0  i: 265
+clock: 0  i: 266
+clock: 0  i: 267
+clock: 0  i: 268
+clock: 0  i: 269
+clock: 0  i: 270
+clock: 0.01  i: 271
+clock: 0  i: 272
+clock: 0  i: 273
+clock: 0  i: 274
+clock: 0  i: 275
+clock: 0  i: 276
+clock: 0  i: 277
+clock: 0  i: 278
+clock: 0  i: 279
+clock: 0  i: 280
+clock: 0  i: 281
+clock: 0  i: 282
+clock: 0  i: 283
+clock: 0  i: 284
+clock: 0  i: 285
+clock: 0  i: 286
+clock: 0  i: 287
+clock: 0  i: 288
+clock: 0  i: 289
+clock: 0  i: 290
+clock: 0  i: 291
+clock: 0  i: 292
+clock: 0  i: 293
+clock: 0  i: 294
+clock: 0  i: 295
+clock: 0  i: 296
+clock: 0  i: 297
+clock: 0  i: 298
+clock: 0  i: 299
+clock: 0  i: 300
+clock: 0  i: 301
+clock: 0  i: 302
+clock: 0  i: 303
+clock: 0  i: 304
+clock: 0  i: 305
+clock: 0  i: 306
+clock: 0  i: 307
+clock: 0  i: 308
+clock: 0  i: 309
+clock: 0  i: 310
+clock: 0  i: 311
+clock: 0  i: 312
+clock: 0  i: 313
+clock: 0.01  i: 314
+clock: 0  i: 315
+clock: 0  i: 316
+clock: 0  i: 317
+clock: 0  i: 318
+clock: 0  i: 319
+clock: 0  i: 320
+clock: 0  i: 321
+clock: 0  i: 322
+clock: 0  i: 323
+clock: 0  i: 324
+clock: 0  i: 325
+clock: 0  i: 326
+clock: 0  i: 327
+clock: 0  i: 328
+clock: 0  i: 329
+clock: 0  i: 330
+clock: 0  i: 331
+clock: 0  i: 332
+clock: 0  i: 333
+clock: 0  i: 334
+clock: 0  i: 335
+clock: 0  i: 336
+clock: 0  i: 337
+clock: 0  i: 338
+clock: 0  i: 339
+clock: 0  i: 340
+clock: 0  i: 341
+clock: 0  i: 342
+clock: 0  i: 343
+clock: 0  i: 344
+clock: 0  i: 345
+clock: 0  i: 346
+clock: 0  i: 347
+clock: 0  i: 348
+clock: 0  i: 349
+clock: 0  i: 350
+clock: 0  i: 351
+clock: 0  i: 352
+clock: 0  i: 353
+clock: 0  i: 354
+clock: 0  i: 355
+clock: 0  i: 356
+clock: 0  i: 357
+clock: 0  i: 358
+clock: 0  i: 359
+clock: 0.01  i: 360
+clock: 0  i: 361
+clock: 0  i: 362
+clock: 0  i: 363
+clock: 0  i: 364
+clock: 0  i: 365
+clock: 0  i: 366
+clock: 0  i: 367
+clock: 0  i: 368
+clock: 0  i: 369
+clock: 0  i: 370
+clock: 0  i: 371
+clock: 0  i: 372
+clock: 0  i: 373
+clock: 0  i: 374
+clock: 0  i: 375
+clock: 0  i: 376
+clock: 0  i: 377
+clock: 0  i: 378
+clock: 0  i: 379
+clock: 0  i: 380
+clock: 0  i: 381
+clock: 0  i: 382
+clock: 0  i: 383
+clock: 0  i: 384
+clock: 0  i: 385
+clock: 0  i: 386
+clock: 0  i: 387
+clock: 0  i: 388
+clock: 0  i: 389
+clock: 0  i: 390
+clock: 0  i: 391
+clock: 0  i: 392
+clock: 0  i: 393
+clock: 0  i: 394
+clock: 0  i: 395
+clock: 0  i: 396
+clock: 0  i: 397
+clock: 0  i: 398
+clock: 0  i: 399
+clock: 0  i: 400
+clock: 0  i: 401
+clock: 0  i: 402
+clock: 0  i: 403
+clock: 0  i: 404
+clock: 0  i: 405
+clock: 0  i: 406
+clock: 0  i: 407
+clock: 0.01  i: 408
+clock: 0  i: 409
+clock: 0  i: 410
+clock: 0  i: 411
+clock: 0  i: 412
+clock: 0  i: 413
+clock: 0  i: 414
+clock: 0  i: 415
+clock: 0  i: 416
+clock: 0  i: 417
+clock: 0  i: 418
+clock: 0  i: 419
+clock: 0  i: 420
+clock: 0  i: 421
+clock: 0  i: 422
+clock: 0  i: 423
+clock: 0  i: 424
+clock: 0  i: 425
+clock: 0  i: 426
+clock: 0  i: 427
+clock: 0  i: 428
+clock: 0  i: 429
+clock: 0  i: 430
+clock: 0  i: 431
+clock: 0  i: 432
+clock: 0  i: 433
+clock: 0  i: 434
+clock: 0  i: 435
+clock: 0  i: 436
+clock: 0  i: 437
+clock: 0  i: 438
+clock: 0  i: 439
+clock: 0  i: 440
+clock: 0  i: 441
+clock: 0  i: 442
+clock: 0  i: 443
+clock: 0  i: 444
+clock: 0  i: 445
+clock: 0  i: 446
+clock: 0  i: 447
+clock: 0  i: 448
+clock: 0  i: 449
+clock: 0  i: 450
+clock: 0  i: 451
+clock: 0  i: 452
+clock: 0  i: 453
+clock: 0  i: 454
+clock: 0  i: 455
+clock: 0  i: 456
+clock: 0  i: 457
+clock: 0  i: 458
+clock: 0.01  i: 459
+clock: 0  i: 460
+clock: 0  i: 461
+clock: 0  i: 462
+clock: 0  i: 463
+clock: 0  i: 464
+clock: 0  i: 465
+clock: 0  i: 466
+clock: 0  i: 467
+clock: 0  i: 468
+clock: 0  i: 469
+clock: 0  i: 470
+clock: 0  i: 471
+clock: 0  i: 472
+clock: 0  i: 473
+clock: 0  i: 474
+clock: 0  i: 475
+clock: 0  i: 476
+clock: 0  i: 477
+clock: 0  i: 478
+clock: 0  i: 479
+clock: 0  i: 480
+clock: 0  i: 481
+clock: 0  i: 482
+clock: 0  i: 483
+clock: 0  i: 484
+clock: 0  i: 485
+clock: 0  i: 486
+clock: 0  i: 487
+clock: 0  i: 488
+clock: 0  i: 489
+clock: 0  i: 490
+clock: 0  i: 491
+clock: 0  i: 492
+clock: 0  i: 493
+clock: 0  i: 494
+clock: 0  i: 495
+clock: 0  i: 496
+clock: 0  i: 497
+clock: 0  i: 498
+clock: 0  i: 499
+clock: 0  i: 500
+clock: 0  i: 501
+clock: 0  i: 502
+clock: 0  i: 503
+clock: 0  i: 504
+clock: 0  i: 505
+clock: 0  i: 506
+clock: 0  i: 507
+clock: 0  i: 508
+clock: 0  i: 509
+clock: 0  i: 510
+clock: 0  i: 511
+clock: 0.01  i: 512
+clock: 0  i: 513
+clock: 0  i: 514
+clock: 0  i: 515
+clock: 0  i: 516
+clock: 0  i: 517
+clock: 0  i: 518
+clock: 0  i: 519
+clock: 0  i: 520
+clock: 0  i: 521
+clock: 0  i: 522
+clock: 0  i: 523
+clock: 0  i: 524
+clock: 0  i: 525
+clock: 0  i: 526
+clock: 0  i: 527
+clock: 0  i: 528
+clock: 0  i: 529
+clock: 0  i: 530
+clock: 0  i: 531
+clock: 0  i: 532
+clock: 0  i: 533
+clock: 0  i: 534
+clock: 0  i: 535
+clock: 0  i: 536
+clock: 0  i: 537
+clock: 0  i: 538
+clock: 0  i: 539
+clock: 0  i: 540
+clock: 0  i: 541
+clock: 0  i: 542
+clock: 0  i: 543
+clock: 0  i: 544
+clock: 0  i: 545
+clock: 0  i: 546
+clock: 0  i: 547
+clock: 0  i: 548
+clock: 0  i: 549
+clock: 0  i: 550
+clock: 0  i: 551
+clock: 0  i: 552
+clock: 0  i: 553
+clock: 0  i: 554
+clock: 0  i: 555
+clock: 0  i: 556
+clock: 0  i: 557
+clock: 0  i: 558
+clock: 0  i: 559
+clock: 0.01  i: 560
+clock: 0  i: 561
+clock: 0  i: 562
+clock: 0  i: 563
+clock: 0  i: 564
+clock: 0  i: 565
+clock: 0  i: 566
+clock: 0  i: 567
+clock: 0  i: 568
+clock: 0  i: 569
+clock: 0  i: 570
+clock: 0  i: 571
+clock: 0  i: 572
+clock: 0  i: 573
+clock: 0  i: 574
+clock: 0  i: 575
+clock: 0  i: 576
+clock: 0  i: 577
+clock: 0  i: 578
+clock: 0  i: 579
+clock: 0  i: 580
+clock: 0  i: 581
+clock: 0  i: 582
+clock: 0  i: 583
+clock: 0  i: 584
+clock: 0  i: 585
+clock: 0  i: 586
+clock: 0  i: 587
+clock: 0  i: 588
+clock: 0  i: 589
+clock: 0  i: 590
+clock: 0  i: 591
+clock: 0  i: 592
+clock: 0  i: 593
+clock: 0  i: 594
+clock: 0  i: 595
+clock: 0  i: 596
+clock: 0  i: 597
+clock: 0  i: 598
+clock: 0  i: 599
+clock: 0  i: 600
+clock: 0  i: 601
+clock: 0  i: 602
+clock: 0  i: 603
+clock: 0  i: 604
+clock: 0  i: 605
+clock: 0  i: 606
+clock: 0  i: 607
+clock: 0  i: 608
+clock: 0  i: 609
+clock: 0.01  i: 610
+clock: 0  i: 611
+clock: 0  i: 612
+clock: 0  i: 613
+clock: 0  i: 614
+clock: 0  i: 615
+clock: 0  i: 616
+clock: 0  i: 617
+clock: 0  i: 618
+clock: 0  i: 619
+clock: 0  i: 620
+clock: 0  i: 621
+clock: 0  i: 622
+clock: 0  i: 623
+clock: 0  i: 624
+clock: 0  i: 625
+clock: 0  i: 626
+clock: 0  i: 627
+clock: 0  i: 628
+clock: 0  i: 629
+clock: 0  i: 630
+clock: 0  i: 631
+clock: 0  i: 632
+clock: 0  i: 633
+clock: 0  i: 634
+clock: 0  i: 635
+clock: 0  i: 636
+clock: 0  i: 637
+clock: 0  i: 638
+clock: 0  i: 639
+clock: 0  i: 640
+clock: 0  i: 641
+clock: 0  i: 642
+clock: 0  i: 643
+clock: 0  i: 644
+clock: 0  i: 645
+clock: 0  i: 646
+clock: 0  i: 647
+clock: 0  i: 648
+clock: 0  i: 649
+clock: 0  i: 650
+clock: 0  i: 651
+clock: 0  i: 652
+clock: 0  i: 653
+clock: 0  i: 654
+clock: 0  i: 655
+clock: 0  i: 656
+clock: 0  i: 657
+clock: 0  i: 658
+clock: 0  i: 659
+clock: 0.01  i: 660
+clock: 0  i: 661
+clock: 0  i: 662
+clock: 0  i: 663
+clock: 0  i: 664
+clock: 0  i: 665
+clock: 0  i: 666
+clock: 0  i: 667
+clock: 0  i: 668
+clock: 0  i: 669
+clock: 0  i: 670
+clock: 0  i: 671
+clock: 0  i: 672
+clock: 0  i: 673
+clock: 0  i: 674
+clock: 0  i: 675
+clock: 0  i: 676
+clock: 0  i: 677
+clock: 0  i: 678
+clock: 0  i: 679
+clock: 0  i: 680
+clock: 0  i: 681
+clock: 0  i: 682
+clock: 0  i: 683
+clock: 0  i: 684
+clock: 0  i: 685
+clock: 0  i: 686
+clock: 0  i: 687
+clock: 0  i: 688
+clock: 0  i: 689
+clock: 0  i: 690
+clock: 0  i: 691
+clock: 0  i: 692
+clock: 0  i: 693
+clock: 0  i: 694
+clock: 0  i: 695
+clock: 0  i: 696
+clock: 0  i: 697
+clock: 0  i: 698
+clock: 0  i: 699
+clock: 0  i: 700
+clock: 0  i: 701
+clock: 0  i: 702
+clock: 0  i: 703
+clock: 0  i: 704
+clock: 0  i: 705
+clock: 0  i: 706
+clock: 0  i: 707
+clock: 0  i: 708
+clock: 0  i: 709
+clock: 0  i: 710
+clock: 0.01  i: 711
+clock: 0  i: 712
+clock: 0  i: 713
+clock: 0  i: 714
+clock: 0  i: 715
+clock: 0  i: 716
+clock: 0  i: 717
+clock: 0  i: 718
+clock: 0  i: 719
+clock: 0  i: 720
+clock: 0  i: 721
+clock: 0  i: 722
+clock: 0  i: 723
+clock: 0  i: 724
+clock: 0  i: 725
+clock: 0  i: 726
+clock: 0  i: 727
+clock: 0  i: 728
+clock: 0  i: 729
+clock: 0  i: 730
+clock: 0  i: 731
+clock: 0  i: 732
+clock: 0  i: 733
+clock: 0  i: 734
+clock: 0  i: 735
+clock: 0  i: 736
+clock: 0  i: 737
+clock: 0  i: 738
+clock: 0  i: 739
+clock: 0  i: 740
+clock: 0  i: 741
+clock: 0  i: 742
+clock: 0  i: 743
+clock: 0  i: 744
+clock: 0  i: 745
+clock: 0  i: 746
+clock: 0  i: 747
+clock: 0  i: 748
+clock: 0  i: 749
+clock: 0  i: 750
+clock: 0  i: 751
+clock: 0  i: 752
+clock: 0  i: 753
+clock: 0  i: 754
+clock: 0  i: 755
+clock: 0  i: 756
+clock: 0  i: 757
+clock: 0  i: 758
+clock: 0  i: 759
+clock: 0  i: 760
+clock: 0  i: 761
+clock: 0  i: 762
+clock: 0.01  i: 763
+clock: 0  i: 764
+clock: 0  i: 765
+clock: 0  i: 766
+clock: 0  i: 767
+clock: 0  i: 768
+clock: 0  i: 769
+clock: 0  i: 770
+clock: 0  i: 771
+clock: 0  i: 772
+clock: 0  i: 773
+clock: 0  i: 774
+clock: 0  i: 775
+clock: 0  i: 776
+clock: 0  i: 777
+clock: 0  i: 778
+clock: 0  i: 779
+clock: 0  i: 780
+clock: 0  i: 781
+clock: 0  i: 782
+clock: 0  i: 783
+clock: 0  i: 784
+clock: 0  i: 785
+clock: 0  i: 786
+clock: 0  i: 787
+clock: 0  i: 788
+clock: 0  i: 789
+clock: 0  i: 790
+clock: 0  i: 791
+clock: 0  i: 792
+clock: 0  i: 793
+clock: 0  i: 794
+clock: 0  i: 795
+clock: 0  i: 796
+clock: 0  i: 797
+clock: 0  i: 798
+clock: 0  i: 799
+clock: 0  i: 800
+clock: 0  i: 801
+clock: 0  i: 802
+clock: 0  i: 803
+clock: 0  i: 804
+clock: 0  i: 805
+clock: 0  i: 806
+clock: 0  i: 807
+clock: 0  i: 808
+clock: 0  i: 809
+clock: 0  i: 810
+clock: 0  i: 811
+clock: 0  i: 812
+clock: 0.01  i: 813
+clock: 0  i: 814
+clock: 0  i: 815
+clock: 0  i: 816
+clock: 0  i: 817
+clock: 0  i: 818
+clock: 0  i: 819
+clock: 0  i: 820
+clock: 0  i: 821
+clock: 0  i: 822
+clock: 0  i: 823
+clock: 0  i: 824
+clock: 0  i: 825
+clock: 0  i: 826
+clock: 0  i: 827
+clock: 0  i: 828
+clock: 0  i: 829
+clock: 0  i: 830
+clock: 0  i: 831
+clock: 0  i: 832
+clock: 0  i: 833
+clock: 0  i: 834
+clock: 0  i: 835
+clock: 0  i: 836
+clock: 0  i: 837
+clock: 0  i: 838
+clock: 0  i: 839
+clock: 0  i: 840
+clock: 0  i: 841
+clock: 0  i: 842
+clock: 0  i: 843
+clock: 0  i: 844
+clock: 0  i: 845
+clock: 0  i: 846
+clock: 0  i: 847
+clock: 0  i: 848
+clock: 0  i: 849
+clock: 0  i: 850
+clock: 0  i: 851
+clock: 0  i: 852
+clock: 0  i: 853
+clock: 0.01  i: 854
+clock: 0  i: 855
+clock: 0  i: 856
+clock: 0  i: 857
+clock: 0  i: 858
+clock: 0  i: 859
+clock: 0  i: 860
+clock: 0  i: 861
+clock: 0  i: 862
+clock: 0  i: 863
+clock: 0  i: 864
+clock: 0  i: 865
+clock: 0  i: 866
+clock: 0  i: 867
+clock: 0  i: 868
+clock: 0  i: 869
+clock: 0  i: 870
+clock: 0  i: 871
+clock: 0  i: 872
+clock: 0  i: 873
+clock: 0  i: 874
+clock: 0  i: 875
+clock: 0  i: 876
+clock: 0  i: 877
+clock: 0  i: 878
+clock: 0  i: 879
+clock: 0  i: 880
+clock: 0  i: 881
+clock: 0  i: 882
+clock: 0  i: 883
+clock: 0  i: 884
+clock: 0  i: 885
+clock: 0  i: 886
+clock: 0  i: 887
+clock: 0  i: 888
+clock: 0  i: 889
+clock: 0  i: 890
+clock: 0  i: 891
+clock: 0  i: 892
+clock: 0  i: 893
+clock: 0  i: 894
+clock: 0  i: 895
+clock: 0  i: 896
+clock: 0  i: 897
+clock: 0.01  i: 898
+clock: 0  i: 899
+clock: 0  i: 900
+clock: 0  i: 901
+clock: 0  i: 902
+clock: 0  i: 903
+clock: 0  i: 904
+clock: 0  i: 905
+clock: 0  i: 906
+clock: 0  i: 907
+clock: 0  i: 908
+clock: 0  i: 909
+clock: 0  i: 910
+clock: 0  i: 911
+clock: 0  i: 912
+clock: 0  i: 913
+clock: 0  i: 914
+clock: 0  i: 915
+clock: 0  i: 916
+clock: 0  i: 917
+clock: 0  i: 918
+clock: 0  i: 919
+clock: 0  i: 920
+clock: 0  i: 921
+clock: 0  i: 922
+clock: 0  i: 923
+clock: 0  i: 924
+clock: 0  i: 925
+clock: 0  i: 926
+clock: 0  i: 927
+clock: 0  i: 928
+clock: 0  i: 929
+clock: 0  i: 930
+clock: 0  i: 931
+clock: 0  i: 932
+clock: 0  i: 933
+clock: 0  i: 934
+clock: 0  i: 935
+clock: 0  i: 936
+clock: 0  i: 937
+clock: 0  i: 938
+clock: 0  i: 939
+clock: 0  i: 940
+clock: 0  i: 941
+clock: 0  i: 942
+clock: 0  i: 943
+clock: 0  i: 944
+clock: 0  i: 945
+clock: 0  i: 946
+clock: 0  i: 947
+clock: 0  i: 948
+clock: 0  i: 949
+clock: 0  i: 950
+clock: 0  i: 951
+clock: 0  i: 952
+clock: 0  i: 953
+clock: 0  i: 954
+clock: 0.01  i: 955
+clock: 0  i: 956
+clock: 0  i: 957
+clock: 0  i: 958
+clock: 0  i: 959
+clock: 0  i: 960
+clock: 0  i: 961
+clock: 0  i: 962
+clock: 0  i: 963
+clock: 0  i: 964
+clock: 0  i: 965
+clock: 0  i: 966
+clock: 0  i: 967
+clock: 0  i: 968
+clock: 0  i: 969
+clock: 0  i: 970
+clock: 0  i: 971
+clock: 0  i: 972
+clock: 0  i: 973
+clock: 0  i: 974
+clock: 0  i: 975
+clock: 0  i: 976
+clock: 0  i: 977
+clock: 0  i: 978
+clock: 0  i: 979
+clock: 0  i: 980
+clock: 0  i: 981
+clock: 0  i: 982
+clock: 0  i: 983
+clock: 0  i: 984
+clock: 0  i: 985
+clock: 0  i: 986
+clock: 0  i: 987
+clock: 0  i: 988
+clock: 0  i: 989
+clock: 0  i: 990
+clock: 0  i: 991
+clock: 0  i: 992
+clock: 0  i: 993
+clock: 0  i: 994
+clock: 0  i: 995
+clock: 0  i: 996
+clock: 0  i: 997
+clock: 0  i: 998
+clock: 0.01  i: 999
+clock: 0  i: 1000
+clock: 0  i: 1001
+clock: 0  i: 1002
+clock: 0  i: 1003
+clock: 0  i: 1004
+clock: 0  i: 1005
+clock: 0  i: 1006
+clock: 0  i: 1007
+clock: 0  i: 1008
+clock: 0  i: 1009
+clock: 0  i: 1010
+clock: 0  i: 1011
+clock: 0  i: 1012
+clock: 0  i: 1013
+clock: 0  i: 1014
+clock: 0  i: 1015
+clock: 0  i: 1016
+clock: 0  i: 1017
+clock: 0  i: 1018
+clock: 0  i: 1019
+clock: 0  i: 1020
+clock: 0  i: 1021
+clock: 0  i: 1022
+clock: 0  i: 1023
+clock: 0  i: 1024
+clock: 0  i: 1025
+clock: 0  i: 1026
+clock: 0  i: 1027
+clock: 0  i: 1028
+clock: 0  i: 1029
+clock: 0  i: 1030
+clock: 0  i: 1031
+clock: 0  i: 1032
+clock: 0  i: 1033
+clock: 0  i: 1034
+clock: 0  i: 1035
+clock: 0  i: 1036
+clock: 0  i: 1037
+clock: 0  i: 1038
+clock: 0  i: 1039
+clock: 0  i: 1040
+clock: 0  i: 1041
+clock: 0  i: 1042
+clock: 0.01  i: 1043
+clock: 0  i: 1044
+clock: 0  i: 1045
+clock: 0  i: 1046
+clock: 0  i: 1047
+clock: 0  i: 1048
+clock: 0  i: 1049
+clock: 0  i: 1050
+clock: 0  i: 1051
+clock: 0  i: 1052
+clock: 0  i: 1053
+clock: 0  i: 1054
+clock: 0  i: 1055
+clock: 0  i: 1056
+clock: 0  i: 1057
+clock: 0  i: 1058
+clock: 0  i: 1059
+clock: 0  i: 1060
+clock: 0  i: 1061
+clock: 0  i: 1062
+clock: 0  i: 1063
+clock: 0  i: 1064
+clock: 0  i: 1065
+clock: 0  i: 1066
+clock: 0  i: 1067
+clock: 0  i: 1068
+clock: 0  i: 1069
+clock: 0  i: 1070
+clock: 0  i: 1071
+clock: 0  i: 1072
+clock: 0  i: 1073
+clock: 0  i: 1074
+clock: 0  i: 1075
+clock: 0  i: 1076
+clock: 0  i: 1077
+clock: 0  i: 1078
+clock: 0  i: 1079
+clock: 0  i: 1080
+clock: 0  i: 1081
+clock: 0  i: 1082
+clock: 0.01  i: 1083
+clock: 0  i: 1084
+clock: 0  i: 1085
+clock: 0  i: 1086
+clock: 0  i: 1087
+clock: 0  i: 1088
+clock: 0  i: 1089
+clock: 0  i: 1090
+clock: 0  i: 1091
+clock: 0  i: 1092
+clock: 0  i: 1093
+clock: 0  i: 1094
+clock: 0  i: 1095
+clock: 0  i: 1096
+clock: 0  i: 1097
+clock: 0  i: 1098
+clock: 0  i: 1099
+clock: 0  i: 1100
+clock: 0  i: 1101
+clock: 0  i: 1102
+clock: 0  i: 1103
+clock: 0  i: 1104
+clock: 0  i: 1105
+clock: 0  i: 1106
+clock: 0  i: 1107
+clock: 0  i: 1108
+clock: 0  i: 1109
+clock: 0  i: 1110
+clock: 0  i: 1111
+clock: 0  i: 1112
+clock: 0  i: 1113
+clock: 0  i: 1114
+clock: 0  i: 1115
+clock: 0  i: 1116
+clock: 0  i: 1117
+clock: 0  i: 1118
+clock: 0  i: 1119
+clock: 0  i: 1120
+clock: 0  i: 1121
+clock: 0.01  i: 1122
+clock: 0  i: 1123
+clock: 0  i: 1124
+clock: 0  i: 1125
+clock: 0  i: 1126
+clock: 0  i: 1127
+clock: 0  i: 1128
+clock: 0  i: 1129
+clock: 0  i: 1130
+clock: 0  i: 1131
+clock: 0  i: 1132
+clock: 0  i: 1133
+clock: 0  i: 1134
+clock: 0  i: 1135
+clock: 0  i: 1136
+clock: 0  i: 1137
+clock: 0  i: 1138
+clock: 0  i: 1139
+clock: 0  i: 1140
+clock: 0  i: 1141
+clock: 0  i: 1142
+clock: 0  i: 1143
+clock: 0  i: 1144
+clock: 0  i: 1145
+clock: 0  i: 1146
+clock: 0  i: 1147
+clock: 0  i: 1148
+clock: 0  i: 1149
+clock: 0  i: 1150
+clock: 0  i: 1151
+clock: 0  i: 1152
+clock: 0  i: 1153
+clock: 0  i: 1154
+clock: 0  i: 1155
+clock: 0  i: 1156
+clock: 0  i: 1157
+clock: 0  i: 1158
+clock: 0.01  i: 1159
+clock: 0  i: 1160
+clock: 0  i: 1161
+clock: 0  i: 1162
+clock: 0  i: 1163
+clock: 0  i: 1164
+clock: 0  i: 1165
+clock: 0  i: 1166
+clock: 0  i: 1167
+clock: 0  i: 1168
+clock: 0  i: 1169
+clock: 0  i: 1170
+clock: 0  i: 1171
+clock: 0  i: 1172
+clock: 0  i: 1173
+clock: 0  i: 1174
+clock: 0  i: 1175
+clock: 0  i: 1176
+clock: 0  i: 1177
+clock: 0  i: 1178
+clock: 0  i: 1179
+clock: 0  i: 1180
+clock: 0  i: 1181
+clock: 0  i: 1182
+clock: 0  i: 1183
+clock: 0  i: 1184
+clock: 0  i: 1185
+clock: 0  i: 1186
+clock: 0  i: 1187
+clock: 0  i: 1188
+clock: 0  i: 1189
+clock: 0  i: 1190
+clock: 0  i: 1191
+clock: 0  i: 1192
+clock: 0  i: 1193
+clock: 0  i: 1194
+clock: 0  i: 1195
+clock: 0  i: 1196
+clock: 0  i: 1197
+clock: 0  i: 1198
+clock: 0  i: 1199
+clock: 0  i: 1200
+clock: 0  i: 1201
+clock: 0.01  i: 1202
+clock: 0  i: 1203
+clock: 0  i: 1204
+clock: 0  i: 1205
+clock: 0  i: 1206
+clock: 0  i: 1207
+clock: 0  i: 1208
+clock: 0  i: 1209
+clock: 0  i: 1210
+clock: 0  i: 1211
+clock: 0  i: 1212
+clock: 0  i: 1213
+clock: 0  i: 1214
+clock: 0  i: 1215
+clock: 0  i: 1216
+clock: 0  i: 1217
+clock: 0  i: 1218
+clock: 0  i: 1219
+clock: 0  i: 1220
+clock: 0  i: 1221
+clock: 0  i: 1222
+clock: 0  i: 1223
+clock: 0  i: 1224
+clock: 0  i: 1225
+clock: 0  i: 1226
+clock: 0  i: 1227
+clock: 0  i: 1228
+clock: 0  i: 1229
+clock: 0  i: 1230
+clock: 0  i: 1231
+clock: 0  i: 1232
+clock: 0  i: 1233
+clock: 0  i: 1234
+clock: 0  i: 1235
+clock: 0  i: 1236
+clock: 0  i: 1237
+clock: 0  i: 1238
+clock: 0  i: 1239
+clock: 0  i: 1240
+clock: 0  i: 1241
+clock: 0  i: 1242
+clock: 0  i: 1243
+clock: 0  i: 1244
+clock: 0  i: 1245
+clock: 0  i: 1246
+clock: 0  i: 1247
+clock: 0  i: 1248
+clock: 0  i: 1249
+clock: 0  i: 1250
+clock: 0  i: 1251
+clock: 0  i: 1252
+clock: 0  i: 1253
+clock: 0  i: 1254
+clock: 0  i: 1255
+clock: 0  i: 1256
+clock: 0  i: 1257
+clock: 0  i: 1258
+clock: 0  i: 1259
+clock: 0  i: 1260
+clock: 0  i: 1261
+clock: 0  i: 1262
+clock: 0  i: 1263
+clock: 0  i: 1264
+clock: 0  i: 1265
+clock: 0  i: 1266
+clock: 0  i: 1267
+clock: 0  i: 1268
+clock: 0  i: 1269
+clock: 0  i: 1270
+clock: 0  i: 1271
+clock: 0  i: 1272
+clock: 0  i: 1273
+clock: 0  i: 1274
+clock: 0  i: 1275
+clock: 0  i: 1276
+clock: 0  i: 1277
+clock: 0  i: 1278
+clock: 0  i: 1279
+clock: 0  i: 1280
+clock: 0  i: 1281
+clock: 0  i: 1282
+clock: 0  i: 1283
+clock: 0  i: 1284
+clock: 0.01  i: 1285
+clock: 0  i: 1286
+clock: 0  i: 1287
+clock: 0  i: 1288
+clock: 0  i: 1289
+clock: 0  i: 1290
+clock: 0  i: 1291
+clock: 0  i: 1292
+clock: 0  i: 1293
+clock: 0  i: 1294
+clock: 0  i: 1295
+clock: 0  i: 1296
+clock: 0  i: 1297
+clock: 0  i: 1298
+clock: 0  i: 1299
+clock: 0  i: 1300
+clock: 0  i: 1301
+clock: 0  i: 1302
+clock: 0  i: 1303
+clock: 0  i: 1304
+clock: 0  i: 1305
+clock: 0  i: 1306
+clock: 0  i: 1307
+clock: 0  i: 1308
+clock: 0  i: 1309
+clock: 0  i: 1310
+clock: 0  i: 1311
+clock: 0  i: 1312
+clock: 0  i: 1313
+clock: 0  i: 1314
+clock: 0  i: 1315
+clock: 0  i: 1316
+clock: 0  i: 1317
+clock: 0  i: 1318
+clock: 0  i: 1319
+clock: 0  i: 1320
+clock: 0  i: 1321
+clock: 0  i: 1322
+clock: 0  i: 1323
+clock: 0  i: 1324
+clock: 0  i: 1325
+clock: 0  i: 1326
+clock: 0  i: 1327
+clock: 0  i: 1328
+clock: 0  i: 1329
+clock: 0.01  i: 1330
+clock: 0  i: 1331
+clock: 0  i: 1332
+clock: 0  i: 1333
+clock: 0  i: 1334
+clock: 0  i: 1335
+clock: 0  i: 1336
+clock: 0  i: 1337
+clock: 0  i: 1338
+clock: 0  i: 1339
+clock: 0  i: 1340
+clock: 0  i: 1341
+clock: 0  i: 1342
+clock: 0  i: 1343
+clock: 0  i: 1344
+clock: 0  i: 1345
+clock: 0  i: 1346
+clock: 0  i: 1347
+clock: 0  i: 1348
+clock: 0  i: 1349
+clock: 0  i: 1350
+clock: 0  i: 1351
+clock: 0  i: 1352
+clock: 0  i: 1353
+clock: 0  i: 1354
+clock: 0  i: 1355
+clock: 0  i: 1356
+clock: 0  i: 1357
+clock: 0  i: 1358
+clock: 0  i: 1359
+clock: 0  i: 1360
+clock: 0  i: 1361
+clock: 0  i: 1362
+clock: 0  i: 1363
+clock: 0  i: 1364
+clock: 0  i: 1365
+clock: 0  i: 1366
+clock: 0  i: 1367
+clock: 0  i: 1368
+clock: 0  i: 1369
+clock: 0  i: 1370
+clock: 0  i: 1371
+clock: 0  i: 1372
+clock: 0  i: 1373
+clock: 0  i: 1374
+clock: 0.01  i: 1375
+clock: 0  i: 1376
+clock: 0  i: 1377
+clock: 0  i: 1378
+clock: 0  i: 1379
+clock: 0  i: 1380
+clock: 0  i: 1381
+clock: 0  i: 1382
+clock: 0  i: 1383
+clock: 0  i: 1384
+clock: 0  i: 1385
+clock: 0  i: 1386
+clock: 0  i: 1387
+clock: 0  i: 1388
+clock: 0  i: 1389
+clock: 0  i: 1390
+clock: 0  i: 1391
+clock: 0  i: 1392
+clock: 0  i: 1393
+clock: 0  i: 1394
+clock: 0  i: 1395
+clock: 0  i: 1396
+clock: 0  i: 1397
+clock: 0  i: 1398
+clock: 0  i: 1399
+clock: 0  i: 1400
+clock: 0  i: 1401
+clock: 0  i: 1402
+clock: 0  i: 1403
+clock: 0  i: 1404
+clock: 0  i: 1405
+clock: 0  i: 1406
+clock: 0  i: 1407
+clock: 0  i: 1408
+clock: 0  i: 1409
+clock: 0  i: 1410
+clock: 0  i: 1411
+clock: 0  i: 1412
+clock: 0  i: 1413
+clock: 0  i: 1414
+clock: 0  i: 1415
+clock: 0  i: 1416
+clock: 0  i: 1417
+clock: 0  i: 1418
+clock: 0  i: 1419
+clock: 0  i: 1420
+clock: 0  i: 1421
+clock: 0  i: 1422
+clock: 0  i: 1423
+clock: 0  i: 1424
+clock: 0  i: 1425
+clock: 0  i: 1426
+clock: 0.01  i: 1427
+clock: 0  i: 1428
+clock: 0  i: 1429
+clock: 0  i: 1430
+clock: 0  i: 1431
+clock: 0  i: 1432
+clock: 0  i: 1433
+clock: 0  i: 1434
+clock: 0  i: 1435
+clock: 0  i: 1436
+clock: 0  i: 1437
+clock: 0  i: 1438
+clock: 0  i: 1439
+clock: 0  i: 1440
+clock: 0  i: 1441
+clock: 0  i: 1442
+clock: 0  i: 1443
+clock: 0  i: 1444
+clock: 0  i: 1445
+clock: 0  i: 1446
+clock: 0  i: 1447
+clock: 0  i: 1448
+clock: 0  i: 1449
+clock: 0  i: 1450
+clock: 0  i: 1451
+clock: 0  i: 1452
+clock: 0  i: 1453
+clock: 0  i: 1454
+clock: 0  i: 1455
+clock: 0  i: 1456
+clock: 0  i: 1457
+clock: 0  i: 1458
+clock: 0  i: 1459
+clock: 0  i: 1460
+clock: 0  i: 1461
+clock: 0  i: 1462
+clock: 0  i: 1463
+clock: 0  i: 1464
+clock: 0  i: 1465
+clock: 0  i: 1466
+clock: 0  i: 1467
+clock: 0  i: 1468
+clock: 0  i: 1469
+clock: 0  i: 1470
+clock: 0  i: 1471
+clock: 0  i: 1472
+clock: 0  i: 1473
+clock: 0  i: 1474
+clock: 0  i: 1475
+clock: 0.01  i: 1476
+clock: 0  i: 1477
+clock: 0  i: 1478
+clock: 0  i: 1479
+clock: 0  i: 1480
+clock: 0  i: 1481
+clock: 0  i: 1482
+clock: 0  i: 1483
+clock: 0  i: 1484
+clock: 0  i: 1485
+clock: 0  i: 1486
+clock: 0  i: 1487
+clock: 0  i: 1488
+clock: 0  i: 1489
+clock: 0  i: 1490
+clock: 0  i: 1491
+clock: 0  i: 1492
+clock: 0  i: 1493
+clock: 0  i: 1494
+clock: 0  i: 1495
+clock: 0  i: 1496
+clock: 0  i: 1497
+clock: 0  i: 1498
+clock: 0  i: 1499
+clock: 0  i: 1500
+clock: 0  i: 1501
+clock: 0  i: 1502
+clock: 0  i: 1503
+clock: 0  i: 1504
+clock: 0  i: 1505
+clock: 0  i: 1506
+clock: 0  i: 1507
+clock: 0  i: 1508
+clock: 0  i: 1509
+clock: 0  i: 1510
+clock: 0  i: 1511
+clock: 0  i: 1512
+clock: 0  i: 1513
+clock: 0  i: 1514
+clock: 0  i: 1515
+clock: 0  i: 1516
+clock: 0  i: 1517
+clock: 0  i: 1518
+clock: 0  i: 1519
+clock: 0  i: 1520
+clock: 0  i: 1521
+clock: 0  i: 1522
+clock: 0  i: 1523
+clock: 0  i: 1524
+clock: 0  i: 1525
+clock: 0  i: 1526
+clock: 0.01  i: 1527
+clock: 0  i: 1528
+clock: 0  i: 1529
+clock: 0  i: 1530
+clock: 0  i: 1531
+clock: 0  i: 1532
+clock: 0  i: 1533
+clock: 0  i: 1534
+clock: 0  i: 1535
+clock: 0  i: 1536
+clock: 0  i: 1537
+clock: 0  i: 1538
+clock: 0  i: 1539
+clock: 0  i: 1540
+clock: 0  i: 1541
+clock: 0  i: 1542
+clock: 0  i: 1543
+clock: 0  i: 1544
+clock: 0  i: 1545
+clock: 0  i: 1546
+clock: 0  i: 1547
+clock: 0  i: 1548
+clock: 0  i: 1549
+clock: 0  i: 1550
+clock: 0  i: 1551
+clock: 0  i: 1552
+clock: 0  i: 1553
+clock: 0  i: 1554
+clock: 0  i: 1555
+clock: 0  i: 1556
+clock: 0  i: 1557
+clock: 0  i: 1558
+clock: 0  i: 1559
+clock: 0  i: 1560
+clock: 0  i: 1561
+clock: 0  i: 1562
+clock: 0  i: 1563
+clock: 0  i: 1564
+clock: 0  i: 1565
+clock: 0  i: 1566
+clock: 0  i: 1567
+clock: 0  i: 1568
+clock: 0  i: 1569
+clock: 0  i: 1570
+clock: 0  i: 1571
+clock: 0  i: 1572
+clock: 0  i: 1573
+clock: 0  i: 1574
+clock: 0  i: 1575
+clock: 0  i: 1576
+clock: 0  i: 1577
+clock: 0  i: 1578
+clock: 0.01  i: 1579
+clock: 0  i: 1580
+clock: 0  i: 1581
+clock: 0  i: 1582
+clock: 0  i: 1583
+clock: 0  i: 1584
+clock: 0  i: 1585
+clock: 0  i: 1586
+clock: 0  i: 1587
+clock: 0  i: 1588
+clock: 0  i: 1589
+clock: 0  i: 1590
+clock: 0  i: 1591
+clock: 0  i: 1592
+clock: 0  i: 1593
+clock: 0  i: 1594
+clock: 0  i: 1595
+clock: 0  i: 1596
+clock: 0  i: 1597
+clock: 0  i: 1598
+clock: 0  i: 1599
+clock: 0  i: 1600
+clock: 0  i: 1601
+clock: 0  i: 1602
+clock: 0  i: 1603
+clock: 0  i: 1604
+clock: 0  i: 1605
+clock: 0  i: 1606
+clock: 0  i: 1607
+clock: 0  i: 1608
+clock: 0  i: 1609
+clock: 0  i: 1610
+clock: 0  i: 1611
+clock: 0  i: 1612
+clock: 0  i: 1613
+clock: 0  i: 1614
+clock: 0  i: 1615
+clock: 0  i: 1616
+clock: 0  i: 1617
+clock: 0  i: 1618
+clock: 0  i: 1619
+clock: 0  i: 1620
+clock: 0  i: 1621
+clock: 0  i: 1622
+clock: 0  i: 1623
+clock: 0  i: 1624
+clock: 0  i: 1625
+clock: 0  i: 1626
+clock: 0  i: 1627
+clock: 0  i: 1628
+clock: 0  i: 1629
+clock: 0  i: 1630
+clock: 0  i: 1631
+clock: 0  i: 1632
+clock: 0  i: 1633
+clock: 0  i: 1634
+clock: 0.01  i: 1635
+clock: 0  i: 1636
+clock: 0  i: 1637
+clock: 0  i: 1638
+clock: 0  i: 1639
+clock: 0  i: 1640
+clock: 0  i: 1641
+clock: 0  i: 1642
+clock: 0  i: 1643
+clock: 0  i: 1644
+clock: 0  i: 1645
+clock: 0  i: 1646
+clock: 0  i: 1647
+clock: 0  i: 1648
+clock: 0  i: 1649
+clock: 0  i: 1650
+clock: 0  i: 1651
+clock: 0  i: 1652
+clock: 0  i: 1653
+clock: 0  i: 1654
+clock: 0  i: 1655
+clock: 0  i: 1656
+clock: 0  i: 1657
+clock: 0  i: 1658
+clock: 0  i: 1659
+clock: 0  i: 1660
+clock: 0  i: 1661
+clock: 0  i: 1662
+clock: 0  i: 1663
+clock: 0  i: 1664
+clock: 0  i: 1665
+clock: 0  i: 1666
+clock: 0  i: 1667
+clock: 0  i: 1668
+clock: 0  i: 1669
+clock: 0  i: 1670
+clock: 0  i: 1671
+clock: 0  i: 1672
+clock: 0  i: 1673
+clock: 0  i: 1674
+clock: 0  i: 1675
+clock: 0  i: 1676
+clock: 0  i: 1677
+clock: 0  i: 1678
+clock: 0  i: 1679
+clock: 0  i: 1680
+clock: 0  i: 1681
+clock: 0  i: 1682
+clock: 0  i: 1683
+clock: 0  i: 1684
+clock: 0  i: 1685
+clock: 0  i: 1686
+clock: 0  i: 1687
+clock: 0  i: 1688
+clock: 0  i: 1689
+clock: 0  i: 1690
+clock: 0  i: 1691
+clock: 0.01  i: 1692
+clock: 0  i: 1693
+clock: 0  i: 1694
+clock: 0  i: 1695
+clock: 0  i: 1696
+clock: 0  i: 1697
+clock: 0  i: 1698
+clock: 0  i: 1699
+clock: 0  i: 1700
+clock: 0  i: 1701
+clock: 0  i: 1702
+clock: 0  i: 1703
+clock: 0  i: 1704
+clock: 0  i: 1705
+clock: 0  i: 1706
+clock: 0  i: 1707
+clock: 0  i: 1708
+clock: 0  i: 1709
+clock: 0  i: 1710
+clock: 0  i: 1711
+clock: 0  i: 1712
+clock: 0  i: 1713
+clock: 0  i: 1714
+clock: 0  i: 1715
+clock: 0  i: 1716
+clock: 0  i: 1717
+clock: 0  i: 1718
+clock: 0  i: 1719
+clock: 0  i: 1720
+clock: 0  i: 1721
+clock: 0  i: 1722
+clock: 0  i: 1723
+clock: 0  i: 1724
+clock: 0  i: 1725
+clock: 0  i: 1726
+clock: 0  i: 1727
+clock: 0  i: 1728
+clock: 0  i: 1729
+clock: 0  i: 1730
+clock: 0  i: 1731
+clock: 0  i: 1732
+clock: 0  i: 1733
+clock: 0  i: 1734
+clock: 0  i: 1735
+clock: 0  i: 1736
+clock: 0  i: 1737
+clock: 0  i: 1738
+clock: 0  i: 1739
+clock: 0  i: 1740
+clock: 0  i: 1741
+clock: 0  i: 1742
+clock: 0  i: 1743
+clock: 0  i: 1744
+clock: 0  i: 1745
+clock: 0  i: 1746
+clock: 0  i: 1747
+clock: 0  i: 1748
+clock: 0.01  i: 1749
+clock: 0  i: 1750
+clock: 0  i: 1751
+clock: 0  i: 1752
+clock: 0  i: 1753
+clock: 0  i: 1754
+clock: 0  i: 1755
+clock: 0  i: 1756
+clock: 0  i: 1757
+clock: 0  i: 1758
+clock: 0  i: 1759
+clock: 0  i: 1760
+clock: 0  i: 1761
+clock: 0  i: 1762
+clock: 0  i: 1763
+clock: 0  i: 1764
+clock: 0  i: 1765
+clock: 0  i: 1766
+clock: 0  i: 1767
+clock: 0  i: 1768
+clock: 0  i: 1769
+clock: 0  i: 1770
+clock: 0  i: 1771
+clock: 0  i: 1772
+clock: 0  i: 1773
+clock: 0  i: 1774
+clock: 0  i: 1775
+clock: 0  i: 1776
+clock: 0  i: 1777
+clock: 0  i: 1778
+clock: 0  i: 1779
+clock: 0  i: 1780
+clock: 0  i: 1781
+clock: 0  i: 1782
+clock: 0  i: 1783
+clock: 0  i: 1784
+clock: 0  i: 1785
+clock: 0  i: 1786
+clock: 0  i: 1787
+clock: 0  i: 1788
+clock: 0  i: 1789
+clock: 0  i: 1790
+clock: 0  i: 1791
+clock: 0  i: 1792
+clock: 0  i: 1793
+clock: 0  i: 1794
+clock: 0  i: 1795
+clock: 0  i: 1796
+clock: 0  i: 1797
+clock: 0  i: 1798
+clock: 0  i: 1799
+clock: 0  i: 1800
+clock: 0.01  i: 1801
+clock: 0  i: 1802
+clock: 0  i: 1803
+clock: 0  i: 1804
+clock: 0  i: 1805
+clock: 0  i: 1806
+clock: 0  i: 1807
+clock: 0  i: 1808
+clock: 0  i: 1809
+clock: 0  i: 1810
+clock: 0  i: 1811
+clock: 0  i: 1812
+clock: 0  i: 1813
+clock: 0  i: 1814
+clock: 0  i: 1815
+clock: 0  i: 1816
+clock: 0  i: 1817
+clock: 0  i: 1818
+clock: 0  i: 1819
+clock: 0  i: 1820
+clock: 0  i: 1821
+clock: 0  i: 1822
+clock: 0  i: 1823
+clock: 0  i: 1824
+clock: 0  i: 1825
+clock: 0  i: 1826
+clock: 0  i: 1827
+clock: 0  i: 1828
+clock: 0  i: 1829
+clock: 0  i: 1830
+clock: 0  i: 1831
+clock: 0  i: 1832
+clock: 0  i: 1833
+clock: 0  i: 1834
+clock: 0  i: 1835
+clock: 0  i: 1836
+clock: 0  i: 1837
+clock: 0  i: 1838
+clock: 0  i: 1839
+clock: 0  i: 1840
+clock: 0  i: 1841
+clock: 0  i: 1842
+clock: 0  i: 1843
+clock: 0  i: 1844
+clock: 0  i: 1845
+clock: 0  i: 1846
+clock: 0  i: 1847
+clock: 0  i: 1848
+clock: 0  i: 1849
+clock: 0  i: 1850
+clock: 0  i: 1851
+clock: 0.01  i: 1852
+clock: 0  i: 1853
+clock: 0  i: 1854
+clock: 0  i: 1855
+clock: 0  i: 1856
+clock: 0  i: 1857
+clock: 0  i: 1858
+clock: 0  i: 1859
+clock: 0  i: 1860
+clock: 0  i: 1861
+clock: 0  i: 1862
+clock: 0  i: 1863
+clock: 0  i: 1864
+clock: 0  i: 1865
+clock: 0  i: 1866
+clock: 0  i: 1867
+clock: 0  i: 1868
+clock: 0  i: 1869
+clock: 0  i: 1870
+clock: 0  i: 1871
+clock: 0  i: 1872
+clock: 0  i: 1873
+clock: 0  i: 1874
+clock: 0  i: 1875
+clock: 0  i: 1876
+clock: 0  i: 1877
+clock: 0  i: 1878
+clock: 0  i: 1879
+clock: 0  i: 1880
+clock: 0  i: 1881
+clock: 0  i: 1882
+clock: 0  i: 1883
+clock: 0  i: 1884
+clock: 0  i: 1885
+clock: 0  i: 1886
+clock: 0  i: 1887
+clock: 0  i: 1888
+clock: 0  i: 1889
+clock: 0  i: 1890
+clock: 0  i: 1891
+clock: 0  i: 1892
+clock: 0  i: 1893
+clock: 0  i: 1894
+clock: 0  i: 1895
+clock: 0  i: 1896
+clock: 0  i: 1897
+clock: 0  i: 1898
+clock: 0  i: 1899
+clock: 0  i: 1900
+clock: 0  i: 1901
+clock: 0  i: 1902
+clock: 0  i: 1903
+clock: 0.01  i: 1904
+clock: 0  i: 1905
+clock: 0  i: 1906
+clock: 0  i: 1907
+clock: 0  i: 1908
+clock: 0  i: 1909
+clock: 0  i: 1910
+clock: 0  i: 1911
+clock: 0  i: 1912
+clock: 0  i: 1913
+clock: 0  i: 1914
+clock: 0  i: 1915
+clock: 0  i: 1916
+clock: 0  i: 1917
+clock: 0  i: 1918
+clock: 0  i: 1919
+clock: 0  i: 1920
+clock: 0  i: 1921
+clock: 0  i: 1922
+clock: 0  i: 1923
+clock: 0  i: 1924
+clock: 0  i: 1925
+clock: 0  i: 1926
+clock: 0  i: 1927
+clock: 0  i: 1928
+clock: 0  i: 1929
+clock: 0  i: 1930
+clock: 0  i: 1931
+clock: 0  i: 1932
+clock: 0  i: 1933
+clock: 0  i: 1934
+clock: 0  i: 1935
+clock: 0  i: 1936
+clock: 0  i: 1937
+clock: 0  i: 1938
+clock: 0  i: 1939
+clock: 0  i: 1940
+clock: 0  i: 1941
+clock: 0  i: 1942
+clock: 0  i: 1943
+clock: 0  i: 1944
+clock: 0  i: 1945
+clock: 0  i: 1946
+clock: 0  i: 1947
+clock: 0  i: 1948
+clock: 0  i: 1949
+clock: 0  i: 1950
+clock: 0  i: 1951
+clock: 0  i: 1952
+clock: 0  i: 1953
+clock: 0  i: 1954
+clock: 0  i: 1955
+clock: 0  i: 1956
+clock: 0  i: 1957
+clock: 0.01  i: 1958
+clock: 0  i: 1959
+clock: 0  i: 1960
+clock: 0  i: 1961
+clock: 0  i: 1962
+clock: 0  i: 1963
+clock: 0  i: 1964
+clock: 0  i: 1965
+clock: 0  i: 1966
+clock: 0  i: 1967
+clock: 0  i: 1968
+clock: 0  i: 1969
+clock: 0  i: 1970
+clock: 0  i: 1971
+clock: 0  i: 1972
+clock: 0  i: 1973
+clock: 0  i: 1974
+clock: 0  i: 1975
+clock: 0  i: 1976
+clock: 0  i: 1977
+clock: 0  i: 1978
+clock: 0  i: 1979
+clock: 0  i: 1980
+clock: 0  i: 1981
+clock: 0  i: 1982
+clock: 0  i: 1983
+clock: 0  i: 1984
+clock: 0  i: 1985
+clock: 0  i: 1986
+clock: 0  i: 1987
+clock: 0  i: 1988
+clock: 0  i: 1989
+clock: 0  i: 1990
+clock: 0  i: 1991
+clock: 0  i: 1992
+clock: 0  i: 1993
+clock: 0  i: 1994
+clock: 0  i: 1995
+clock: 0  i: 1996
+clock: 0  i: 1997
+clock: 0  i: 1998
+clock: 0  i: 1999
+clock: 0  i: 2000
+clock: 0  i: 2001
+clock: 0  i: 2002
+clock: 0  i: 2003
+clock: 0  i: 2004
+clock: 0  i: 2005
+clock: 0  i: 2006
+clock: 0  i: 2007
+clock: 0  i: 2008
+clock: 0  i: 2009
+clock: 0  i: 2010
+clock: 0  i: 2011
+clock: 0  i: 2012
+clock: 0  i: 2013
+clock: 0  i: 2014
+clock: 0  i: 2015
+clock: 0  i: 2016
+clock: 0.01  i: 2017
+clock: 0  i: 2018
+clock: 0  i: 2019
+clock: 0  i: 2020
+clock: 0  i: 2021
+clock: 0  i: 2022
+clock: 0  i: 2023
+clock: 0  i: 2024
+clock: 0  i: 2025
+clock: 0  i: 2026
+clock: 0  i: 2027
+clock: 0  i: 2028
+clock: 0  i: 2029
+clock: 0  i: 2030
+clock: 0  i: 2031
+clock: 0  i: 2032
+clock: 0  i: 2033
+clock: 0  i: 2034
+clock: 0  i: 2035
+clock: 0  i: 2036
+clock: 0  i: 2037
+clock: 0  i: 2038
+clock: 0  i: 2039
+clock: 0  i: 2040
+clock: 0  i: 2041
+clock: 0  i: 2042
+clock: 0  i: 2043
+clock: 0  i: 2044
+clock: 0  i: 2045
+clock: 0  i: 2046
+clock: 0  i: 2047
+clock: 0  i: 2048
+clock: 0  i: 2049
+clock: 0  i: 2050
+clock: 0  i: 2051
+clock: 0  i: 2052
+clock: 0  i: 2053
+clock: 0  i: 2054
+clock: 0  i: 2055
+clock: 0  i: 2056
+clock: 0  i: 2057
+clock: 0  i: 2058
+clock: 0  i: 2059
+clock: 0  i: 2060
+clock: 0  i: 2061
+clock: 0  i: 2062
+clock: 0  i: 2063
+clock: 0  i: 2064
+clock: 0  i: 2065
+clock: 0  i: 2066
+clock: 0  i: 2067
+clock: 0  i: 2068
+clock: 0  i: 2069
+clock: 0  i: 2070
+clock: 0  i: 2071
+clock: 0  i: 2072
+clock: 0  i: 2073
+clock: 0  i: 2074
+clock: 0  i: 2075
+clock: 0.01  i: 2076
+clock: 0  i: 2077
+clock: 0  i: 2078
+clock: 0  i: 2079
+clock: 0  i: 2080
+clock: 0  i: 2081
+clock: 0  i: 2082
+clock: 0  i: 2083
+clock: 0  i: 2084
+clock: 0  i: 2085
+clock: 0  i: 2086
+clock: 0  i: 2087
+clock: 0  i: 2088
+clock: 0  i: 2089
+clock: 0  i: 2090
+clock: 0  i: 2091
+clock: 0  i: 2092
+clock: 0  i: 2093
+clock: 0  i: 2094
+clock: 0  i: 2095
+clock: 0  i: 2096
+clock: 0  i: 2097
+clock: 0  i: 2098
+clock: 0  i: 2099
+clock: 0  i: 2100
+clock: 0  i: 2101
+clock: 0  i: 2102
+clock: 0  i: 2103
+clock: 0  i: 2104
+clock: 0  i: 2105
+clock: 0  i: 2106
+clock: 0  i: 2107
+clock: 0  i: 2108
+clock: 0  i: 2109
+clock: 0  i: 2110
+clock: 0  i: 2111
+clock: 0  i: 2112
+clock: 0  i: 2113
+clock: 0  i: 2114
+clock: 0  i: 2115
+clock: 0  i: 2116
+clock: 0  i: 2117
+clock: 0  i: 2118
+clock: 0  i: 2119
+clock: 0  i: 2120
+clock: 0  i: 2121
+clock: 0  i: 2122
+clock: 0  i: 2123
+clock: 0  i: 2124
+clock: 0  i: 2125
+clock: 0  i: 2126
+clock: 0  i: 2127
+clock: 0  i: 2128
+clock: 0  i: 2129
+clock: 0  i: 2130
+clock: 0  i: 2131
+clock: 0  i: 2132
+clock: 0  i: 2133
+clock: 0  i: 2134
+clock: 0  i: 2135
+clock: 0.01  i: 2136
+clock: 0  i: 2137
+clock: 0  i: 2138
+clock: 0  i: 2139
+clock: 0  i: 2140
+clock: 0  i: 2141
+clock: 0  i: 2142
+clock: 0  i: 2143
+clock: 0  i: 2144
+clock: 0  i: 2145
+clock: 0  i: 2146
+clock: 0  i: 2147
+clock: 0  i: 2148
+clock: 0  i: 2149
+clock: 0  i: 2150
+clock: 0  i: 2151
+clock: 0  i: 2152
+clock: 0  i: 2153
+clock: 0  i: 2154
+clock: 0  i: 2155
+clock: 0  i: 2156
+clock: 0  i: 2157
+clock: 0  i: 2158
+clock: 0  i: 2159
+clock: 0  i: 2160
+clock: 0  i: 2161
+clock: 0  i: 2162
+clock: 0  i: 2163
+clock: 0  i: 2164
+clock: 0  i: 2165
+clock: 0  i: 2166
+clock: 0  i: 2167
+clock: 0  i: 2168
+clock: 0  i: 2169
+clock: 0  i: 2170
+clock: 0  i: 2171
+clock: 0  i: 2172
+clock: 0  i: 2173
+clock: 0  i: 2174
+clock: 0  i: 2175
+clock: 0  i: 2176
+clock: 0  i: 2177
+clock: 0  i: 2178
+clock: 0  i: 2179
+clock: 0  i: 2180
+clock: 0  i: 2181
+clock: 0  i: 2182
+clock: 0  i: 2183
+clock: 0  i: 2184
+clock: 0  i: 2185
+clock: 0  i: 2186
+clock: 0  i: 2187
+clock: 0  i: 2188
+clock: 0  i: 2189
+clock: 0  i: 2190
+clock: 0  i: 2191
+clock: 0  i: 2192
+clock: 0  i: 2193
+clock: 0  i: 2194
+clock: 0  i: 2195
+clock: 0  i: 2196
+clock: 0  i: 2197
+clock: 0  i: 2198
+clock: 0.01  i: 2199
+clock: 0  i: 2200
+clock: 0  i: 2201
+clock: 0  i: 2202
+clock: 0  i: 2203
+clock: 0  i: 2204
+clock: 0  i: 2205
+clock: 0  i: 2206
+clock: 0  i: 2207
+clock: 0  i: 2208
+clock: 0  i: 2209
+clock: 0  i: 2210
+clock: 0  i: 2211
+clock: 0  i: 2212
+clock: 0  i: 2213
+clock: 0  i: 2214
+clock: 0  i: 2215
+clock: 0  i: 2216
+clock: 0  i: 2217
+clock: 0  i: 2218
+clock: 0  i: 2219
+clock: 0  i: 2220
+clock: 0  i: 2221
+clock: 0  i: 2222
+clock: 0  i: 2223
+clock: 0  i: 2224
+clock: 0  i: 2225
+clock: 0  i: 2226
+clock: 0  i: 2227
+clock: 0  i: 2228
+clock: 0  i: 2229
+clock: 0  i: 2230
+clock: 0  i: 2231
+clock: 0  i: 2232
+clock: 0  i: 2233
+clock: 0  i: 2234
+clock: 0  i: 2235
+clock: 0  i: 2236
+clock: 0  i: 2237
+clock: 0  i: 2238
+clock: 0  i: 2239
+clock: 0  i: 2240
+clock: 0  i: 2241
+clock: 0  i: 2242
+clock: 0  i: 2243
+clock: 0  i: 2244
+clock: 0  i: 2245
+clock: 0  i: 2246
+clock: 0  i: 2247
+clock: 0  i: 2248
+clock: 0  i: 2249
+clock: 0  i: 2250
+clock: 0  i: 2251
+clock: 0  i: 2252
+clock: 0.01  i: 2253
+clock: 0  i: 2254
+clock: 0  i: 2255
+clock: 0  i: 2256
+clock: 0  i: 2257
+clock: 0  i: 2258
+clock: 0  i: 2259
+clock: 0  i: 2260
+clock: 0  i: 2261
+clock: 0  i: 2262
+clock: 0  i: 2263
+clock: 0  i: 2264
+clock: 0  i: 2265
+clock: 0  i: 2266
+clock: 0  i: 2267
+clock: 0  i: 2268
+clock: 0  i: 2269
+clock: 0  i: 2270
+clock: 0  i: 2271
+clock: 0  i: 2272
+clock: 0  i: 2273
+clock: 0  i: 2274
+clock: 0  i: 2275
+clock: 0  i: 2276
+clock: 0  i: 2277
+clock: 0  i: 2278
+clock: 0  i: 2279
+clock: 0  i: 2280
+clock: 0  i: 2281
+clock: 0  i: 2282
+clock: 0  i: 2283
+clock: 0  i: 2284
+clock: 0  i: 2285
+clock: 0  i: 2286
+clock: 0  i: 2287
+clock: 0  i: 2288
+clock: 0  i: 2289
+clock: 0  i: 2290
+clock: 0  i: 2291
+clock: 0  i: 2292
+clock: 0  i: 2293
+clock: 0  i: 2294
+clock: 0  i: 2295
+clock: 0  i: 2296
+clock: 0  i: 2297
+clock: 0  i: 2298
+clock: 0  i: 2299
+clock: 0  i: 2300
+clock: 0  i: 2301
+clock: 0  i: 2302
+clock: 0  i: 2303
+clock: 0.01  i: 2304
+clock: 0  i: 2305
+clock: 0  i: 2306
+clock: 0  i: 2307
+clock: 0  i: 2308
+clock: 0  i: 2309
+clock: 0  i: 2310
+clock: 0  i: 2311
+clock: 0  i: 2312
+clock: 0  i: 2313
+clock: 0  i: 2314
+clock: 0  i: 2315
+clock: 0  i: 2316
+clock: 0  i: 2317
+clock: 0  i: 2318
+clock: 0  i: 2319
+clock: 0  i: 2320
+clock: 0  i: 2321
+clock: 0  i: 2322
+clock: 0  i: 2323
+clock: 0  i: 2324
+clock: 0  i: 2325
+clock: 0  i: 2326
+clock: 0  i: 2327
+clock: 0  i: 2328
+clock: 0  i: 2329
+clock: 0  i: 2330
+clock: 0  i: 2331
+clock: 0  i: 2332
+clock: 0  i: 2333
+clock: 0  i: 2334
+clock: 0  i: 2335
+clock: 0  i: 2336
+clock: 0  i: 2337
+clock: 0  i: 2338
+clock: 0  i: 2339
+clock: 0  i: 2340
+clock: 0  i: 2341
+clock: 0  i: 2342
+clock: 0  i: 2343
+clock: 0  i: 2344
+clock: 0  i: 2345
+clock: 0  i: 2346
+clock: 0  i: 2347
+clock: 0  i: 2348
+clock: 0  i: 2349
+clock: 0  i: 2350
+clock: 0  i: 2351
+clock: 0  i: 2352
+clock: 0.01  i: 2353
+clock: 0  i: 2354
+clock: 0  i: 2355
+clock: 0  i: 2356
+clock: 0  i: 2357
+clock: 0  i: 2358
+clock: 0  i: 2359
+clock: 0  i: 2360
+clock: 0  i: 2361
+clock: 0  i: 2362
+clock: 0  i: 2363
+clock: 0  i: 2364
+clock: 0  i: 2365
+clock: 0  i: 2366
+clock: 0  i: 2367
+clock: 0  i: 2368
+clock: 0  i: 2369
+clock: 0  i: 2370
+clock: 0  i: 2371
+clock: 0  i: 2372
+clock: 0  i: 2373
+clock: 0  i: 2374
+clock: 0  i: 2375
+clock: 0  i: 2376
+clock: 0  i: 2377
+clock: 0  i: 2378
+clock: 0  i: 2379
+clock: 0  i: 2380
+clock: 0  i: 2381
+clock: 0  i: 2382
+clock: 0  i: 2383
+clock: 0  i: 2384
+clock: 0  i: 2385
+clock: 0  i: 2386
+clock: 0  i: 2387
+clock: 0  i: 2388
+clock: 0  i: 2389
+clock: 0  i: 2390
+clock: 0  i: 2391
+clock: 0  i: 2392
+clock: 0  i: 2393
+clock: 0  i: 2394
+clock: 0  i: 2395
+clock: 0  i: 2396
+clock: 0  i: 2397
+clock: 0  i: 2398
+clock: 0  i: 2399
+clock: 0  i: 2400
+clock: 0  i: 2401
+clock: 0  i: 2402
+clock: 0  i: 2403
+clock: 0  i: 2404
+clock: 0  i: 2405
+clock: 0.01  i: 2406
+clock: 0  i: 2407
+clock: 0  i: 2408
+clock: 0  i: 2409
+clock: 0  i: 2410
+clock: 0  i: 2411
+clock: 0  i: 2412
+clock: 0  i: 2413
+clock: 0  i: 2414
+clock: 0  i: 2415
+clock: 0  i: 2416
+clock: 0  i: 2417
+clock: 0  i: 2418
+clock: 0  i: 2419
+clock: 0  i: 2420
+clock: 0  i: 2421
+clock: 0  i: 2422
+clock: 0  i: 2423
+clock: 0  i: 2424
+clock: 0  i: 2425
+clock: 0  i: 2426
+clock: 0  i: 2427
+clock: 0  i: 2428
+clock: 0  i: 2429
+clock: 0  i: 2430
+clock: 0  i: 2431
+clock: 0  i: 2432
+clock: 0  i: 2433
+clock: 0  i: 2434
+clock: 0  i: 2435
+clock: 0  i: 2436
+clock: 0  i: 2437
+clock: 0  i: 2438
+clock: 0  i: 2439
+clock: 0  i: 2440
+clock: 0  i: 2441
+clock: 0  i: 2442
+clock: 0  i: 2443
+clock: 0  i: 2444
+clock: 0  i: 2445
+clock: 0  i: 2446
+clock: 0  i: 2447
+clock: 0  i: 2448
+clock: 0  i: 2449
+clock: 0  i: 2450
+clock: 0  i: 2451
+clock: 0  i: 2452
+clock: 0  i: 2453
+clock: 0  i: 2454
+clock: 0  i: 2455
+clock: 0  i: 2456
+clock: 0  i: 2457
+clock: 0  i: 2458
+clock: 0  i: 2459
+clock: 0  i: 2460
+clock: 0.01  i: 2461
+clock: 0  i: 2462
+clock: 0  i: 2463
+clock: 0  i: 2464
+clock: 0  i: 2465
+clock: 0  i: 2466
+clock: 0  i: 2467
+clock: 0  i: 2468
+clock: 0  i: 2469
+clock: 0  i: 2470
+clock: 0  i: 2471
+clock: 0  i: 2472
+clock: 0  i: 2473
+clock: 0  i: 2474
+clock: 0  i: 2475
+clock: 0  i: 2476
+clock: 0  i: 2477
+clock: 0  i: 2478
+clock: 0  i: 2479
+clock: 0  i: 2480
+clock: 0  i: 2481
+clock: 0  i: 2482
+clock: 0  i: 2483
+clock: 0  i: 2484
+clock: 0  i: 2485
+clock: 0  i: 2486
+clock: 0  i: 2487
+clock: 0  i: 2488
+clock: 0  i: 2489
+clock: 0  i: 2490
+clock: 0  i: 2491
+clock: 0  i: 2492
+clock: 0  i: 2493
+clock: 0  i: 2494
+clock: 0  i: 2495
+clock: 0  i: 2496
+clock: 0  i: 2497
+clock: 0  i: 2498
+clock: 0  i: 2499
+clock: 0  i: 2500
+clock: 0  i: 2501
+clock: 0  i: 2502
+clock: 0  i: 2503
+clock: 0  i: 2504
+clock: 0  i: 2505
+clock: 0  i: 2506
+clock: 0  i: 2507
+clock: 0  i: 2508
+clock: 0  i: 2509
+clock: 0  i: 2510
+clock: 0  i: 2511
+clock: 0  i: 2512
+clock: 0  i: 2513
+clock: 0  i: 2514
+clock: 0  i: 2515
+clock: 0  i: 2516
+clock: 0  i: 2517
+clock: 0.01  i: 2518
+clock: 0  i: 2519
+clock: 0  i: 2520
+clock: 0  i: 2521
+clock: 0  i: 2522
+clock: 0  i: 2523
+clock: 0  i: 2524
+clock: 0  i: 2525
+clock: 0  i: 2526
+clock: 0  i: 2527
+clock: 0  i: 2528
+clock: 0  i: 2529
+clock: 0  i: 2530
+clock: 0  i: 2531
+clock: 0  i: 2532
+clock: 0  i: 2533
+clock: 0  i: 2534
+clock: 0  i: 2535
+clock: 0  i: 2536
+clock: 0  i: 2537
+clock: 0  i: 2538
+clock: 0  i: 2539
+clock: 0  i: 2540
+clock: 0  i: 2541
+clock: 0  i: 2542
+clock: 0  i: 2543
+clock: 0  i: 2544
+clock: 0  i: 2545
+clock: 0  i: 2546
+clock: 0  i: 2547
+clock: 0  i: 2548
+clock: 0  i: 2549
+clock: 0  i: 2550
+clock: 0  i: 2551
+clock: 0  i: 2552
+clock: 0  i: 2553
+clock: 0  i: 2554
+clock: 0  i: 2555
+clock: 0  i: 2556
+clock: 0  i: 2557
+clock: 0  i: 2558
+clock: 0  i: 2559
+clock: 0  i: 2560
+clock: 0  i: 2561
+clock: 0  i: 2562
+clock: 0  i: 2563
+clock: 0  i: 2564
+clock: 0  i: 2565
+clock: 0  i: 2566
+clock: 0  i: 2567
+clock: 0  i: 2568
+clock: 0  i: 2569
+clock: 0  i: 2570
+clock: 0  i: 2571
+clock: 0  i: 2572
+clock: 0  i: 2573
+clock: 0  i: 2574
+clock: 0  i: 2575
+clock: 0  i: 2576
+clock: 0  i: 2577
+clock: 0.01  i: 2578
+clock: 0  i: 2579
+clock: 0  i: 2580
+clock: 0  i: 2581
+clock: 0  i: 2582
+clock: 0  i: 2583
+clock: 0  i: 2584
+clock: 0  i: 2585
+clock: 0  i: 2586
+clock: 0  i: 2587
+clock: 0  i: 2588
+clock: 0  i: 2589
+clock: 0  i: 2590
+clock: 0  i: 2591
+clock: 0  i: 2592
+clock: 0  i: 2593
+clock: 0  i: 2594
+clock: 0  i: 2595
+clock: 0  i: 2596
+clock: 0  i: 2597
+clock: 0  i: 2598
+clock: 0  i: 2599
+clock: 0  i: 2600
+clock: 0  i: 2601
+clock: 0  i: 2602
+clock: 0  i: 2603
+clock: 0  i: 2604
+clock: 0  i: 2605
+clock: 0  i: 2606
+clock: 0  i: 2607
+clock: 0  i: 2608
+clock: 0  i: 2609
+clock: 0  i: 2610
+clock: 0  i: 2611
+clock: 0  i: 2612
+clock: 0  i: 2613
+clock: 0  i: 2614
+clock: 0  i: 2615
+clock: 0  i: 2616
+clock: 0  i: 2617
+clock: 0  i: 2618
+clock: 0  i: 2619
+clock: 0  i: 2620
+clock: 0  i: 2621
+clock: 0  i: 2622
+clock: 0  i: 2623
+clock: 0  i: 2624
+clock: 0  i: 2625
+clock: 0  i: 2626
+clock: 0  i: 2627
+clock: 0  i: 2628
+clock: 0  i: 2629
+clock: 0.01  i: 2630
+clock: 0  i: 2631
+clock: 0  i: 2632
+clock: 0  i: 2633
+clock: 0  i: 2634
+clock: 0  i: 2635
+clock: 0  i: 2636
+clock: 0  i: 2637
+clock: 0  i: 2638
+clock: 0  i: 2639
+clock: 0  i: 2640
+clock: 0  i: 2641
+clock: 0  i: 2642
+clock: 0  i: 2643
+clock: 0  i: 2644
+clock: 0  i: 2645
+clock: 0  i: 2646
+clock: 0  i: 2647
+clock: 0  i: 2648
+clock: 0  i: 2649
+clock: 0  i: 2650
+clock: 0  i: 2651
+clock: 0  i: 2652
+clock: 0  i: 2653
+clock: 0  i: 2654
+clock: 0  i: 2655
+clock: 0  i: 2656
+clock: 0  i: 2657
+clock: 0  i: 2658
+clock: 0  i: 2659
+clock: 0  i: 2660
+clock: 0  i: 2661
+clock: 0  i: 2662
+clock: 0  i: 2663
+clock: 0  i: 2664
+clock: 0  i: 2665
+clock: 0  i: 2666
+clock: 0.01  i: 2667
+clock: 0  i: 2668
+clock: 0  i: 2669
+clock: 0  i: 2670
+clock: 0  i: 2671
+clock: 0  i: 2672
+clock: 0  i: 2673
+clock: 0  i: 2674
+clock: 0  i: 2675
+clock: 0  i: 2676
+clock: 0  i: 2677
+clock: 0  i: 2678
+clock: 0  i: 2679
+clock: 0  i: 2680
+clock: 0  i: 2681
+clock: 0  i: 2682
+clock: 0  i: 2683
+clock: 0  i: 2684
+clock: 0  i: 2685
+clock: 0  i: 2686
+clock: 0  i: 2687
+clock: 0  i: 2688
+clock: 0  i: 2689
+clock: 0  i: 2690
+clock: 0  i: 2691
+clock: 0  i: 2692
+clock: 0  i: 2693
+clock: 0  i: 2694
+clock: 0  i: 2695
+clock: 0  i: 2696
+clock: 0  i: 2697
+clock: 0  i: 2698
+clock: 0  i: 2699
+clock: 0  i: 2700
+clock: 0  i: 2701
+clock: 0  i: 2702
+clock: 0  i: 2703
+clock: 0  i: 2704
+clock: 0  i: 2705
+clock: 0  i: 2706
+clock: 0  i: 2707
+clock: 0  i: 2708
+clock: 0  i: 2709
+clock: 0  i: 2710
+clock: 0  i: 2711
+clock: 0.01  i: 2712
+clock: 0  i: 2713
+clock: 0  i: 2714
+clock: 0  i: 2715
+clock: 0  i: 2716
+clock: 0  i: 2717
+clock: 0  i: 2718
+clock: 0  i: 2719
+clock: 0  i: 2720
+clock: 0  i: 2721
+clock: 0  i: 2722
+clock: 0  i: 2723
+clock: 0  i: 2724
+clock: 0  i: 2725
+clock: 0  i: 2726
+clock: 0  i: 2727
+clock: 0  i: 2728
+clock: 0  i: 2729
+clock: 0  i: 2730
+clock: 0  i: 2731
+clock: 0  i: 2732
+clock: 0  i: 2733
+clock: 0  i: 2734
+clock: 0  i: 2735
+clock: 0  i: 2736
+clock: 0  i: 2737
+clock: 0  i: 2738
+clock: 0  i: 2739
+clock: 0  i: 2740
+clock: 0  i: 2741
+clock: 0  i: 2742
+clock: 0  i: 2743
+clock: 0  i: 2744
+clock: 0  i: 2745
+clock: 0  i: 2746
+clock: 0  i: 2747
+clock: 0  i: 2748
+clock: 0  i: 2749
+clock: 0  i: 2750
+clock: 0  i: 2751
+clock: 0.01  i: 2752
+clock: 0  i: 2753
+clock: 0  i: 2754
+clock: 0  i: 2755
+clock: 0  i: 2756
+clock: 0  i: 2757
+clock: 0  i: 2758
+clock: 0  i: 2759
+clock: 0  i: 2760
+clock: 0  i: 2761
+clock: 0  i: 2762
+clock: 0  i: 2763
+clock: 0  i: 2764
+clock: 0  i: 2765
+clock: 0  i: 2766
+clock: 0  i: 2767
+clock: 0  i: 2768
+clock: 0  i: 2769
+clock: 0  i: 2770
+clock: 0  i: 2771
+clock: 0  i: 2772
+clock: 0  i: 2773
+clock: 0  i: 2774
+clock: 0  i: 2775
+clock: 0  i: 2776
+clock: 0  i: 2777
+clock: 0  i: 2778
+clock: 0  i: 2779
+clock: 0  i: 2780
+clock: 0  i: 2781
+clock: 0  i: 2782
+clock: 0  i: 2783
+clock: 0  i: 2784
+clock: 0  i: 2785
+clock: 0  i: 2786
+clock: 0  i: 2787
+clock: 0  i: 2788
+clock: 0  i: 2789
+clock: 0  i: 2790
+clock: 0  i: 2791
+clock: 0.01  i: 2792
+clock: 0  i: 2793
+clock: 0  i: 2794
+clock: 0  i: 2795
+clock: 0  i: 2796
+clock: 0  i: 2797
+clock: 0  i: 2798
+clock: 0  i: 2799
+clock: 0  i: 2800
+clock: 0  i: 2801
+clock: 0  i: 2802
+clock: 0  i: 2803
+clock: 0  i: 2804
+clock: 0  i: 2805
+clock: 0  i: 2806
+clock: 0  i: 2807
+clock: 0  i: 2808
+clock: 0  i: 2809
+clock: 0  i: 2810
+clock: 0  i: 2811
+clock: 0  i: 2812
+clock: 0  i: 2813
+clock: 0  i: 2814
+clock: 0  i: 2815
+clock: 0  i: 2816
+clock: 0  i: 2817
+clock: 0  i: 2818
+clock: 0  i: 2819
+clock: 0  i: 2820
+clock: 0  i: 2821
+clock: 0  i: 2822
+clock: 0  i: 2823
+clock: 0  i: 2824
+clock: 0  i: 2825
+clock: 0  i: 2826
+clock: 0  i: 2827
+clock: 0  i: 2828
+clock: 0  i: 2829
+clock: 0  i: 2830
+clock: 0  i: 2831
+clock: 0  i: 2832
+clock: 0.01  i: 2833
+clock: 0  i: 2834
+clock: 0  i: 2835
+clock: 0  i: 2836
+clock: 0  i: 2837
+clock: 0  i: 2838
+clock: 0  i: 2839
+clock: 0  i: 2840
+clock: 0  i: 2841
+clock: 0  i: 2842
+clock: 0  i: 2843
+clock: 0  i: 2844
+clock: 0  i: 2845
+clock: 0  i: 2846
+clock: 0  i: 2847
+clock: 0  i: 2848
+clock: 0  i: 2849
+clock: 0  i: 2850
+clock: 0  i: 2851
+clock: 0  i: 2852
+clock: 0  i: 2853
+clock: 0  i: 2854
+clock: 0  i: 2855
+clock: 0  i: 2856
+clock: 0  i: 2857
+clock: 0  i: 2858
+clock: 0  i: 2859
+clock: 0  i: 2860
+clock: 0  i: 2861
+clock: 0  i: 2862
+clock: 0  i: 2863
+clock: 0  i: 2864
+clock: 0  i: 2865
+clock: 0  i: 2866
+clock: 0  i: 2867
+clock: 0  i: 2868
+clock: 0  i: 2869
+clock: 0  i: 2870
+clock: 0  i: 2871
+clock: 0  i: 2872
+clock: 0  i: 2873
+clock: 0  i: 2874
+clock: 0  i: 2875
+clock: 0  i: 2876
+clock: 0  i: 2877
+clock: 0.01  i: 2878
+clock: 0  i: 2879
+clock: 0  i: 2880
+clock: 0  i: 2881
+clock: 0  i: 2882
+clock: 0  i: 2883
+clock: 0  i: 2884
+clock: 0  i: 2885
+clock: 0  i: 2886
+clock: 0  i: 2887
+clock: 0  i: 2888
+clock: 0  i: 2889
+clock: 0  i: 2890
+clock: 0  i: 2891
+clock: 0  i: 2892
+clock: 0  i: 2893
+clock: 0  i: 2894
+clock: 0  i: 2895
+clock: 0  i: 2896
+clock: 0  i: 2897
+clock: 0  i: 2898
+clock: 0  i: 2899
+clock: 0  i: 2900
+clock: 0  i: 2901
+clock: 0  i: 2902
+clock: 0  i: 2903
+clock: 0  i: 2904
+clock: 0  i: 2905
+clock: 0  i: 2906
+clock: 0  i: 2907
+clock: 0  i: 2908
+clock: 0  i: 2909
+clock: 0  i: 2910
+clock: 0  i: 2911
+clock: 0  i: 2912
+clock: 0  i: 2913
+clock: 0  i: 2914
+clock: 0  i: 2915
+clock: 0  i: 2916
+clock: 0  i: 2917
+clock: 0  i: 2918
+clock: 0.01  i: 2919
+clock: 0  i: 2920
+clock: 0  i: 2921
+clock: 0  i: 2922
+clock: 0  i: 2923
+clock: 0  i: 2924
+clock: 0  i: 2925
+clock: 0  i: 2926
+clock: 0  i: 2927
+clock: 0  i: 2928
+clock: 0  i: 2929
+clock: 0  i: 2930
+clock: 0  i: 2931
+clock: 0  i: 2932
+clock: 0  i: 2933
+clock: 0  i: 2934
+clock: 0  i: 2935
+clock: 0  i: 2936
+clock: 0  i: 2937
+clock: 0  i: 2938
+clock: 0  i: 2939
+clock: 0  i: 2940
+clock: 0  i: 2941
+clock: 0  i: 2942
+clock: 0  i: 2943
+clock: 0  i: 2944
+clock: 0  i: 2945
+clock: 0  i: 2946
+clock: 0  i: 2947
+clock: 0  i: 2948
+clock: 0  i: 2949
+clock: 0  i: 2950
+clock: 0  i: 2951
+clock: 0  i: 2952
+clock: 0  i: 2953
+clock: 0  i: 2954
+clock: 0  i: 2955
+clock: 0  i: 2956
+clock: 0  i: 2957
+clock: 0  i: 2958
+clock: 0  i: 2959
+clock: 0  i: 2960
+clock: 0  i: 2961
+clock: 0  i: 2962
+clock: 0  i: 2963
+clock: 0  i: 2964
+clock: 0  i: 2965
+clock: 0  i: 2966
+clock: 0  i: 2967
+clock: 0  i: 2968
+clock: 0  i: 2969
+clock: 0  i: 2970
+clock: 0  i: 2971
+clock: 0  i: 2972
+clock: 0  i: 2973
+clock: 0  i: 2974
+clock: 0  i: 2975
+clock: 0  i: 2976
+clock: 0  i: 2977
+clock: 0  i: 2978
+clock: 0  i: 2979
+clock: 0  i: 2980
+clock: 0  i: 2981
+clock: 0  i: 2982
+clock: 0  i: 2983
+clock: 0  i: 2984
+clock: 0  i: 2985
+clock: 0  i: 2986
+clock: 0  i: 2987
+clock: 0  i: 2988
+clock: 0  i: 2989
+clock: 0  i: 2990
+clock: 0  i: 2991
+clock: 0  i: 2992
+clock: 0  i: 2993
+clock: 0  i: 2994
+clock: 0  i: 2995
+clock: 0  i: 2996
+clock: 0  i: 2997
+clock: 0  i: 2998
+clock: 0  i: 2999
+clock: 0  i: 3000
+clock: 0  i: 3001
+clock: 0  i: 3002
+clock: 0  i: 3003
+clock: 0  i: 3004
+clock: 0  i: 3005
+clock: 0  i: 3006
+clock: 0  i: 3007
+clock: 0  i: 3008
+clock: 0  i: 3009
+clock: 0  i: 3010
+clock: 0  i: 3011
+clock: 0  i: 3012
+clock: 0.01  i: 3013
+clock: 0  i: 3014
+clock: 0  i: 3015
+clock: 0  i: 3016
+clock: 0  i: 3017
+clock: 0  i: 3018
+clock: 0  i: 3019
+clock: 0  i: 3020
+clock: 0  i: 3021
+clock: 0  i: 3022
+clock: 0  i: 3023
+clock: 0  i: 3024
+clock: 0  i: 3025
+clock: 0  i: 3026
+clock: 0  i: 3027
+clock: 0  i: 3028
+clock: 0  i: 3029
+clock: 0  i: 3030
+clock: 0  i: 3031
+clock: 0  i: 3032
+clock: 0  i: 3033
+clock: 0  i: 3034
+clock: 0  i: 3035
+clock: 0  i: 3036
+clock: 0  i: 3037
+clock: 0  i: 3038
+clock: 0  i: 3039
+clock: 0  i: 3040
+clock: 0  i: 3041
+clock: 0  i: 3042
+clock: 0  i: 3043
+clock: 0  i: 3044
+clock: 0  i: 3045
+clock: 0  i: 3046
+clock: 0  i: 3047
+clock: 0  i: 3048
+clock: 0  i: 3049
+clock: 0  i: 3050
+clock: 0  i: 3051
+clock: 0  i: 3052
+clock: 0  i: 3053
+clock: 0  i: 3054
+clock: 0  i: 3055
+clock: 0  i: 3056
+clock: 0  i: 3057
+clock: 0  i: 3058
+clock: 0  i: 3059
+clock: 0  i: 3060
+clock: 0  i: 3061
+clock: 0.01  i: 3062
+clock: 0  i: 3063
+clock: 0  i: 3064
+clock: 0  i: 3065
+clock: 0  i: 3066
+clock: 0  i: 3067
+clock: 0  i: 3068
+clock: 0  i: 3069
+clock: 0  i: 3070
+clock: 0  i: 3071
+clock: 0  i: 3072
+clock: 0  i: 3073
+clock: 0  i: 3074
+clock: 0  i: 3075
+clock: 0  i: 3076
+clock: 0  i: 3077
+clock: 0  i: 3078
+clock: 0  i: 3079
+clock: 0  i: 3080
+clock: 0  i: 3081
+clock: 0  i: 3082
+clock: 0  i: 3083
+clock: 0  i: 3084
+clock: 0  i: 3085
+clock: 0  i: 3086
+clock: 0  i: 3087
+clock: 0  i: 3088
+clock: 0  i: 3089
+clock: 0  i: 3090
+clock: 0  i: 3091
+clock: 0  i: 3092
+clock: 0  i: 3093
+clock: 0  i: 3094
+clock: 0  i: 3095
+clock: 0  i: 3096
+clock: 0  i: 3097
+clock: 0  i: 3098
+clock: 0  i: 3099
+clock: 0  i: 3100
+clock: 0  i: 3101
+clock: 0  i: 3102
+clock: 0  i: 3103
+clock: 0  i: 3104
+clock: 0  i: 3105
+clock: 0  i: 3106
+clock: 0  i: 3107
+clock: 0  i: 3108
+clock: 0  i: 3109
+clock: 0  i: 3110
+clock: 0  i: 3111
+clock: 0  i: 3112
+clock: 0  i: 3113
+clock: 0  i: 3114
+clock: 0  i: 3115
+clock: 0  i: 3116
+clock: 0.01  i: 3117
+clock: 0  i: 3118
+clock: 0  i: 3119
+clock: 0  i: 3120
+clock: 0  i: 3121
+clock: 0  i: 3122
+clock: 0  i: 3123
+clock: 0  i: 3124
+clock: 0  i: 3125
+clock: 0  i: 3126
+clock: 0  i: 3127
+clock: 0  i: 3128
+clock: 0  i: 3129
+clock: 0  i: 3130
+clock: 0  i: 3131
+clock: 0  i: 3132
+clock: 0  i: 3133
+clock: 0  i: 3134
+clock: 0  i: 3135
+clock: 0  i: 3136
+clock: 0  i: 3137
+clock: 0  i: 3138
+clock: 0  i: 3139
+clock: 0  i: 3140
+clock: 0  i: 3141
+clock: 0  i: 3142
+clock: 0  i: 3143
+clock: 0  i: 3144
+clock: 0  i: 3145
+clock: 0  i: 3146
+clock: 0  i: 3147
+clock: 0  i: 3148
+clock: 0  i: 3149
+clock: 0  i: 3150
+clock: 0  i: 3151
+clock: 0  i: 3152
+clock: 0  i: 3153
+clock: 0  i: 3154
+clock: 0  i: 3155
+clock: 0  i: 3156
+clock: 0  i: 3157
+clock: 0  i: 3158
+clock: 0  i: 3159
+clock: 0  i: 3160
+clock: 0  i: 3161
+clock: 0  i: 3162
+clock: 0  i: 3163
+clock: 0  i: 3164
+clock: 0  i: 3165
+clock: 0  i: 3166
+clock: 0  i: 3167
+clock: 0  i: 3168
+clock: 0  i: 3169
+clock: 0  i: 3170
+clock: 0  i: 3171
+clock: 0  i: 3172
+clock: 0  i: 3173
+clock: 0.01  i: 3174
+clock: 0  i: 3175
+clock: 0  i: 3176
+clock: 0  i: 3177
+clock: 0  i: 3178
+clock: 0  i: 3179
+clock: 0  i: 3180
+clock: 0  i: 3181
+clock: 0  i: 3182
+clock: 0  i: 3183
+clock: 0  i: 3184
+clock: 0  i: 3185
+clock: 0  i: 3186
+clock: 0  i: 3187
+clock: 0  i: 3188
+clock: 0  i: 3189
+clock: 0  i: 3190
+clock: 0  i: 3191
+clock: 0  i: 3192
+clock: 0  i: 3193
+clock: 0  i: 3194
+clock: 0  i: 3195
+clock: 0  i: 3196
+clock: 0  i: 3197
+clock: 0  i: 3198
+clock: 0  i: 3199
+clock: 0  i: 3200
+clock: 0  i: 3201
+clock: 0  i: 3202
+clock: 0  i: 3203
+clock: 0  i: 3204
+clock: 0  i: 3205
+clock: 0  i: 3206
+clock: 0  i: 3207
+clock: 0  i: 3208
+clock: 0  i: 3209
+clock: 0  i: 3210
+clock: 0  i: 3211
+clock: 0  i: 3212
+clock: 0  i: 3213
+clock: 0  i: 3214
+clock: 0  i: 3215
+clock: 0  i: 3216
+clock: 0  i: 3217
+clock: 0  i: 3218
+clock: 0  i: 3219
+clock: 0  i: 3220
+clock: 0  i: 3221
+clock: 0  i: 3222
+clock: 0  i: 3223
+clock: 0  i: 3224
+clock: 0  i: 3225
+clock: 0  i: 3226
+clock: 0  i: 3227
+clock: 0  i: 3228
+clock: 0  i: 3229
+clock: 0  i: 3230
+clock: 0  i: 3231
+clock: 0  i: 3232
+clock: 0  i: 3233
+clock: 0  i: 3234
+clock: 0  i: 3235
+clock: 0.01  i: 3236
+clock: 0  i: 3237
+clock: 0  i: 3238
+clock: 0  i: 3239
+clock: 0  i: 3240
+clock: 0  i: 3241
+clock: 0  i: 3242
+clock: 0  i: 3243
+clock: 0  i: 3244
+clock: 0  i: 3245
+clock: 0  i: 3246
+clock: 0  i: 3247
+clock: 0  i: 3248
+clock: 0  i: 3249
+clock: 0  i: 3250
+clock: 0  i: 3251
+clock: 0  i: 3252
+clock: 0  i: 3253
+clock: 0  i: 3254
+clock: 0  i: 3255
+clock: 0  i: 3256
+clock: 0  i: 3257
+clock: 0  i: 3258
+clock: 0  i: 3259
+clock: 0  i: 3260
+clock: 0  i: 3261
+clock: 0  i: 3262
+clock: 0  i: 3263
+clock: 0  i: 3264
+clock: 0  i: 3265
+clock: 0  i: 3266
+clock: 0  i: 3267
+clock: 0  i: 3268
+clock: 0  i: 3269
+clock: 0  i: 3270
+clock: 0  i: 3271
+clock: 0  i: 3272
+clock: 0  i: 3273
+clock: 0  i: 3274
+clock: 0  i: 3275
+clock: 0  i: 3276
+clock: 0  i: 3277
+clock: 0  i: 3278
+clock: 0  i: 3279
+clock: 0  i: 3280
+clock: 0  i: 3281
+clock: 0  i: 3282
+clock: 0  i: 3283
+clock: 0  i: 3284
+clock: 0  i: 3285
+clock: 0  i: 3286
+clock: 0  i: 3287
+clock: 0  i: 3288
+clock: 0  i: 3289
+clock: 0  i: 3290
+clock: 0  i: 3291
+clock: 0  i: 3292
+clock: 0  i: 3293
+clock: 0  i: 3294
+clock: 0  i: 3295
+clock: 0  i: 3296
+clock: 0  i: 3297
+clock: 0  i: 3298
+clock: 0  i: 3299
+clock: 0  i: 3300
+clock: 0  i: 3301
+clock: 0  i: 3302
+clock: 0  i: 3303
+clock: 0  i: 3304
+clock: 0  i: 3305
+clock: 0  i: 3306
+clock: 0  i: 3307
+clock: 0  i: 3308
+clock: 0  i: 3309
+clock: 0  i: 3310
+clock: 0  i: 3311
+clock: 0  i: 3312
+clock: 0  i: 3313
+clock: 0  i: 3314
+clock: 0  i: 3315
+clock: 0  i: 3316
+clock: 0  i: 3317
+clock: 0  i: 3318
+clock: 0  i: 3319
+clock: 0  i: 3320
+clock: 0  i: 3321
+clock: 0  i: 3322
+clock: 0  i: 3323
+clock: 0  i: 3324
+clock: 0  i: 3325
+clock: 0  i: 3326
+clock: 0  i: 3327
+clock: 0  i: 3328
+clock: 0  i: 3329
+clock: 0  i: 3330
+clock: 0  i: 3331
+clock: 0  i: 3332
+clock: 0  i: 3333
+clock: 0  i: 3334
+clock: 0  i: 3335
+clock: 0  i: 3336
+clock: 0  i: 3337
+clock: 0  i: 3338
+clock: 0  i: 3339
+clock: 0  i: 3340
+clock: 0  i: 3341
+clock: 0  i: 3342
+clock: 0  i: 3343
+clock: 0  i: 3344
+clock: 0  i: 3345
+clock: 0  i: 3346
+clock: 0  i: 3347
+clock: 0  i: 3348
+clock: 0  i: 3349
+clock: 0.01  i: 3350
+clock: 0  i: 3351
+clock: 0  i: 3352
+clock: 0  i: 3353
+clock: 0  i: 3354
+clock: 0  i: 3355
+clock: 0  i: 3356
+clock: 0  i: 3357
+clock: 0  i: 3358
+clock: 0  i: 3359
+clock: 0  i: 3360
+clock: 0  i: 3361
+clock: 0  i: 3362
+clock: 0  i: 3363
+clock: 0  i: 3364
+clock: 0  i: 3365
+clock: 0  i: 3366
+clock: 0  i: 3367
+clock: 0  i: 3368
+clock: 0  i: 3369
+clock: 0  i: 3370
+clock: 0  i: 3371
+clock: 0  i: 3372
+clock: 0  i: 3373
+clock: 0  i: 3374
+clock: 0  i: 3375
+clock: 0  i: 3376
+clock: 0  i: 3377
+clock: 0  i: 3378
+clock: 0  i: 3379
+clock: 0  i: 3380
+clock: 0  i: 3381
+clock: 0  i: 3382
+clock: 0  i: 3383
+clock: 0  i: 3384
+clock: 0  i: 3385
+clock: 0  i: 3386
+clock: 0  i: 3387
+clock: 0  i: 3388
+clock: 0  i: 3389
+clock: 0  i: 3390
+clock: 0  i: 3391
+clock: 0  i: 3392
+clock: 0  i: 3393
+clock: 0  i: 3394
+clock: 0  i: 3395
+clock: 0  i: 3396
+clock: 0  i: 3397
+clock: 0  i: 3398
+clock: 0  i: 3399
+clock: 0  i: 3400
+clock: 0  i: 3401
+clock: 0  i: 3402
+clock: 0  i: 3403
+clock: 0  i: 3404
+clock: 0  i: 3405
+clock: 0  i: 3406
+clock: 0  i: 3407
+clock: 0  i: 3408
+clock: 0  i: 3409
+clock: 0  i: 3410
+clock: 0  i: 3411
+clock: 0  i: 3412
+clock: 0  i: 3413
+clock: 0  i: 3414
+clock: 0  i: 3415
+clock: 0  i: 3416
+clock: 0  i: 3417
+clock: 0  i: 3418
+clock: 0  i: 3419
+clock: 0  i: 3420
+clock: 0  i: 3421
+clock: 0  i: 3422
+clock: 0  i: 3423
+clock: 0  i: 3424
+clock: 0.01  i: 3425
+clock: 0  i: 3426
+clock: 0  i: 3427
+clock: 0  i: 3428
+clock: 0  i: 3429
+clock: 0  i: 3430
+clock: 0  i: 3431
+clock: 0  i: 3432
+clock: 0  i: 3433
+clock: 0  i: 3434
+clock: 0  i: 3435
+clock: 0  i: 3436
+clock: 0  i: 3437
+clock: 0  i: 3438
+clock: 0  i: 3439
+clock: 0  i: 3440
+clock: 0  i: 3441
+clock: 0  i: 3442
+clock: 0  i: 3443
+clock: 0  i: 3444
+clock: 0  i: 3445
+clock: 0  i: 3446
+clock: 0  i: 3447
+clock: 0  i: 3448
+clock: 0  i: 3449
+clock: 0  i: 3450
+clock: 0  i: 3451
+clock: 0  i: 3452
+clock: 0  i: 3453
+clock: 0  i: 3454
+clock: 0  i: 3455
+clock: 0  i: 3456
+clock: 0  i: 3457
+clock: 0  i: 3458
+clock: 0  i: 3459
+clock: 0  i: 3460
+clock: 0  i: 3461
+clock: 0  i: 3462
+clock: 0  i: 3463
+clock: 0  i: 3464
+clock: 0  i: 3465
+clock: 0  i: 3466
+clock: 0  i: 3467
+clock: 0  i: 3468
+clock: 0  i: 3469
+clock: 0  i: 3470
+clock: 0  i: 3471
+clock: 0  i: 3472
+clock: 0  i: 3473
+clock: 0  i: 3474
+clock: 0  i: 3475
+clock: 0  i: 3476
+clock: 0  i: 3477
+clock: 0  i: 3478
+clock: 0  i: 3479
+clock: 0  i: 3480
+clock: 0  i: 3481
+clock: 0  i: 3482
+clock: 0  i: 3483
+clock: 0  i: 3484
+clock: 0.01  i: 3485
+clock: 0  i: 3486
+clock: 0  i: 3487
+clock: 0  i: 3488
+clock: 0  i: 3489
+clock: 0  i: 3490
+clock: 0  i: 3491
+clock: 0  i: 3492
+clock: 0  i: 3493
+clock: 0  i: 3494
+clock: 0  i: 3495
+clock: 0  i: 3496
+clock: 0  i: 3497
+clock: 0  i: 3498
+clock: 0  i: 3499
+clock: 0  i: 3500
+clock: 0  i: 3501
+clock: 0  i: 3502
+clock: 0  i: 3503
+clock: 0  i: 3504
+clock: 0  i: 3505
+clock: 0  i: 3506
+clock: 0  i: 3507
+clock: 0  i: 3508
+clock: 0  i: 3509
+clock: 0  i: 3510
+clock: 0  i: 3511
+clock: 0  i: 3512
+clock: 0  i: 3513
+clock: 0  i: 3514
+clock: 0  i: 3515
+clock: 0  i: 3516
+clock: 0  i: 3517
+clock: 0  i: 3518
+clock: 0  i: 3519
+clock: 0  i: 3520
+clock: 0  i: 3521
+clock: 0  i: 3522
+clock: 0  i: 3523
+clock: 0  i: 3524
+clock: 0  i: 3525
+clock: 0  i: 3526
+clock: 0  i: 3527
+clock: 0  i: 3528
+clock: 0  i: 3529
+clock: 0  i: 3530
+clock: 0  i: 3531
+clock: 0  i: 3532
+clock: 0  i: 3533
+clock: 0  i: 3534
+clock: 0  i: 3535
+clock: 0  i: 3536
+clock: 0  i: 3537
+clock: 0  i: 3538
+clock: 0  i: 3539
+clock: 0  i: 3540
+clock: 0  i: 3541
+clock: 0  i: 3542
+clock: 0  i: 3543
+clock: 0  i: 3544
+clock: 0  i: 3545
+clock: 0  i: 3546
+clock: 0  i: 3547
+clock: 0.01  i: 3548
+clock: 0  i: 3549
+clock: 0  i: 3550
+clock: 0  i: 3551
+clock: 0  i: 3552
+clock: 0  i: 3553
+clock: 0  i: 3554
+clock: 0  i: 3555
+clock: 0  i: 3556
+clock: 0  i: 3557
+clock: 0  i: 3558
+clock: 0  i: 3559
+clock: 0  i: 3560
+clock: 0  i: 3561
+clock: 0  i: 3562
+clock: 0  i: 3563
+clock: 0  i: 3564
+clock: 0  i: 3565
+clock: 0  i: 3566
+clock: 0  i: 3567
+clock: 0  i: 3568
+clock: 0  i: 3569
+clock: 0  i: 3570
+clock: 0  i: 3571
+clock: 0  i: 3572
+clock: 0  i: 3573
+clock: 0  i: 3574
+clock: 0  i: 3575
+clock: 0  i: 3576
+clock: 0  i: 3577
+clock: 0  i: 3578
+clock: 0  i: 3579
+clock: 0  i: 3580
+clock: 0  i: 3581
+clock: 0  i: 3582
+clock: 0  i: 3583
+clock: 0  i: 3584
+clock: 0  i: 3585
+clock: 0  i: 3586
+clock: 0  i: 3587
+clock: 0  i: 3588
+clock: 0  i: 3589
+clock: 0  i: 3590
+clock: 0  i: 3591
+clock: 0  i: 3592
+clock: 0  i: 3593
+clock: 0  i: 3594
+clock: 0  i: 3595
+clock: 0  i: 3596
+clock: 0  i: 3597
+clock: 0  i: 3598
+clock: 0  i: 3599
+clock: 0  i: 3600
+clock: 0  i: 3601
+clock: 0  i: 3602
+clock: 0  i: 3603
+clock: 0  i: 3604
+clock: 0  i: 3605
+clock: 0  i: 3606
+clock: 0  i: 3607
+clock: 0  i: 3608
+clock: 0  i: 3609
+clock: 0.01  i: 3610
+clock: 0  i: 3611
+clock: 0  i: 3612
+clock: 0  i: 3613
+clock: 0  i: 3614
+clock: 0  i: 3615
+clock: 0  i: 3616
+clock: 0  i: 3617
+clock: 0  i: 3618
+clock: 0  i: 3619
+clock: 0  i: 3620
+clock: 0  i: 3621
+clock: 0  i: 3622
+clock: 0  i: 3623
+clock: 0  i: 3624
+clock: 0  i: 3625
+clock: 0  i: 3626
+clock: 0  i: 3627
+clock: 0  i: 3628
+clock: 0  i: 3629
+clock: 0  i: 3630
+clock: 0  i: 3631
+clock: 0  i: 3632
+clock: 0  i: 3633
+clock: 0  i: 3634
+clock: 0  i: 3635
+clock: 0  i: 3636
+clock: 0  i: 3637
+clock: 0  i: 3638
+clock: 0  i: 3639
+clock: 0  i: 3640
+clock: 0  i: 3641
+clock: 0  i: 3642
+clock: 0  i: 3643
+clock: 0  i: 3644
+clock: 0  i: 3645
+clock: 0  i: 3646
+clock: 0  i: 3647
+clock: 0  i: 3648
+clock: 0  i: 3649
+clock: 0  i: 3650
+clock: 0  i: 3651
+clock: 0  i: 3652
+clock: 0  i: 3653
+clock: 0  i: 3654
+clock: 0  i: 3655
+clock: 0  i: 3656
+clock: 0  i: 3657
+clock: 0  i: 3658
+clock: 0  i: 3659
+clock: 0  i: 3660
+clock: 0  i: 3661
+clock: 0  i: 3662
+clock: 0  i: 3663
+clock: 0  i: 3664
+clock: 0  i: 3665
+clock: 0  i: 3666
+clock: 0  i: 3667
+clock: 0  i: 3668
+clock: 0  i: 3669
+clock: 0  i: 3670
+clock: 0  i: 3671
+clock: 0  i: 3672
+clock: 0  i: 3673
+clock: 0  i: 3674
+clock: 0.01  i: 3675
+clock: 0  i: 3676
+clock: 0  i: 3677
+clock: 0  i: 3678
+clock: 0  i: 3679
+clock: 0  i: 3680
+clock: 0  i: 3681
+clock: 0  i: 3682
+clock: 0  i: 3683
+clock: 0  i: 3684
+clock: 0  i: 3685
+clock: 0  i: 3686
+clock: 0  i: 3687
+clock: 0  i: 3688
+clock: 0  i: 3689
+clock: 0  i: 3690
+clock: 0  i: 3691
+clock: 0  i: 3692
+clock: 0  i: 3693
+clock: 0  i: 3694
+clock: 0  i: 3695
+clock: 0  i: 3696
+clock: 0  i: 3697
+clock: 0  i: 3698
+clock: 0  i: 3699
+clock: 0  i: 3700
+clock: 0  i: 3701
+clock: 0  i: 3702
+clock: 0  i: 3703
+clock: 0  i: 3704
+clock: 0  i: 3705
+clock: 0  i: 3706
+clock: 0  i: 3707
+clock: 0  i: 3708
+clock: 0  i: 3709
+clock: 0  i: 3710
+clock: 0  i: 3711
+clock: 0  i: 3712
+clock: 0  i: 3713
+clock: 0  i: 3714
+clock: 0  i: 3715
+clock: 0  i: 3716
+clock: 0  i: 3717
+clock: 0  i: 3718
+clock: 0  i: 3719
+clock: 0  i: 3720
+clock: 0  i: 3721
+clock: 0  i: 3722
+clock: 0  i: 3723
+clock: 0  i: 3724
+clock: 0  i: 3725
+clock: 0  i: 3726
+clock: 0  i: 3727
+clock: 0  i: 3728
+clock: 0  i: 3729
+clock: 0  i: 3730
+clock: 0  i: 3731
+clock: 0  i: 3732
+clock: 0  i: 3733
+clock: 0  i: 3734
+clock: 0  i: 3735
+clock: 0  i: 3736
+clock: 0.01  i: 3737
+clock: 0  i: 3738
+clock: 0  i: 3739
+clock: 0  i: 3740
+clock: 0  i: 3741
+clock: 0  i: 3742
+clock: 0  i: 3743
+clock: 0  i: 3744
+clock: 0  i: 3745
+clock: 0  i: 3746
+clock: 0  i: 3747
+clock: 0  i: 3748
+clock: 0  i: 3749
+clock: 0  i: 3750
+clock: 0  i: 3751
+clock: 0  i: 3752
+clock: 0  i: 3753
+clock: 0  i: 3754
+clock: 0  i: 3755
+clock: 0  i: 3756
+clock: 0  i: 3757
+clock: 0  i: 3758
+clock: 0  i: 3759
+clock: 0  i: 3760
+clock: 0  i: 3761
+clock: 0  i: 3762
+clock: 0  i: 3763
+clock: 0  i: 3764
+clock: 0  i: 3765
+clock: 0  i: 3766
+clock: 0  i: 3767
+clock: 0  i: 3768
+clock: 0  i: 3769
+clock: 0  i: 3770
+clock: 0  i: 3771
+clock: 0  i: 3772
+clock: 0  i: 3773
+clock: 0  i: 3774
+clock: 0  i: 3775
+clock: 0  i: 3776
+clock: 0  i: 3777
+clock: 0  i: 3778
+clock: 0  i: 3779
+clock: 0  i: 3780
+clock: 0  i: 3781
+clock: 0  i: 3782
+clock: 0  i: 3783
+clock: 0  i: 3784
+clock: 0  i: 3785
+clock: 0  i: 3786
+clock: 0  i: 3787
+clock: 0  i: 3788
+clock: 0  i: 3789
+clock: 0  i: 3790
+clock: 0  i: 3791
+clock: 0  i: 3792
+clock: 0  i: 3793
+clock: 0  i: 3794
+clock: 0  i: 3795
+clock: 0  i: 3796
+clock: 0  i: 3797
+clock: 0  i: 3798
+clock: 0  i: 3799
+clock: 0  i: 3800
+clock: 0  i: 3801
+clock: 0  i: 3802
+clock: 0  i: 3803
+clock: 0  i: 3804
+clock: 0  i: 3805
+clock: 0  i: 3806
+clock: 0  i: 3807
+clock: 0  i: 3808
+clock: 0  i: 3809
+clock: 0  i: 3810
+clock: 0.01  i: 3811
+clock: 0  i: 3812
+clock: 0  i: 3813
+clock: 0  i: 3814
+clock: 0  i: 3815
+clock: 0  i: 3816
+clock: 0  i: 3817
+clock: 0  i: 3818
+clock: 0  i: 3819
+clock: 0  i: 3820
+clock: 0  i: 3821
+clock: 0  i: 3822
+clock: 0  i: 3823
+clock: 0  i: 3824
+clock: 0  i: 3825
+clock: 0  i: 3826
+clock: 0  i: 3827
+clock: 0  i: 3828
+clock: 0  i: 3829
+clock: 0  i: 3830
+clock: 0  i: 3831
+clock: 0  i: 3832
+clock: 0  i: 3833
+clock: 0  i: 3834
+clock: 0  i: 3835
+clock: 0  i: 3836
+clock: 0  i: 3837
+clock: 0  i: 3838
+clock: 0  i: 3839
+clock: 0  i: 3840
+clock: 0  i: 3841
+clock: 0  i: 3842
+clock: 0  i: 3843
+clock: 0  i: 3844
+clock: 0  i: 3845
+clock: 0  i: 3846
+clock: 0  i: 3847
+clock: 0  i: 3848
+clock: 0  i: 3849
+clock: 0  i: 3850
+clock: 0  i: 3851
+clock: 0  i: 3852
+clock: 0  i: 3853
+clock: 0  i: 3854
+clock: 0  i: 3855
+clock: 0  i: 3856
+clock: 0  i: 3857
+clock: 0  i: 3858
+clock: 0  i: 3859
+clock: 0  i: 3860
+clock: 0  i: 3861
+clock: 0  i: 3862
+clock: 0  i: 3863
+clock: 0  i: 3864
+clock: 0  i: 3865
+clock: 0  i: 3866
+clock: 0  i: 3867
+clock: 0  i: 3868
+clock: 0  i: 3869
+clock: 0  i: 3870
+clock: 0  i: 3871
+clock: 0  i: 3872
+clock: 0  i: 3873
+clock: 0  i: 3874
+clock: 0  i: 3875
+clock: 0  i: 3876
+clock: 0  i: 3877
+clock: 0  i: 3878
+clock: 0  i: 3879
+clock: 0  i: 3880
+clock: 0.01  i: 3881
+clock: 0  i: 3882
+clock: 0  i: 3883
+clock: 0  i: 3884
+clock: 0  i: 3885
+clock: 0  i: 3886
+clock: 0  i: 3887
+clock: 0  i: 3888
+clock: 0  i: 3889
+clock: 0  i: 3890
+clock: 0  i: 3891
+clock: 0  i: 3892
+clock: 0  i: 3893
+clock: 0  i: 3894
+clock: 0  i: 3895
+clock: 0  i: 3896
+clock: 0  i: 3897
+clock: 0  i: 3898
+clock: 0  i: 3899
+clock: 0  i: 3900
+clock: 0  i: 3901
+clock: 0  i: 3902
+clock: 0  i: 3903
+clock: 0  i: 3904
+clock: 0  i: 3905
+clock: 0  i: 3906
+clock: 0  i: 3907
+clock: 0  i: 3908
+clock: 0  i: 3909
+clock: 0  i: 3910
+clock: 0  i: 3911
+clock: 0  i: 3912
+clock: 0  i: 3913
+clock: 0  i: 3914
+clock: 0  i: 3915
+clock: 0  i: 3916
+clock: 0  i: 3917
+clock: 0  i: 3918
+clock: 0  i: 3919
+clock: 0  i: 3920
+clock: 0  i: 3921
+clock: 0  i: 3922
+clock: 0  i: 3923
+clock: 0  i: 3924
+clock: 0  i: 3925
+clock: 0  i: 3926
+clock: 0  i: 3927
+clock: 0  i: 3928
+clock: 0  i: 3929
+clock: 0  i: 3930
+clock: 0  i: 3931
+clock: 0  i: 3932
+clock: 0  i: 3933
+clock: 0  i: 3934
+clock: 0  i: 3935
+clock: 0  i: 3936
+clock: 0  i: 3937
+clock: 0  i: 3938
+clock: 0  i: 3939
+clock: 0  i: 3940
+clock: 0  i: 3941
+clock: 0  i: 3942
+clock: 0  i: 3943
+clock: 0  i: 3944
+clock: 0  i: 3945
+clock: 0  i: 3946
+clock: 0  i: 3947
+clock: 0  i: 3948
+clock: 0  i: 3949
+clock: 0  i: 3950
+clock: 0  i: 3951
+clock: 0  i: 3952
+clock: 0.01  i: 3953
+clock: 0  i: 3954
+clock: 0  i: 3955
+clock: 0  i: 3956
+clock: 0  i: 3957
+clock: 0  i: 3958
+clock: 0  i: 3959
+clock: 0  i: 3960
+clock: 0  i: 3961
+clock: 0  i: 3962
+clock: 0  i: 3963
+clock: 0  i: 3964
+clock: 0  i: 3965
+clock: 0  i: 3966
+clock: 0  i: 3967
+clock: 0  i: 3968
+clock: 0  i: 3969
+clock: 0  i: 3970
+clock: 0  i: 3971
+clock: 0  i: 3972
+clock: 0  i: 3973
+clock: 0  i: 3974
+clock: 0  i: 3975
+clock: 0  i: 3976
+clock: 0  i: 3977
+clock: 0  i: 3978
+clock: 0  i: 3979
+clock: 0  i: 3980
+clock: 0  i: 3981
+clock: 0  i: 3982
+clock: 0  i: 3983
+clock: 0  i: 3984
+clock: 0  i: 3985
+clock: 0  i: 3986
+clock: 0  i: 3987
+clock: 0  i: 3988
+clock: 0  i: 3989
+clock: 0  i: 3990
+clock: 0  i: 3991
+clock: 0  i: 3992
+clock: 0  i: 3993
+clock: 0  i: 3994
+clock: 0  i: 3995
+clock: 0  i: 3996
+clock: 0  i: 3997
+clock: 0  i: 3998
+clock: 0  i: 3999
+clock: 0  i: 4000
+clock: 0  i: 4001
+clock: 0  i: 4002
+clock: 0  i: 4003
+clock: 0  i: 4004
+clock: 0  i: 4005
+clock: 0  i: 4006
+clock: 0  i: 4007
+clock: 0  i: 4008
+clock: 0  i: 4009
+clock: 0  i: 4010
+clock: 0  i: 4011
+clock: 0  i: 4012
+clock: 0  i: 4013
+clock: 0  i: 4014
+clock: 0  i: 4015
+clock: 0  i: 4016
+clock: 0  i: 4017
+clock: 0  i: 4018
+clock: 0  i: 4019
+clock: 0  i: 4020
+clock: 0  i: 4021
+clock: 0  i: 4022
+clock: 0  i: 4023
+clock: 0  i: 4024
+clock: 0  i: 4025
+clock: 0  i: 4026
+clock: 0  i: 4027
+clock: 0  i: 4028
+clock: 0  i: 4029
+clock: 0  i: 4030
+clock: 0.01  i: 4031
+clock: 0  i: 4032
+clock: 0  i: 4033
+clock: 0  i: 4034
+clock: 0  i: 4035
+clock: 0  i: 4036
+clock: 0  i: 4037
+clock: 0  i: 4038
+clock: 0  i: 4039
+clock: 0  i: 4040
+clock: 0  i: 4041
+clock: 0  i: 4042
+clock: 0  i: 4043
+clock: 0  i: 4044
+clock: 0  i: 4045
+clock: 0  i: 4046
+clock: 0  i: 4047
+clock: 0  i: 4048
+clock: 0  i: 4049
+clock: 0  i: 4050
+clock: 0  i: 4051
+clock: 0  i: 4052
+clock: 0  i: 4053
+clock: 0  i: 4054
+clock: 0  i: 4055
+clock: 0  i: 4056
+clock: 0  i: 4057
+clock: 0  i: 4058
+clock: 0  i: 4059
+clock: 0  i: 4060
+clock: 0  i: 4061
+clock: 0  i: 4062
+clock: 0  i: 4063
+clock: 0  i: 4064
+clock: 0  i: 4065
+clock: 0  i: 4066
+clock: 0  i: 4067
+clock: 0  i: 4068
+clock: 0  i: 4069
+clock: 0  i: 4070
+clock: 0  i: 4071
+clock: 0  i: 4072
+clock: 0  i: 4073
+clock: 0  i: 4074
+clock: 0  i: 4075
+clock: 0  i: 4076
+clock: 0  i: 4077
+clock: 0  i: 4078
+clock: 0  i: 4079
+clock: 0  i: 4080
+clock: 0  i: 4081
+clock: 0  i: 4082
+clock: 0  i: 4083
+clock: 0  i: 4084
+clock: 0  i: 4085
+clock: 0  i: 4086
+clock: 0  i: 4087
+clock: 0  i: 4088
+clock: 0  i: 4089
+clock: 0  i: 4090
+clock: 0  i: 4091
+clock: 0  i: 4092
+clock: 0  i: 4093
+clock: 0  i: 4094
+clock: 0  i: 4095
+clock: 0  i: 4096
+clock: 0  i: 4097
+clock: 0  i: 4098
+clock: 0  i: 4099
+clock: 0  i: 4100
+clock: 0  i: 4101
+clock: 0  i: 4102
+clock: 0  i: 4103
+clock: 0  i: 4104
+clock: 0  i: 4105
+clock: 0  i: 4106
+clock: 0  i: 4107
+clock: 0  i: 4108
+clock: 0  i: 4109
+clock: 0  i: 4110
+clock: 0  i: 4111
+clock: 0  i: 4112
+clock: 0  i: 4113
+clock: 0  i: 4114
+clock: 0  i: 4115
+clock: 0  i: 4116
+clock: 0  i: 4117
+clock: 0  i: 4118
+clock: 0  i: 4119
+clock: 0  i: 4120
+clock: 0  i: 4121
+clock: 0  i: 4122
+clock: 0.01  i: 4123
+clock: 0  i: 4124
+clock: 0  i: 4125
+clock: 0  i: 4126
+clock: 0  i: 4127
+clock: 0  i: 4128
+clock: 0  i: 4129
+clock: 0  i: 4130
+clock: 0  i: 4131
+clock: 0  i: 4132
+clock: 0  i: 4133
+clock: 0  i: 4134
+clock: 0  i: 4135
+clock: 0  i: 4136
+clock: 0  i: 4137
+clock: 0  i: 4138
+clock: 0  i: 4139
+clock: 0  i: 4140
+clock: 0  i: 4141
+clock: 0  i: 4142
+clock: 0  i: 4143
+clock: 0  i: 4144
+clock: 0  i: 4145
+clock: 0  i: 4146
+clock: 0  i: 4147
+clock: 0  i: 4148
+clock: 0  i: 4149
+clock: 0  i: 4150
+clock: 0  i: 4151
+clock: 0  i: 4152
+clock: 0  i: 4153
+clock: 0  i: 4154
+clock: 0  i: 4155
+clock: 0  i: 4156
+clock: 0  i: 4157
+clock: 0  i: 4158
+clock: 0  i: 4159
+clock: 0  i: 4160
+clock: 0  i: 4161
+clock: 0  i: 4162
+clock: 0  i: 4163
+clock: 0  i: 4164
+clock: 0  i: 4165
+clock: 0  i: 4166
+clock: 0  i: 4167
+clock: 0  i: 4168
+clock: 0  i: 4169
+clock: 0  i: 4170
+clock: 0  i: 4171
+clock: 0  i: 4172
+clock: 0  i: 4173
+clock: 0  i: 4174
+clock: 0  i: 4175
+clock: 0  i: 4176
+clock: 0  i: 4177
+clock: 0  i: 4178
+clock: 0  i: 4179
+clock: 0  i: 4180
+clock: 0  i: 4181
+clock: 0  i: 4182
+clock: 0  i: 4183
+clock: 0  i: 4184
+clock: 0  i: 4185
+clock: 0  i: 4186
+clock: 0  i: 4187
+clock: 0  i: 4188
+clock: 0  i: 4189
+clock: 0  i: 4190
+clock: 0  i: 4191
+clock: 0  i: 4192
+clock: 0  i: 4193
+clock: 0  i: 4194
+clock: 0  i: 4195
+clock: 0  i: 4196
+clock: 0  i: 4197
+clock: 0  i: 4198
+clock: 0  i: 4199
+clock: 0  i: 4200
+clock: 0  i: 4201
+clock: 0  i: 4202
+clock: 0  i: 4203
+clock: 0  i: 4204
+clock: 0  i: 4205
+clock: 0  i: 4206
+clock: 0  i: 4207
+clock: 0  i: 4208
+clock: 0  i: 4209
+clock: 0  i: 4210
+clock: 0  i: 4211
+clock: 0.01  i: 4212
+clock: 0  i: 4213
+clock: 0  i: 4214
+clock: 0  i: 4215
+clock: 0  i: 4216
+clock: 0  i: 4217
+clock: 0  i: 4218
+clock: 0  i: 4219
+clock: 0  i: 4220
+clock: 0  i: 4221
+clock: 0  i: 4222
+clock: 0  i: 4223
+clock: 0  i: 4224
+clock: 0  i: 4225
+clock: 0  i: 4226
+clock: 0  i: 4227
+clock: 0  i: 4228
+clock: 0  i: 4229
+clock: 0  i: 4230
+clock: 0  i: 4231
+clock: 0  i: 4232
+clock: 0  i: 4233
+clock: 0  i: 4234
+clock: 0  i: 4235
+clock: 0  i: 4236
+clock: 0  i: 4237
+clock: 0  i: 4238
+clock: 0  i: 4239
+clock: 0  i: 4240
+clock: 0  i: 4241
+clock: 0  i: 4242
+clock: 0  i: 4243
+clock: 0  i: 4244
+clock: 0  i: 4245
+clock: 0  i: 4246
+clock: 0  i: 4247
+clock: 0  i: 4248
+clock: 0  i: 4249
+clock: 0  i: 4250
+clock: 0  i: 4251
+clock: 0  i: 4252
+clock: 0  i: 4253
+clock: 0  i: 4254
+clock: 0  i: 4255
+clock: 0  i: 4256
+clock: 0  i: 4257
+clock: 0  i: 4258
+clock: 0  i: 4259
+clock: 0  i: 4260
+clock: 0  i: 4261
+clock: 0  i: 4262
+clock: 0  i: 4263
+clock: 0  i: 4264
+clock: 0  i: 4265
+clock: 0  i: 4266
+clock: 0  i: 4267
+clock: 0  i: 4268
+clock: 0  i: 4269
+clock: 0  i: 4270
+clock: 0  i: 4271
+clock: 0  i: 4272
+clock: 0  i: 4273
+clock: 0  i: 4274
+clock: 0  i: 4275
+clock: 0  i: 4276
+clock: 0  i: 4277
+clock: 0  i: 4278
+clock: 0  i: 4279
+clock: 0  i: 4280
+clock: 0  i: 4281
+clock: 0  i: 4282
+clock: 0  i: 4283
+clock: 0  i: 4284
+clock: 0  i: 4285
+clock: 0  i: 4286
+clock: 0  i: 4287
+clock: 0  i: 4288
+clock: 0  i: 4289
+clock: 0  i: 4290
+clock: 0  i: 4291
+clock: 0  i: 4292
+clock: 0  i: 4293
+clock: 0  i: 4294
+clock: 0  i: 4295
+clock: 0  i: 4296
+clock: 0  i: 4297
+clock: 0  i: 4298
+clock: 0  i: 4299
+clock: 0  i: 4300
+clock: 0  i: 4301
+clock: 0  i: 4302
+clock: 0  i: 4303
+clock: 0.01  i: 4304
+clock: 0  i: 4305
+clock: 0  i: 4306
+clock: 0  i: 4307
+clock: 0  i: 4308
+clock: 0  i: 4309
+clock: 0  i: 4310
+clock: 0  i: 4311
+clock: 0  i: 4312
+clock: 0  i: 4313
+clock: 0  i: 4314
+clock: 0  i: 4315
+clock: 0  i: 4316
+clock: 0  i: 4317
+clock: 0  i: 4318
+clock: 0  i: 4319
+clock: 0  i: 4320
+clock: 0  i: 4321
+clock: 0  i: 4322
+clock: 0  i: 4323
+clock: 0  i: 4324
+clock: 0  i: 4325
+clock: 0  i: 4326
+clock: 0  i: 4327
+clock: 0  i: 4328
+clock: 0  i: 4329
+clock: 0  i: 4330
+clock: 0  i: 4331
+clock: 0  i: 4332
+clock: 0  i: 4333
+clock: 0  i: 4334
+clock: 0  i: 4335
+clock: 0  i: 4336
+clock: 0  i: 4337
+clock: 0  i: 4338
+clock: 0  i: 4339
+clock: 0  i: 4340
+clock: 0  i: 4341
+clock: 0  i: 4342
+clock: 0  i: 4343
+clock: 0  i: 4344
+clock: 0  i: 4345
+clock: 0  i: 4346
+clock: 0  i: 4347
+clock: 0  i: 4348
+clock: 0  i: 4349
+clock: 0  i: 4350
+clock: 0  i: 4351
+clock: 0  i: 4352
+clock: 0  i: 4353
+clock: 0  i: 4354
+clock: 0  i: 4355
+clock: 0  i: 4356
+clock: 0  i: 4357
+clock: 0  i: 4358
+clock: 0  i: 4359
+clock: 0  i: 4360
+clock: 0  i: 4361
+clock: 0  i: 4362
+clock: 0  i: 4363
+clock: 0  i: 4364
+clock: 0  i: 4365
+clock: 0  i: 4366
+clock: 0  i: 4367
+clock: 0  i: 4368
+clock: 0  i: 4369
+clock: 0  i: 4370
+clock: 0  i: 4371
+clock: 0  i: 4372
+clock: 0  i: 4373
+clock: 0  i: 4374
+clock: 0  i: 4375
+clock: 0  i: 4376
+clock: 0  i: 4377
+clock: 0  i: 4378
+clock: 0  i: 4379
+clock: 0  i: 4380
+clock: 0  i: 4381
+clock: 0  i: 4382
+clock: 0  i: 4383
+clock: 0  i: 4384
+clock: 0  i: 4385
+clock: 0  i: 4386
+clock: 0  i: 4387
+clock: 0  i: 4388
+clock: 0  i: 4389
+clock: 0  i: 4390
+clock: 0  i: 4391
+clock: 0  i: 4392
+clock: 0  i: 4393
+clock: 0  i: 4394
+clock: 0  i: 4395
+clock: 0  i: 4396
+clock: 0  i: 4397
+clock: 0  i: 4398
+clock: 0  i: 4399
+clock: 0.01  i: 4400
+clock: 0  i: 4401
+clock: 0  i: 4402
+clock: 0  i: 4403
+clock: 0  i: 4404
+clock: 0  i: 4405
+clock: 0  i: 4406
+clock: 0  i: 4407
+clock: 0  i: 4408
+clock: 0  i: 4409
+clock: 0  i: 4410
+clock: 0  i: 4411
+clock: 0  i: 4412
+clock: 0  i: 4413
+clock: 0  i: 4414
+clock: 0  i: 4415
+clock: 0  i: 4416
+clock: 0  i: 4417
+clock: 0  i: 4418
+clock: 0  i: 4419
+clock: 0  i: 4420
+clock: 0  i: 4421
+clock: 0  i: 4422
+clock: 0  i: 4423
+clock: 0  i: 4424
+clock: 0  i: 4425
+clock: 0  i: 4426
+clock: 0  i: 4427
+clock: 0  i: 4428
+clock: 0  i: 4429
+clock: 0  i: 4430
+clock: 0  i: 4431
+clock: 0  i: 4432
+clock: 0  i: 4433
+clock: 0  i: 4434
+clock: 0  i: 4435
+clock: 0  i: 4436
+clock: 0  i: 4437
+clock: 0  i: 4438
+clock: 0  i: 4439
+clock: 0  i: 4440
+clock: 0  i: 4441
+clock: 0  i: 4442
+clock: 0  i: 4443
+clock: 0  i: 4444
+clock: 0  i: 4445
+clock: 0  i: 4446
+clock: 0  i: 4447
+clock: 0  i: 4448
+clock: 0  i: 4449
+clock: 0  i: 4450
+clock: 0  i: 4451
+clock: 0  i: 4452
+clock: 0  i: 4453
+clock: 0  i: 4454
+clock: 0  i: 4455
+clock: 0  i: 4456
+clock: 0  i: 4457
+clock: 0  i: 4458
+clock: 0  i: 4459
+clock: 0  i: 4460
+clock: 0  i: 4461
+clock: 0  i: 4462
+clock: 0  i: 4463
+clock: 0  i: 4464
+clock: 0  i: 4465
+clock: 0  i: 4466
+clock: 0  i: 4467
+clock: 0  i: 4468
+clock: 0  i: 4469
+clock: 0  i: 4470
+clock: 0  i: 4471
+clock: 0  i: 4472
+clock: 0  i: 4473
+clock: 0  i: 4474
+clock: 0  i: 4475
+clock: 0  i: 4476
+clock: 0  i: 4477
+clock: 0  i: 4478
+clock: 0  i: 4479
+clock: 0  i: 4480
+clock: 0  i: 4481
+clock: 0  i: 4482
+clock: 0  i: 4483
+clock: 0  i: 4484
+clock: 0  i: 4485
+clock: 0  i: 4486
+clock: 0  i: 4487
+clock: 0  i: 4488
+clock: 0  i: 4489
+clock: 0  i: 4490
+clock: 0  i: 4491
+clock: 0  i: 4492
+clock: 0  i: 4493
+clock: 0  i: 4494
+clock: 0.01  i: 4495
+clock: 0  i: 4496
+clock: 0  i: 4497
+clock: 0  i: 4498
+clock: 0  i: 4499
+clock: 0  i: 4500
+clock: 0  i: 4501
+clock: 0  i: 4502
+clock: 0  i: 4503
+clock: 0  i: 4504
+clock: 0  i: 4505
+clock: 0  i: 4506
+clock: 0  i: 4507
+clock: 0  i: 4508
+clock: 0  i: 4509
+clock: 0  i: 4510
+clock: 0  i: 4511
+clock: 0  i: 4512
+clock: 0  i: 4513
+clock: 0  i: 4514
+clock: 0  i: 4515
+clock: 0  i: 4516
+clock: 0  i: 4517
+clock: 0  i: 4518
+clock: 0  i: 4519
+clock: 0  i: 4520
+clock: 0  i: 4521
+clock: 0  i: 4522
+clock: 0  i: 4523
+clock: 0  i: 4524
+clock: 0  i: 4525
+clock: 0  i: 4526
+clock: 0  i: 4527
+clock: 0  i: 4528
+clock: 0  i: 4529
+clock: 0  i: 4530
+clock: 0  i: 4531
+clock: 0  i: 4532
+clock: 0  i: 4533
+clock: 0  i: 4534
+clock: 0  i: 4535
+clock: 0  i: 4536
+clock: 0  i: 4537
+clock: 0  i: 4538
+clock: 0  i: 4539
+clock: 0  i: 4540
+clock: 0  i: 4541
+clock: 0  i: 4542
+clock: 0  i: 4543
+clock: 0  i: 4544
+clock: 0  i: 4545
+clock: 0  i: 4546
+clock: 0  i: 4547
+clock: 0  i: 4548
+clock: 0  i: 4549
+clock: 0  i: 4550
+clock: 0  i: 4551
+clock: 0  i: 4552
+clock: 0  i: 4553
+clock: 0  i: 4554
+clock: 0  i: 4555
+clock: 0  i: 4556
+clock: 0  i: 4557
+clock: 0  i: 4558
+clock: 0  i: 4559
+clock: 0  i: 4560
+clock: 0  i: 4561
+clock: 0  i: 4562
+clock: 0  i: 4563
+clock: 0  i: 4564
+clock: 0  i: 4565
+clock: 0  i: 4566
+clock: 0  i: 4567
+clock: 0  i: 4568
+clock: 0  i: 4569
+clock: 0  i: 4570
+clock: 0  i: 4571
+clock: 0  i: 4572
+clock: 0  i: 4573
+clock: 0  i: 4574
+clock: 0  i: 4575
+clock: 0  i: 4576
+clock: 0  i: 4577
+clock: 0  i: 4578
+clock: 0  i: 4579
+clock: 0  i: 4580
+clock: 0  i: 4581
+clock: 0  i: 4582
+clock: 0  i: 4583
+clock: 0  i: 4584
+clock: 0  i: 4585
+clock: 0  i: 4586
+clock: 0  i: 4587
+clock: 0  i: 4588
+clock: 0  i: 4589
+clock: 0  i: 4590
+clock: 0  i: 4591
+clock: 0  i: 4592
+clock: 0  i: 4593
+clock: 0  i: 4594
+clock: 0  i: 4595
+clock: 0  i: 4596
+clock: 0  i: 4597
+clock: 0  i: 4598
+clock: 0  i: 4599
+clock: 0  i: 4600
+clock: 0  i: 4601
+clock: 0  i: 4602
+clock: 0  i: 4603
+clock: 0  i: 4604
+clock: 0  i: 4605
+clock: 0  i: 4606
+clock: 0  i: 4607
+clock: 0  i: 4608
+clock: 0.01  i: 4609
+clock: 0  i: 4610
+clock: 0  i: 4611
+clock: 0  i: 4612
+clock: 0  i: 4613
+clock: 0  i: 4614
+clock: 0  i: 4615
+clock: 0  i: 4616
+clock: 0  i: 4617
+clock: 0  i: 4618
+clock: 0  i: 4619
+clock: 0  i: 4620
+clock: 0  i: 4621
+clock: 0  i: 4622
+clock: 0  i: 4623
+clock: 0  i: 4624
+clock: 0  i: 4625
+clock: 0  i: 4626
+clock: 0  i: 4627
+clock: 0  i: 4628
+clock: 0  i: 4629
+clock: 0  i: 4630
+clock: 0  i: 4631
+clock: 0  i: 4632
+clock: 0  i: 4633
+clock: 0  i: 4634
+clock: 0  i: 4635
+clock: 0  i: 4636
+clock: 0  i: 4637
+clock: 0  i: 4638
+clock: 0  i: 4639
+clock: 0  i: 4640
+clock: 0  i: 4641
+clock: 0  i: 4642
+clock: 0  i: 4643
+clock: 0  i: 4644
+clock: 0  i: 4645
+clock: 0  i: 4646
+clock: 0  i: 4647
+clock: 0  i: 4648
+clock: 0  i: 4649
+clock: 0  i: 4650
+clock: 0  i: 4651
+clock: 0  i: 4652
+clock: 0  i: 4653
+clock: 0  i: 4654
+clock: 0  i: 4655
+clock: 0  i: 4656
+clock: 0  i: 4657
+clock: 0  i: 4658
+clock: 0  i: 4659
+clock: 0  i: 4660
+clock: 0  i: 4661
+clock: 0  i: 4662
+clock: 0  i: 4663
+clock: 0  i: 4664
+clock: 0  i: 4665
+clock: 0  i: 4666
+clock: 0  i: 4667
+clock: 0  i: 4668
+clock: 0  i: 4669
+clock: 0  i: 4670
+clock: 0  i: 4671
+clock: 0  i: 4672
+clock: 0  i: 4673
+clock: 0  i: 4674
+clock: 0  i: 4675
+clock: 0  i: 4676
+clock: 0  i: 4677
+clock: 0  i: 4678
+clock: 0  i: 4679
+clock: 0  i: 4680
+clock: 0  i: 4681
+clock: 0  i: 4682
+clock: 0  i: 4683
+clock: 0  i: 4684
+clock: 0  i: 4685
+clock: 0  i: 4686
+clock: 0  i: 4687
+clock: 0  i: 4688
+clock: 0  i: 4689
+clock: 0  i: 4690
+clock: 0  i: 4691
+clock: 0  i: 4692
+clock: 0  i: 4693
+clock: 0  i: 4694
+clock: 0  i: 4695
+clock: 0  i: 4696
+clock: 0  i: 4697
+clock: 0  i: 4698
+clock: 0  i: 4699
+clock: 0  i: 4700
+clock: 0  i: 4701
+clock: 0  i: 4702
+clock: 0  i: 4703
+clock: 0  i: 4704
+clock: 0  i: 4705
+clock: 0  i: 4706
+clock: 0  i: 4707
+clock: 0  i: 4708
+clock: 0  i: 4709
+clock: 0  i: 4710
+clock: 0  i: 4711
+clock: 0  i: 4712
+clock: 0  i: 4713
+clock: 0  i: 4714
+clock: 0  i: 4715
+clock: 0  i: 4716
+clock: 0  i: 4717
+clock: 0  i: 4718
+clock: 0  i: 4719
+clock: 0  i: 4720
+clock: 0.01  i: 4721
+clock: 0  i: 4722
+clock: 0  i: 4723
+clock: 0  i: 4724
+clock: 0  i: 4725
+clock: 0  i: 4726
+clock: 0  i: 4727
+clock: 0  i: 4728
+clock: 0  i: 4729
+clock: 0  i: 4730
+clock: 0  i: 4731
+clock: 0  i: 4732
+clock: 0  i: 4733
+clock: 0  i: 4734
+clock: 0  i: 4735
+clock: 0  i: 4736
+clock: 0  i: 4737
+clock: 0  i: 4738
+clock: 0  i: 4739
+clock: 0  i: 4740
+clock: 0  i: 4741
+clock: 0  i: 4742
+clock: 0  i: 4743
+clock: 0  i: 4744
+clock: 0  i: 4745
+clock: 0  i: 4746
+clock: 0  i: 4747
+clock: 0  i: 4748
+clock: 0  i: 4749
+clock: 0  i: 4750
+clock: 0  i: 4751
+clock: 0  i: 4752
+clock: 0  i: 4753
+clock: 0  i: 4754
+clock: 0  i: 4755
+clock: 0  i: 4756
+clock: 0  i: 4757
+clock: 0  i: 4758
+clock: 0  i: 4759
+clock: 0  i: 4760
+clock: 0  i: 4761
+clock: 0  i: 4762
+clock: 0  i: 4763
+clock: 0  i: 4764
+clock: 0  i: 4765
+clock: 0  i: 4766
+clock: 0  i: 4767
+clock: 0  i: 4768
+clock: 0  i: 4769
+clock: 0  i: 4770
+clock: 0  i: 4771
+clock: 0  i: 4772
+clock: 0  i: 4773
+clock: 0  i: 4774
+clock: 0  i: 4775
+clock: 0  i: 4776
+clock: 0  i: 4777
+clock: 0  i: 4778
+clock: 0  i: 4779
+clock: 0  i: 4780
+clock: 0  i: 4781
+clock: 0  i: 4782
+clock: 0  i: 4783
+clock: 0  i: 4784
+clock: 0  i: 4785
+clock: 0  i: 4786
+clock: 0  i: 4787
+clock: 0  i: 4788
+clock: 0  i: 4789
+clock: 0  i: 4790
+clock: 0  i: 4791
+clock: 0  i: 4792
+clock: 0  i: 4793
+clock: 0  i: 4794
+clock: 0  i: 4795
+clock: 0  i: 4796
+clock: 0  i: 4797
+clock: 0  i: 4798
+clock: 0  i: 4799
+clock: 0  i: 4800
+clock: 0  i: 4801
+clock: 0  i: 4802
+clock: 0  i: 4803
+clock: 0  i: 4804
+clock: 0  i: 4805
+clock: 0  i: 4806
+clock: 0  i: 4807
+clock: 0  i: 4808
+clock: 0  i: 4809
+clock: 0  i: 4810
+clock: 0  i: 4811
+clock: 0  i: 4812
+clock: 0  i: 4813
+clock: 0  i: 4814
+clock: 0  i: 4815
+clock: 0  i: 4816
+clock: 0  i: 4817
+clock: 0  i: 4818
+clock: 0  i: 4819
+clock: 0  i: 4820
+clock: 0  i: 4821
+clock: 0  i: 4822
+clock: 0  i: 4823
+clock: 0  i: 4824
+clock: 0  i: 4825
+clock: 0  i: 4826
+clock: 0  i: 4827
+clock: 0  i: 4828
+clock: 0  i: 4829
+clock: 0  i: 4830
+clock: 0  i: 4831
+clock: 0  i: 4832
+clock: 0  i: 4833
+clock: 0  i: 4834
+clock: 0  i: 4835
+clock: 0  i: 4836
+clock: 0  i: 4837
+clock: 0  i: 4838
+clock: 0  i: 4839
+clock: 0  i: 4840
+clock: 0  i: 4841
+clock: 0  i: 4842
+clock: 0  i: 4843
+clock: 0  i: 4844
+clock: 0  i: 4845
+clock: 0  i: 4846
+clock: 0  i: 4847
+clock: 0  i: 4848
+clock: 0  i: 4849
+clock: 0.01  i: 4850
+clock: 0  i: 4851
+clock: 0  i: 4852
+clock: 0  i: 4853
+clock: 0  i: 4854
+clock: 0  i: 4855
+clock: 0  i: 4856
+clock: 0  i: 4857
+clock: 0  i: 4858
+clock: 0  i: 4859
+clock: 0  i: 4860
+clock: 0  i: 4861
+clock: 0  i: 4862
+clock: 0  i: 4863
+clock: 0  i: 4864
+clock: 0  i: 4865
+clock: 0  i: 4866
+clock: 0  i: 4867
+clock: 0  i: 4868
+clock: 0  i: 4869
+clock: 0  i: 4870
+clock: 0  i: 4871
+clock: 0  i: 4872
+clock: 0  i: 4873
+clock: 0  i: 4874
+clock: 0  i: 4875
+clock: 0  i: 4876
+clock: 0  i: 4877
+clock: 0  i: 4878
+clock: 0  i: 4879
+clock: 0  i: 4880
+clock: 0  i: 4881
+clock: 0  i: 4882
+clock: 0  i: 4883
+clock: 0  i: 4884
+clock: 0  i: 4885
+clock: 0  i: 4886
+clock: 0  i: 4887
+clock: 0  i: 4888
+clock: 0  i: 4889
+clock: 0  i: 4890
+clock: 0  i: 4891
+clock: 0  i: 4892
+clock: 0  i: 4893
+clock: 0  i: 4894
+clock: 0  i: 4895
+clock: 0  i: 4896
+clock: 0  i: 4897
+clock: 0  i: 4898
+clock: 0  i: 4899
+clock: 0  i: 4900
+clock: 0  i: 4901
+clock: 0  i: 4902
+clock: 0  i: 4903
+clock: 0  i: 4904
+clock: 0  i: 4905
+clock: 0  i: 4906
+clock: 0  i: 4907
+clock: 0  i: 4908
+clock: 0  i: 4909
+clock: 0  i: 4910
+clock: 0  i: 4911
+clock: 0  i: 4912
+clock: 0  i: 4913
+clock: 0  i: 4914
+clock: 0  i: 4915
+clock: 0  i: 4916
+clock: 0  i: 4917
+clock: 0  i: 4918
+clock: 0  i: 4919
+clock: 0  i: 4920
+clock: 0  i: 4921
+clock: 0  i: 4922
+clock: 0  i: 4923
+clock: 0  i: 4924
+clock: 0  i: 4925
+clock: 0  i: 4926
+clock: 0  i: 4927
+clock: 0  i: 4928
+clock: 0  i: 4929
+clock: 0  i: 4930
+clock: 0  i: 4931
+clock: 0  i: 4932
+clock: 0  i: 4933
+clock: 0  i: 4934
+clock: 0  i: 4935
+clock: 0  i: 4936
+clock: 0  i: 4937
+clock: 0  i: 4938
+clock: 0  i: 4939
+clock: 0  i: 4940
+clock: 0  i: 4941
+clock: 0  i: 4942
+clock: 0  i: 4943
+clock: 0  i: 4944
+clock: 0  i: 4945
+clock: 0  i: 4946
+clock: 0  i: 4947
+clock: 0  i: 4948
+clock: 0  i: 4949
+clock: 0  i: 4950
+clock: 0  i: 4951
+clock: 0  i: 4952
+clock: 0  i: 4953
+clock: 0  i: 4954
+clock: 0  i: 4955
+clock: 0  i: 4956
+clock: 0  i: 4957
+clock: 0  i: 4958
+clock: 0  i: 4959
+clock: 0  i: 4960
+clock: 0  i: 4961
+clock: 0  i: 4962
+clock: 0  i: 4963
+clock: 0  i: 4964
+clock: 0  i: 4965
+clock: 0  i: 4966
+clock: 0  i: 4967
+clock: 0  i: 4968
+clock: 0  i: 4969
+clock: 0  i: 4970
+clock: 0  i: 4971
+clock: 0  i: 4972
+clock: 0  i: 4973
+clock: 0  i: 4974
+clock: 0  i: 4975
+clock: 0  i: 4976
+clock: 0  i: 4977
+clock: 0  i: 4978
+clock: 0  i: 4979
+clock: 0  i: 4980
+clock: 0  i: 4981
+clock: 0  i: 4982
+clock: 0  i: 4983
+clock: 0  i: 4984
+clock: 0  i: 4985
+clock: 0  i: 4986
+clock: 0  i: 4987
+clock: 0  i: 4988
+clock: 0  i: 4989
+clock: 0  i: 4990
+clock: 0  i: 4991
+clock: 0  i: 4992
+clock: 0  i: 4993
+clock: 0  i: 4994
+clock: 0  i: 4995
+clock: 0  i: 4996
+clock: 0  i: 4997
+clock: 0  i: 4998
+clock: 0  i: 4999
+clock: 0  i: 5000
+clock: 0  i: 5001
+clock: 0.01  i: 5002
+clock: 0  i: 5003
+clock: 0  i: 5004
+clock: 0  i: 5005
+clock: 0  i: 5006
+clock: 0  i: 5007
+clock: 0  i: 5008
+clock: 0  i: 5009
+clock: 0  i: 5010
+clock: 0  i: 5011
+clock: 0  i: 5012
+clock: 0  i: 5013
+clock: 0  i: 5014
+clock: 0  i: 5015
+clock: 0  i: 5016
+clock: 0  i: 5017
+clock: 0  i: 5018
+clock: 0  i: 5019
+clock: 0  i: 5020
+clock: 0  i: 5021
+clock: 0  i: 5022
+clock: 0  i: 5023
+clock: 0  i: 5024
+clock: 0  i: 5025
+clock: 0  i: 5026
+clock: 0  i: 5027
+clock: 0  i: 5028
+clock: 0  i: 5029
+clock: 0  i: 5030
+clock: 0  i: 5031
+clock: 0  i: 5032
+clock: 0  i: 5033
+clock: 0  i: 5034
+clock: 0  i: 5035
+clock: 0  i: 5036
+clock: 0  i: 5037
+clock: 0  i: 5038
+clock: 0  i: 5039
+clock: 0  i: 5040
+clock: 0  i: 5041
+clock: 0  i: 5042
+clock: 0  i: 5043
+clock: 0  i: 5044
+clock: 0  i: 5045
+clock: 0  i: 5046
+clock: 0  i: 5047
+clock: 0  i: 5048
+clock: 0  i: 5049
+clock: 0  i: 5050
+clock: 0  i: 5051
+clock: 0  i: 5052
+clock: 0  i: 5053
+clock: 0  i: 5054
+clock: 0  i: 5055
+clock: 0  i: 5056
+clock: 0  i: 5057
+clock: 0  i: 5058
+clock: 0  i: 5059
+clock: 0  i: 5060
+clock: 0  i: 5061
+clock: 0  i: 5062
+clock: 0  i: 5063
+clock: 0  i: 5064
+clock: 0  i: 5065
+clock: 0  i: 5066
+clock: 0  i: 5067
+clock: 0  i: 5068
+clock: 0  i: 5069
+clock: 0  i: 5070
+clock: 0  i: 5071
+clock: 0  i: 5072
+clock: 0  i: 5073
+clock: 0  i: 5074
+clock: 0  i: 5075
+clock: 0  i: 5076
+clock: 0  i: 5077
+clock: 0  i: 5078
+clock: 0  i: 5079
+clock: 0  i: 5080
+clock: 0  i: 5081
+clock: 0  i: 5082
+clock: 0  i: 5083
+clock: 0  i: 5084
+clock: 0  i: 5085
+clock: 0  i: 5086
+clock: 0  i: 5087
+clock: 0  i: 5088
+clock: 0  i: 5089
+clock: 0  i: 5090
+clock: 0  i: 5091
+clock: 0  i: 5092
+clock: 0  i: 5093
+clock: 0  i: 5094
+clock: 0  i: 5095
+clock: 0  i: 5096
+clock: 0  i: 5097
+clock: 0  i: 5098
+clock: 0  i: 5099
+clock: 0  i: 5100
+clock: 0  i: 5101
+clock: 0  i: 5102
+clock: 0  i: 5103
+clock: 0  i: 5104
+clock: 0  i: 5105
+clock: 0  i: 5106
+clock: 0  i: 5107
+clock: 0  i: 5108
+clock: 0  i: 5109
+clock: 0  i: 5110
+clock: 0  i: 5111
+clock: 0  i: 5112
+clock: 0  i: 5113
+clock: 0  i: 5114
+clock: 0  i: 5115
+clock: 0  i: 5116
+clock: 0  i: 5117
+clock: 0  i: 5118
+clock: 0  i: 5119
+clock: 0  i: 5120
+clock: 0  i: 5121
+clock: 0  i: 5122
+clock: 0  i: 5123
+clock: 0  i: 5124
+clock: 0  i: 5125
+clock: 0  i: 5126
+clock: 0  i: 5127
+clock: 0  i: 5128
+clock: 0  i: 5129
+clock: 0  i: 5130
+clock: 0  i: 5131
+clock: 0  i: 5132
+clock: 0  i: 5133
+clock: 0  i: 5134
+clock: 0  i: 5135
+clock: 0  i: 5136
+clock: 0  i: 5137
+clock: 0  i: 5138
+clock: 0  i: 5139
+clock: 0  i: 5140
+clock: 0  i: 5141
+clock: 0  i: 5142
+clock: 0  i: 5143
+clock: 0  i: 5144
+clock: 0  i: 5145
+clock: 0  i: 5146
+clock: 0  i: 5147
+clock: 0  i: 5148
+clock: 0  i: 5149
+clock: 0  i: 5150
+clock: 0  i: 5151
+clock: 0  i: 5152
+clock: 0  i: 5153
+clock: 0  i: 5154
+clock: 0  i: 5155
+clock: 0  i: 5156
+clock: 0  i: 5157
+clock: 0  i: 5158
+clock: 0  i: 5159
+clock: 0  i: 5160
+clock: 0  i: 5161
+clock: 0  i: 5162
+clock: 0  i: 5163
+clock: 0  i: 5164
+clock: 0  i: 5165
+clock: 0  i: 5166
+clock: 0  i: 5167
+clock: 0  i: 5168
+clock: 0  i: 5169
+clock: 0  i: 5170
+clock: 0  i: 5171
+clock: 0  i: 5172
+clock: 0  i: 5173
+clock: 0  i: 5174
+clock: 0  i: 5175
+clock: 0  i: 5176
+clock: 0  i: 5177
+clock: 0  i: 5178
+clock: 0  i: 5179
+clock: 0  i: 5180
+clock: 0  i: 5181
+clock: 0  i: 5182
+clock: 0  i: 5183
+clock: 0  i: 5184
+clock: 0  i: 5185
+clock: 0  i: 5186
+clock: 0  i: 5187
+clock: 0  i: 5188
+clock: 0.01  i: 5189
+clock: 0  i: 5190
+clock: 0  i: 5191
+clock: 0  i: 5192
+clock: 0  i: 5193
+clock: 0  i: 5194
+clock: 0  i: 5195
+clock: 0  i: 5196
+clock: 0  i: 5197
+clock: 0  i: 5198
+clock: 0  i: 5199
+clock: 0  i: 5200
+clock: 0  i: 5201
+clock: 0  i: 5202
+clock: 0  i: 5203
+clock: 0  i: 5204
+clock: 0  i: 5205
+clock: 0  i: 5206
+clock: 0  i: 5207
+clock: 0  i: 5208
+clock: 0  i: 5209
+clock: 0  i: 5210
+clock: 0  i: 5211
+clock: 0  i: 5212
+clock: 0  i: 5213
+clock: 0  i: 5214
+clock: 0  i: 5215
+clock: 0  i: 5216
+clock: 0  i: 5217
+clock: 0  i: 5218
+clock: 0  i: 5219
+clock: 0  i: 5220
+clock: 0  i: 5221
+clock: 0  i: 5222
+clock: 0  i: 5223
+clock: 0  i: 5224
+clock: 0  i: 5225
+clock: 0  i: 5226
+clock: 0  i: 5227
+clock: 0  i: 5228
+clock: 0  i: 5229
+clock: 0  i: 5230
+clock: 0  i: 5231
+clock: 0  i: 5232
+clock: 0  i: 5233
+clock: 0  i: 5234
+clock: 0  i: 5235
+clock: 0  i: 5236
+clock: 0  i: 5237
+clock: 0  i: 5238
+clock: 0  i: 5239
+clock: 0  i: 5240
+clock: 0  i: 5241
+clock: 0  i: 5242
+clock: 0  i: 5243
+clock: 0  i: 5244
+clock: 0  i: 5245
+clock: 0  i: 5246
+clock: 0  i: 5247
+clock: 0  i: 5248
+clock: 0  i: 5249
+clock: 0  i: 5250
+clock: 0  i: 5251
+clock: 0  i: 5252
+clock: 0  i: 5253
+clock: 0  i: 5254
+clock: 0  i: 5255
+clock: 0  i: 5256
+clock: 0  i: 5257
+clock: 0  i: 5258
+clock: 0  i: 5259
+clock: 0  i: 5260
+clock: 0  i: 5261
+clock: 0  i: 5262
+clock: 0  i: 5263
+clock: 0  i: 5264
+clock: 0  i: 5265
+clock: 0  i: 5266
+clock: 0  i: 5267
+clock: 0  i: 5268
+clock: 0  i: 5269
+clock: 0  i: 5270
+clock: 0  i: 5271
+clock: 0  i: 5272
+clock: 0  i: 5273
+clock: 0  i: 5274
+clock: 0  i: 5275
+clock: 0  i: 5276
+clock: 0  i: 5277
+clock: 0  i: 5278
+clock: 0  i: 5279
+clock: 0  i: 5280
+clock: 0  i: 5281
+clock: 0  i: 5282
+clock: 0  i: 5283
+clock: 0  i: 5284
+clock: 0  i: 5285
+clock: 0  i: 5286
+clock: 0  i: 5287
+clock: 0  i: 5288
+clock: 0  i: 5289
+clock: 0  i: 5290
+clock: 0  i: 5291
+clock: 0  i: 5292
+clock: 0  i: 5293
+clock: 0  i: 5294
+clock: 0  i: 5295
+clock: 0  i: 5296
+clock: 0  i: 5297
+clock: 0  i: 5298
+clock: 0  i: 5299
+clock: 0  i: 5300
+clock: 0  i: 5301
+clock: 0  i: 5302
+clock: 0  i: 5303
+clock: 0  i: 5304
+clock: 0  i: 5305
+clock: 0  i: 5306
+clock: 0  i: 5307
+clock: 0  i: 5308
+clock: 0  i: 5309
+clock: 0  i: 5310
+clock: 0  i: 5311
+clock: 0  i: 5312
+clock: 0  i: 5313
+clock: 0  i: 5314
+clock: 0  i: 5315
+clock: 0  i: 5316
+clock: 0  i: 5317
+clock: 0  i: 5318
+clock: 0  i: 5319
+clock: 0  i: 5320
+clock: 0  i: 5321
+clock: 0  i: 5322
+clock: 0  i: 5323
+clock: 0  i: 5324
+clock: 0  i: 5325
+clock: 0  i: 5326
+clock: 0  i: 5327
+clock: 0  i: 5328
+clock: 0  i: 5329
+clock: 0  i: 5330
+clock: 0  i: 5331
+clock: 0  i: 5332
+clock: 0  i: 5333
+clock: 0  i: 5334
+clock: 0  i: 5335
+clock: 0  i: 5336
+clock: 0  i: 5337
+clock: 0  i: 5338
+clock: 0  i: 5339
+clock: 0  i: 5340
+clock: 0  i: 5341
+clock: 0  i: 5342
+clock: 0  i: 5343
+clock: 0  i: 5344
+clock: 0  i: 5345
+clock: 0  i: 5346
+clock: 0  i: 5347
+clock: 0  i: 5348
+clock: 0  i: 5349
+clock: 0  i: 5350
+clock: 0  i: 5351
+clock: 0  i: 5352
+clock: 0  i: 5353
+clock: 0  i: 5354
+clock: 0  i: 5355
+clock: 0  i: 5356
+clock: 0  i: 5357
+clock: 0  i: 5358
+clock: 0  i: 5359
+clock: 0  i: 5360
+clock: 0  i: 5361
+clock: 0  i: 5362
+clock: 0  i: 5363
+clock: 0  i: 5364
+clock: 0  i: 5365
+clock: 0  i: 5366
+clock: 0  i: 5367
+clock: 0  i: 5368
+clock: 0  i: 5369
+clock: 0  i: 5370
+clock: 0  i: 5371
+clock: 0  i: 5372
+clock: 0  i: 5373
+clock: 0  i: 5374
+clock: 0  i: 5375
+clock: 0  i: 5376
+clock: 0  i: 5377
+clock: 0  i: 5378
+clock: 0  i: 5379
+clock: 0  i: 5380
+clock: 0  i: 5381
+clock: 0  i: 5382
+clock: 0  i: 5383
+clock: 0  i: 5384
+clock: 0  i: 5385
+clock: 0  i: 5386
+clock: 0  i: 5387
+clock: 0  i: 5388
+clock: 0  i: 5389
+clock: 0  i: 5390
+clock: 0  i: 5391
+clock: 0  i: 5392
+clock: 0  i: 5393
+clock: 0.01  i: 5394
+clock: 0  i: 5395
+clock: 0  i: 5396
+clock: 0  i: 5397
+clock: 0  i: 5398
+clock: 0  i: 5399
+clock: 0  i: 5400
+clock: 0  i: 5401
+clock: 0  i: 5402
+clock: 0  i: 5403
+clock: 0  i: 5404
+clock: 0  i: 5405
+clock: 0  i: 5406
+clock: 0  i: 5407
+clock: 0  i: 5408
+clock: 0  i: 5409
+clock: 0  i: 5410
+clock: 0  i: 5411
+clock: 0  i: 5412
+clock: 0  i: 5413
+clock: 0  i: 5414
+clock: 0  i: 5415
+clock: 0  i: 5416
+clock: 0  i: 5417
+clock: 0  i: 5418
+clock: 0  i: 5419
+clock: 0  i: 5420
+clock: 0  i: 5421
+clock: 0  i: 5422
+clock: 0  i: 5423
+clock: 0  i: 5424
+clock: 0  i: 5425
+clock: 0  i: 5426
+clock: 0  i: 5427
+clock: 0  i: 5428
+clock: 0  i: 5429
+clock: 0  i: 5430
+clock: 0  i: 5431
+clock: 0  i: 5432
+clock: 0  i: 5433
+clock: 0  i: 5434
+clock: 0  i: 5435
+clock: 0  i: 5436
+clock: 0  i: 5437
+clock: 0  i: 5438
+clock: 0  i: 5439
+clock: 0  i: 5440
+clock: 0  i: 5441
+clock: 0  i: 5442
+clock: 0  i: 5443
+clock: 0  i: 5444
+clock: 0  i: 5445
+clock: 0  i: 5446
+clock: 0  i: 5447
+clock: 0  i: 5448
+clock: 0  i: 5449
+clock: 0  i: 5450
+clock: 0  i: 5451
+clock: 0  i: 5452
+clock: 0  i: 5453
+clock: 0  i: 5454
+clock: 0  i: 5455
+clock: 0  i: 5456
+clock: 0  i: 5457
+clock: 0  i: 5458
+clock: 0  i: 5459
+clock: 0  i: 5460
+clock: 0  i: 5461
+clock: 0  i: 5462
+clock: 0  i: 5463
+clock: 0  i: 5464
+clock: 0  i: 5465
+clock: 0  i: 5466
+clock: 0  i: 5467
+clock: 0  i: 5468
+clock: 0  i: 5469
+clock: 0  i: 5470
+clock: 0  i: 5471
+clock: 0  i: 5472
+clock: 0  i: 5473
+clock: 0  i: 5474
+clock: 0  i: 5475
+clock: 0  i: 5476
+clock: 0  i: 5477
+clock: 0  i: 5478
+clock: 0  i: 5479
+clock: 0  i: 5480
+clock: 0  i: 5481
+clock: 0  i: 5482
+clock: 0  i: 5483
+clock: 0  i: 5484
+clock: 0  i: 5485
+clock: 0  i: 5486
+clock: 0  i: 5487
+clock: 0  i: 5488
+clock: 0  i: 5489
+clock: 0  i: 5490
+clock: 0  i: 5491
+clock: 0  i: 5492
+clock: 0  i: 5493
+clock: 0  i: 5494
+clock: 0  i: 5495
+clock: 0  i: 5496
+clock: 0  i: 5497
+clock: 0  i: 5498
+clock: 0  i: 5499
+clock: 0  i: 5500
+clock: 0  i: 5501
+clock: 0  i: 5502
+clock: 0  i: 5503
+clock: 0  i: 5504
+clock: 0  i: 5505
+clock: 0  i: 5506
+clock: 0  i: 5507
+clock: 0  i: 5508
+clock: 0  i: 5509
+clock: 0  i: 5510
+clock: 0  i: 5511
+clock: 0  i: 5512
+clock: 0  i: 5513
+clock: 0  i: 5514
+clock: 0  i: 5515
+clock: 0  i: 5516
+clock: 0  i: 5517
+clock: 0  i: 5518
+clock: 0  i: 5519
+clock: 0  i: 5520
+clock: 0  i: 5521
+clock: 0  i: 5522
+clock: 0  i: 5523
+clock: 0  i: 5524
+clock: 0  i: 5525
+clock: 0  i: 5526
+clock: 0  i: 5527
+clock: 0  i: 5528
+clock: 0  i: 5529
+clock: 0  i: 5530
+clock: 0  i: 5531
+clock: 0  i: 5532
+clock: 0  i: 5533
+clock: 0  i: 5534
+clock: 0  i: 5535
+clock: 0  i: 5536
+clock: 0  i: 5537
+clock: 0  i: 5538
+clock: 0  i: 5539
+clock: 0  i: 5540
+clock: 0  i: 5541
+clock: 0  i: 5542
+clock: 0  i: 5543
+clock: 0  i: 5544
+clock: 0  i: 5545
+clock: 0  i: 5546
+clock: 0  i: 5547
+clock: 0  i: 5548
+clock: 0  i: 5549
+clock: 0  i: 5550
+clock: 0  i: 5551
+clock: 0  i: 5552
+clock: 0  i: 5553
+clock: 0  i: 5554
+clock: 0  i: 5555
+clock: 0  i: 5556
+clock: 0  i: 5557
+clock: 0  i: 5558
+clock: 0  i: 5559
+clock: 0  i: 5560
+clock: 0  i: 5561
+clock: 0  i: 5562
+clock: 0  i: 5563
+clock: 0  i: 5564
+clock: 0  i: 5565
+clock: 0  i: 5566
+clock: 0  i: 5567
+clock: 0  i: 5568
+clock: 0  i: 5569
+clock: 0  i: 5570
+clock: 0  i: 5571
+clock: 0  i: 5572
+clock: 0  i: 5573
+clock: 0  i: 5574
+clock: 0  i: 5575
+clock: 0  i: 5576
+clock: 0  i: 5577
+clock: 0  i: 5578
+clock: 0  i: 5579
+clock: 0  i: 5580
+clock: 0  i: 5581
+clock: 0  i: 5582
+clock: 0  i: 5583
+clock: 0  i: 5584
+clock: 0  i: 5585
+clock: 0  i: 5586
+clock: 0  i: 5587
+clock: 0  i: 5588
+clock: 0  i: 5589
+clock: 0  i: 5590
+clock: 0  i: 5591
+clock: 0  i: 5592
+clock: 0  i: 5593
+clock: 0  i: 5594
+clock: 0  i: 5595
+clock: 0  i: 5596
+clock: 0  i: 5597
+clock: 0  i: 5598
+clock: 0  i: 5599
+clock: 0  i: 5600
+clock: 0  i: 5601
+clock: 0  i: 5602
+clock: 0  i: 5603
+clock: 0  i: 5604
+clock: 0  i: 5605
+clock: 0  i: 5606
+clock: 0  i: 5607
+clock: 0  i: 5608
+clock: 0  i: 5609
+clock: 0  i: 5610
+clock: 0  i: 5611
+clock: 0  i: 5612
+clock: 0  i: 5613
+clock: 0  i: 5614
+clock: 0  i: 5615
+clock: 0  i: 5616
+clock: 0  i: 5617
+clock: 0  i: 5618
+clock: 0  i: 5619
+clock: 0  i: 5620
+clock: 0  i: 5621
+clock: 0  i: 5622
+clock: 0  i: 5623
+clock: 0  i: 5624
+clock: 0  i: 5625
+clock: 0  i: 5626
+clock: 0  i: 5627
+clock: 0  i: 5628
+clock: 0  i: 5629
+clock: 0  i: 5630
+clock: 0  i: 5631
+clock: 0  i: 5632
+clock: 0  i: 5633
+clock: 0  i: 5634
+clock: 0  i: 5635
+clock: 0  i: 5636
+clock: 0.01  i: 5637
+clock: 0  i: 5638
+clock: 0  i: 5639
+clock: 0  i: 5640
+clock: 0  i: 5641
+clock: 0  i: 5642
+clock: 0  i: 5643
+clock: 0  i: 5644
+clock: 0  i: 5645
+clock: 0  i: 5646
+clock: 0  i: 5647
+clock: 0  i: 5648
+clock: 0  i: 5649
+clock: 0  i: 5650
+clock: 0  i: 5651
+clock: 0  i: 5652
+clock: 0  i: 5653
+clock: 0  i: 5654
+clock: 0  i: 5655
+clock: 0  i: 5656
+clock: 0  i: 5657
+clock: 0  i: 5658
+clock: 0  i: 5659
+clock: 0  i: 5660
+clock: 0  i: 5661
+clock: 0  i: 5662
+clock: 0  i: 5663
+clock: 0  i: 5664
+clock: 0  i: 5665
+clock: 0  i: 5666
+clock: 0  i: 5667
+clock: 0  i: 5668
+clock: 0  i: 5669
+clock: 0  i: 5670
+clock: 0  i: 5671
+clock: 0  i: 5672
+clock: 0  i: 5673
+clock: 0  i: 5674
+clock: 0  i: 5675
+clock: 0  i: 5676
+clock: 0  i: 5677
+clock: 0  i: 5678
+clock: 0  i: 5679
+clock: 0  i: 5680
+clock: 0  i: 5681
+clock: 0  i: 5682
+clock: 0  i: 5683
+clock: 0  i: 5684
+clock: 0  i: 5685
+clock: 0  i: 5686
+clock: 0  i: 5687
+clock: 0  i: 5688
+clock: 0  i: 5689
+clock: 0  i: 5690
+clock: 0  i: 5691
+clock: 0  i: 5692
+clock: 0  i: 5693
+clock: 0  i: 5694
+clock: 0  i: 5695
+clock: 0  i: 5696
+clock: 0  i: 5697
+clock: 0  i: 5698
+clock: 0  i: 5699
+clock: 0  i: 5700
+clock: 0  i: 5701
+clock: 0  i: 5702
+clock: 0  i: 5703
+clock: 0  i: 5704
+clock: 0  i: 5705
+clock: 0  i: 5706
+clock: 0  i: 5707
+clock: 0  i: 5708
+clock: 0  i: 5709
+clock: 0  i: 5710
+clock: 0  i: 5711
+clock: 0  i: 5712
+clock: 0  i: 5713
+clock: 0  i: 5714
+clock: 0  i: 5715
+clock: 0  i: 5716
+clock: 0  i: 5717
+clock: 0  i: 5718
+clock: 0  i: 5719
+clock: 0  i: 5720
+clock: 0  i: 5721
+clock: 0  i: 5722
+clock: 0  i: 5723
+clock: 0  i: 5724
+clock: 0  i: 5725
+clock: 0  i: 5726
+clock: 0  i: 5727
+clock: 0  i: 5728
+clock: 0  i: 5729
+clock: 0  i: 5730
+clock: 0  i: 5731
+clock: 0  i: 5732
+clock: 0  i: 5733
+clock: 0  i: 5734
+clock: 0  i: 5735
+clock: 0  i: 5736
+clock: 0  i: 5737
+clock: 0  i: 5738
+clock: 0  i: 5739
+clock: 0  i: 5740
+clock: 0  i: 5741
+clock: 0  i: 5742
+clock: 0  i: 5743
+clock: 0  i: 5744
+clock: 0  i: 5745
+clock: 0  i: 5746
+clock: 0  i: 5747
+clock: 0  i: 5748
+clock: 0  i: 5749
+clock: 0  i: 5750
+clock: 0  i: 5751
+clock: 0  i: 5752
+clock: 0  i: 5753
+clock: 0  i: 5754
+clock: 0  i: 5755
+clock: 0  i: 5756
+clock: 0  i: 5757
+clock: 0  i: 5758
+clock: 0  i: 5759
+clock: 0  i: 5760
+clock: 0  i: 5761
+clock: 0  i: 5762
+clock: 0  i: 5763
+clock: 0  i: 5764
+clock: 0  i: 5765
+clock: 0  i: 5766
+clock: 0  i: 5767
+clock: 0  i: 5768
+clock: 0  i: 5769
+clock: 0  i: 5770
+clock: 0  i: 5771
+clock: 0  i: 5772
+clock: 0  i: 5773
+clock: 0  i: 5774
+clock: 0  i: 5775
+clock: 0  i: 5776
+clock: 0  i: 5777
+clock: 0  i: 5778
+clock: 0  i: 5779
+clock: 0  i: 5780
+clock: 0  i: 5781
+clock: 0  i: 5782
+clock: 0  i: 5783
+clock: 0  i: 5784
+clock: 0  i: 5785
+clock: 0  i: 5786
+clock: 0  i: 5787
+clock: 0  i: 5788
+clock: 0  i: 5789
+clock: 0  i: 5790
+clock: 0  i: 5791
+clock: 0  i: 5792
+clock: 0  i: 5793
+clock: 0  i: 5794
+clock: 0  i: 5795
+clock: 0  i: 5796
+clock: 0  i: 5797
+clock: 0  i: 5798
+clock: 0  i: 5799
+clock: 0  i: 5800
+clock: 0  i: 5801
+clock: 0  i: 5802
+clock: 0  i: 5803
+clock: 0  i: 5804
+clock: 0  i: 5805
+clock: 0  i: 5806
+clock: 0  i: 5807
+clock: 0  i: 5808
+clock: 0  i: 5809
+clock: 0  i: 5810
+clock: 0  i: 5811
+clock: 0  i: 5812
+clock: 0  i: 5813
+clock: 0  i: 5814
+clock: 0  i: 5815
+clock: 0  i: 5816
+clock: 0  i: 5817
+clock: 0  i: 5818
+clock: 0  i: 5819
+clock: 0  i: 5820
+clock: 0  i: 5821
+clock: 0  i: 5822
+clock: 0  i: 5823
+clock: 0  i: 5824
+clock: 0  i: 5825
+clock: 0  i: 5826
+clock: 0  i: 5827
+clock: 0  i: 5828
+clock: 0  i: 5829
+clock: 0  i: 5830
+clock: 0  i: 5831
+clock: 0  i: 5832
+clock: 0  i: 5833
+clock: 0  i: 5834
+clock: 0  i: 5835
+clock: 0  i: 5836
+clock: 0  i: 5837
+clock: 0  i: 5838
+clock: 0  i: 5839
+clock: 0  i: 5840
+clock: 0  i: 5841
+clock: 0  i: 5842
+clock: 0  i: 5843
+clock: 0  i: 5844
+clock: 0  i: 5845
+clock: 0  i: 5846
+clock: 0  i: 5847
+clock: 0  i: 5848
+clock: 0  i: 5849
+clock: 0  i: 5850
+clock: 0  i: 5851
+clock: 0  i: 5852
+clock: 0  i: 5853
+clock: 0  i: 5854
+clock: 0  i: 5855
+clock: 0  i: 5856
+clock: 0  i: 5857
+clock: 0  i: 5858
+clock: 0  i: 5859
+clock: 0  i: 5860
+clock: 0  i: 5861
+clock: 0  i: 5862
+clock: 0  i: 5863
+clock: 0  i: 5864
+clock: 0  i: 5865
+clock: 0  i: 5866
+clock: 0  i: 5867
+clock: 0  i: 5868
+clock: 0  i: 5869
+clock: 0  i: 5870
+clock: 0  i: 5871
+clock: 0  i: 5872
+clock: 0  i: 5873
+clock: 0  i: 5874
+clock: 0  i: 5875
+clock: 0  i: 5876
+clock: 0  i: 5877
+clock: 0  i: 5878
+clock: 0  i: 5879
+clock: 0  i: 5880
+clock: 0  i: 5881
+clock: 0  i: 5882
+clock: 0  i: 5883
+clock: 0  i: 5884
+clock: 0  i: 5885
+clock: 0  i: 5886
+clock: 0  i: 5887
+clock: 0  i: 5888
+clock: 0  i: 5889
+clock: 0  i: 5890
+clock: 0  i: 5891
+clock: 0  i: 5892
+clock: 0  i: 5893
+clock: 0  i: 5894
+clock: 0  i: 5895
+clock: 0  i: 5896
+clock: 0  i: 5897
+clock: 0  i: 5898
+clock: 0  i: 5899
+clock: 0  i: 5900
+clock: 0  i: 5901
+clock: 0  i: 5902
+clock: 0  i: 5903
+clock: 0  i: 5904
+clock: 0  i: 5905
+clock: 0  i: 5906
+clock: 0  i: 5907
+clock: 0  i: 5908
+clock: 0  i: 5909
+clock: 0  i: 5910
+clock: 0  i: 5911
+clock: 0  i: 5912
+clock: 0  i: 5913
+clock: 0  i: 5914
+clock: 0  i: 5915
+clock: 0  i: 5916
+clock: 0  i: 5917
+clock: 0  i: 5918
+clock: 0  i: 5919
+clock: 0  i: 5920
+clock: 0  i: 5921
+clock: 0  i: 5922
+clock: 0  i: 5923
+clock: 0  i: 5924
+clock: 0  i: 5925
+clock: 0  i: 5926
+clock: 0  i: 5927
+clock: 0  i: 5928
+clock: 0  i: 5929
+clock: 0  i: 5930
+clock: 0  i: 5931
+clock: 0  i: 5932
+clock: 0  i: 5933
+clock: 0  i: 5934
+clock: 0  i: 5935
+clock: 0  i: 5936
+clock: 0  i: 5937
+clock: 0  i: 5938
+clock: 0  i: 5939
+clock: 0  i: 5940
+clock: 0  i: 5941
+clock: 0  i: 5942
+clock: 0  i: 5943
+clock: 0.01  i: 5944
+clock: 0  i: 5945
+clock: 0  i: 5946
+clock: 0  i: 5947
+clock: 0  i: 5948
+clock: 0  i: 5949
+clock: 0  i: 5950
+clock: 0  i: 5951
+clock: 0  i: 5952
+clock: 0  i: 5953
+clock: 0  i: 5954
+clock: 0  i: 5955
+clock: 0  i: 5956
+clock: 0  i: 5957
+clock: 0  i: 5958
+clock: 0  i: 5959
+clock: 0  i: 5960
+clock: 0  i: 5961
+clock: 0  i: 5962
+clock: 0  i: 5963
+clock: 0  i: 5964
+clock: 0  i: 5965
+clock: 0  i: 5966
+clock: 0  i: 5967
+clock: 0  i: 5968
+clock: 0  i: 5969
+clock: 0  i: 5970
+clock: 0  i: 5971
+clock: 0  i: 5972
+clock: 0  i: 5973
+clock: 0  i: 5974
+clock: 0  i: 5975
+clock: 0  i: 5976
+clock: 0  i: 5977
+clock: 0  i: 5978
+clock: 0  i: 5979
+clock: 0  i: 5980
+clock: 0  i: 5981
+clock: 0  i: 5982
+clock: 0  i: 5983
+clock: 0  i: 5984
+clock: 0  i: 5985
+clock: 0  i: 5986
+clock: 0  i: 5987
+clock: 0  i: 5988
+clock: 0  i: 5989
+clock: 0  i: 5990
+clock: 0  i: 5991
+clock: 0  i: 5992
+clock: 0  i: 5993
+clock: 0  i: 5994
+clock: 0  i: 5995
+clock: 0  i: 5996
+clock: 0  i: 5997
+clock: 0  i: 5998
+clock: 0  i: 5999
+clock: 0  i: 6000
+clock: 0  i: 6001
+clock: 0  i: 6002
+clock: 0  i: 6003
+clock: 0  i: 6004
+clock: 0  i: 6005
+clock: 0  i: 6006
+clock: 0  i: 6007
+clock: 0  i: 6008
+clock: 0  i: 6009
+clock: 0  i: 6010
+clock: 0  i: 6011
+clock: 0  i: 6012
+clock: 0  i: 6013
+clock: 0  i: 6014
+clock: 0  i: 6015
+clock: 0  i: 6016
+clock: 0  i: 6017
+clock: 0  i: 6018
+clock: 0  i: 6019
+clock: 0  i: 6020
+clock: 0  i: 6021
+clock: 0  i: 6022
+clock: 0  i: 6023
+clock: 0  i: 6024
+clock: 0  i: 6025
+clock: 0  i: 6026
+clock: 0  i: 6027
+clock: 0  i: 6028
+clock: 0  i: 6029
+clock: 0  i: 6030
+clock: 0  i: 6031
+clock: 0  i: 6032
+clock: 0  i: 6033
+clock: 0  i: 6034
+clock: 0  i: 6035
+clock: 0  i: 6036
+clock: 0  i: 6037
+clock: 0  i: 6038
+clock: 0  i: 6039
+clock: 0  i: 6040
+clock: 0  i: 6041
+clock: 0  i: 6042
+clock: 0  i: 6043
+clock: 0  i: 6044
+clock: 0  i: 6045
+clock: 0  i: 6046
+clock: 0  i: 6047
+clock: 0  i: 6048
+init_cut: 3032
