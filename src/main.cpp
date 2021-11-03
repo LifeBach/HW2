@@ -115,7 +115,8 @@ vector<Net> net_parser(char *filename, unordered_map<string,Cell> &cells)
     Net net;
     while (getline(nets_file,temp_line))
     {
-        if(temp_line.at(temp_line.length()-1)!='}')
+        //if(temp_line.at(temp_line.length()-1)!='}')
+        if(temp_line.find('}') == string::npos)
         {
             line += temp_line;
             line += '\n';
@@ -373,18 +374,18 @@ Cell* find_cell(map<int,unordered_map<string, Cell*>,greater<int>> &bucket, int 
     }
 }
 
-int get_max(map<int,unordered_map<string, Cell*>,greater<int>> &bucket)
-{
-    int max_gain = 0;
-    for (auto &i : bucket)
-    {
-        if(i.second.empty() != 1)
-        {
-            max_gain = i.first;
-            return max_gain;
-        }
-    }
-}
+// int get_max(map<int,unordered_map<string, Cell*>,greater<int>> &bucket)
+// {
+//     int max_gain = 0;
+//     for (auto &i : bucket)
+//     {
+//         if(i.second.empty() != 1)
+//         {
+//             max_gain = i.first;
+//             return max_gain;
+//         }
+//     }
+// }
 
 // Cell* find_cell(map<int,unordered_map<string, Cell*>,greater<int>> &bucket, int &area_A, int &area_B, int &area_n)
 // {
@@ -762,7 +763,6 @@ void best_result(unordered_map<string,Cell*> &set_A, unordered_map<string,Cell*>
     int n_cut = init_cut;
     for(auto iter = solution.begin(); iter != solution.begin()+best_step+1; iter++)
     {
-        cout << *iter;
         if(iter->p_cell->set == 'B')
         {
             set_A.erase(iter->p_cell->name);
@@ -778,16 +778,13 @@ void best_result(unordered_map<string,Cell*> &set_A, unordered_map<string,Cell*>
 
 int FM(map<int,unordered_map<string,Cell*>,greater<int>> &bucket, unordered_map<string,Net*> &nets_hash, int &area_A, int &area_B, int &area_n, int init_cut, vector<Solution> &solution, int iter, unordered_map<string,Cell*> &set_A, unordered_map<string,Cell*> &set_B)
 {
-    clock_t start,end;
     int curr_cut = init_cut;
     Solution curr_solution;
     Cell *max_cell;
     int best_cut = init_cut;
     int best_step = 0;
-    start=clock();
     for(int i=0; i<iter; i++)
     {
-        //cout <<"constraint:" << constraint_check(area_A, area_B, area_n) <<" A: "<< area_A << " B: "<<area_B << "n: "<<area_n <<endl;
         max_cell = find_cell(bucket, area_A, area_B, area_n);
         update_gain(bucket, nets_hash, max_cell);
         curr_cut -= max_cell->gain;
@@ -799,12 +796,8 @@ int FM(map<int,unordered_map<string,Cell*>,greater<int>> &bucket, unordered_map<
             best_cut = curr_cut;
             best_step = i;
         }
-        //cout << curr_solution;
     }
     best_result(set_A, set_B, solution, init_cut, best_step);
-    end=clock();
-    cout << "best cut: "<<best_cut<<" best_step: "<<best_step;
-    //cout << "clock: " << (double)(end-start)/CLOCKS_PER_SEC<<endl;
     return best_cut;
 }
 
@@ -825,31 +818,6 @@ void result_output(char *filename, int best_cut, unordered_map<string,Cell*> set
     }
     out_file.close();
 }
-// void FM(map<int,unordered_map<string,Cell*>,greater<int>> &bucket, unordered_map<string,Net*> &nets_hash, int &area_A, int &area_B, int &area_n, int &max_gain_A, int &max_gain_B, int init_cut, vector<Solution> &solution, int iter)
-// {
-//     clock_t start,end;
-//     Cell* max_cell = NULL;
-//     int curr_cut = init_cut;
-//     Solution curr_solution;
-//     start=clock();
-//     for(int i=0; i<iter; i++)
-//     {
-//         //cout <<"constraint:" << constraint_check(area_A, area_B, area_n) <<" A: "<< area_A << " B: "<<area_B << "n: "<<area_n <<endl;
-//         get_max_A(bucket_A, max_gain_A);
-//         get_max_B(bucket_B, max_gain_B);
-//         max_cell = find_cell(bucket_A, bucket_B, area_A, area_B, area_n, max_gain_A, max_gain_B);
-//         update_gain(bucket_A, bucket_B, nets_hash, max_gain_A, max_gain_B, init_cut, max_cell);
-//         curr_cut -= max_cell->gain;
-//         curr_solution.p_cell = max_cell;
-//         curr_solution.n_cut = curr_cut;
-//         solution.push_back(curr_solution);
-//         //cout << curr_solution;
-//     }
-//     end=clock();
-//     cout << "clock: " << (double)(end-start)/CLOCKS_PER_SEC<<endl;
-// }
-
-
 
 int main(int argc, char *argv[])
 {
@@ -883,9 +851,8 @@ int main(int argc, char *argv[])
     int max_gain_B = 0;
     create_bucket(cells_hash, bucket);
 
-    cout <<"init_cut: "<<init_cut<<endl;
     vector<Solution> solution;
-    int best_cut;
+    int best_cut = init_cut;
     best_cut = FM(bucket, nets_hash, area_A, area_B, area_n,init_cut, solution, cells_hash.size(), set_A, set_B);
 
     char *out_filename = argv[3];
