@@ -757,26 +757,73 @@ void update_gain(map<int,unordered_map<string,Cell*>,greater<int>> &bucket, unor
 //     }
 // }
 
-void FM(map<int,unordered_map<string,Cell*>,greater<int>> &bucket, unordered_map<string,Net*> &nets_hash, int &area_A, int &area_B, int &area_n, int init_cut, vector<Solution> &solution, int iter)
+void best_result(unordered_map<string,Cell*> &set_A, unordered_map<string,Cell*> &set_B, vector<Solution> &solution, int init_cut, int best_step)
+{
+    int n_cut = init_cut;
+    for(auto iter = solution.begin(); iter != solution.begin()+best_step+1; iter++)
+    {
+        cout << *iter;
+        if(iter->p_cell->set == 'B')
+        {
+            set_A.erase(iter->p_cell->name);
+            set_B.insert(make_pair(iter->p_cell->name, iter->p_cell));
+        }
+        else if(iter->p_cell->set == 'A')
+        {
+            set_B.erase(iter->p_cell->name);
+            set_A.insert(make_pair(iter->p_cell->name, iter->p_cell));
+        }
+    }
+}
+
+int FM(map<int,unordered_map<string,Cell*>,greater<int>> &bucket, unordered_map<string,Net*> &nets_hash, int &area_A, int &area_B, int &area_n, int init_cut, vector<Solution> &solution, int iter, unordered_map<string,Cell*> &set_A, unordered_map<string,Cell*> &set_B)
 {
     clock_t start,end;
     int curr_cut = init_cut;
     Solution curr_solution;
     Cell *max_cell;
+    int best_cut = init_cut;
+    int best_step = 0;
     start=clock();
     for(int i=0; i<iter; i++)
     {
-        cout <<"constraint:" << constraint_check(area_A, area_B, area_n) <<" A: "<< area_A << " B: "<<area_B << "n: "<<area_n <<endl;
+        //cout <<"constraint:" << constraint_check(area_A, area_B, area_n) <<" A: "<< area_A << " B: "<<area_B << "n: "<<area_n <<endl;
         max_cell = find_cell(bucket, area_A, area_B, area_n);
         update_gain(bucket, nets_hash, max_cell);
         curr_cut -= max_cell->gain;
         curr_solution.p_cell = max_cell;
         curr_solution.n_cut = curr_cut;
         solution.push_back(curr_solution);
-        cout << curr_solution;
+        if (curr_cut < best_cut)
+        {
+            best_cut = curr_cut;
+            best_step = i;
+        }
+        //cout << curr_solution;
     }
+    best_result(set_A, set_B, solution, init_cut, best_step);
     end=clock();
-    cout << "clock: " << (double)(end-start)/CLOCKS_PER_SEC<<endl;
+    cout << "best cut: "<<best_cut<<" best_step: "<<best_step;
+    //cout << "clock: " << (double)(end-start)/CLOCKS_PER_SEC<<endl;
+    return best_cut;
+}
+
+void result_output(char *filename, int best_cut, unordered_map<string,Cell*> set_A, unordered_map<string,Cell*> set_B)
+{
+    ofstream out_file;
+    out_file.open(filename, ios::out);
+    out_file << "cut_size " << best_cut << endl;
+    out_file << "A " << set_A.size() << endl;
+    for (auto &i : set_A)
+    {
+        out_file << i.first <<endl;
+    }
+    out_file << "B " << set_B.size() << endl;
+    for (auto &i : set_B)
+    {
+        out_file << i.first <<endl;
+    }
+    out_file.close();
 }
 // void FM(map<int,unordered_map<string,Cell*>,greater<int>> &bucket, unordered_map<string,Net*> &nets_hash, int &area_A, int &area_B, int &area_n, int &max_gain_A, int &max_gain_B, int init_cut, vector<Solution> &solution, int iter)
 // {
@@ -801,6 +848,8 @@ void FM(map<int,unordered_map<string,Cell*>,greater<int>> &bucket, unordered_map
 //     end=clock();
 //     cout << "clock: " << (double)(end-start)/CLOCKS_PER_SEC<<endl;
 // }
+
+
 
 int main(int argc, char *argv[])
 {
@@ -833,54 +882,12 @@ int main(int argc, char *argv[])
     int max_gain_A = 0;
     int max_gain_B = 0;
     create_bucket(cells_hash, bucket);
-    // cout << "before bucket_A: "<<endl;
-    // for (auto& i : bucket)
-    // {
-    //     cout << "gain: " <<i.first << endl;
-    //     for (auto& j : i.second)
-    //     {
-    //         cout << *(j.second);
-    //     }
-    // }
-    // // cout <<"before net"<<endl;
-    // for(auto &i : nets){
-    //     Net net = i;
-    //     cout << i;
-    // }
+
     cout <<"init_cut: "<<init_cut<<endl;
     vector<Solution> solution;
-    FM(bucket, nets_hash, area_A, area_B, area_n,init_cut, solution, cells_hash.size());
-    
-    // cout << "after bucket_A: "<<endl;
-    // for (auto& i : bucket_A)
-    // {
-    //     cout << "gain: " <<i.first << endl;
-    //     for (auto& j : i.second)
-    //     {
-    //         cout << *(j.second);
-    //     }
-    // }
-    // cout << "bucket_B: "<<endl;
-    // for (auto& i : bucket_B)
-    // {
-    //     cout << "gain: " <<i.first << endl;
-    //     for (auto& j : i.second)
-    //     {
-    //         cout << *(j.second);
-    //     }
-    // }
-    // cout <<"after net"<<endl;
-    // for(auto &i : nets){
-    //     Net net = i;
-    //     cout << i;
-    // }
-    //cout << "init_cut: " <<init_cut <<endl;
-    // cout << cells_hash.size()<<endl;
-    // for(auto &j : cells_key){
-    //     cout<<"set_A: "<<set_A[j];
-    // }
-    //cout <<"end"<<endl;
-    // for(auto &i : nets){
-    //     cout << i;
-    // }
+    int best_cut;
+    best_cut = FM(bucket, nets_hash, area_A, area_B, area_n,init_cut, solution, cells_hash.size(), set_A, set_B);
+
+    char *out_filename = argv[3];
+    result_output(out_filename, best_cut, set_A, set_B);
 }
