@@ -1,4 +1,3 @@
-g++ -std=c++11 main.cpp -g -o hw2
 time ./hw2 ../testcases/p2-1.nets ../testcases/p2-1.cells ../output/p2-1.out
 time ./hw2 ../testcases/p2-2.nets ../testcases/p2-2.cells ../output/p2-2.out
 time ./hw2 ../testcases/p2-3.nets ../testcases/p2-3.cells ../output/p2-3.out
