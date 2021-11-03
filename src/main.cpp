@@ -7,7 +7,6 @@
 #include <map>
 #include <deque>
 #include <list>
-#include <set>
 #include <time.h>
 using namespace std;
 
@@ -16,7 +15,7 @@ struct Cell
     string name = "";
     int size = 0;
     int gain = 0;
-    char set = 'A'; //test
+    char set = 'A';
     bool lock = 0;
     vector<string> nets;
     bool operator == (const string &cell_name) const
@@ -65,16 +64,6 @@ struct Solution
     }
 };
 
-template<typename T>
-void print_d(T& d)
-{
-    int counter = 0;
-    for (auto &i : d) {
-        cout <<"data["<<counter<<"]"<< i <<endl;
-        counter++;
-    }
-}
-
 void cell_parser(char *filename, unordered_map<string,Cell> &cells, vector<Cell> &cells_vec)
 {
     ifstream cells_file;
@@ -83,18 +72,36 @@ void cell_parser(char *filename, unordered_map<string,Cell> &cells, vector<Cell>
 	{
 		cout << "read .cells file failed" << endl;
 	}
+    string line;
     string buf;
     string name;
     Cell cell;
-    while (getline(cells_file,buf))
+    vector<string> temp_buf;
+    while (getline(cells_file,line))
     {
-        //cout<<buf;
-        int index1 = buf.find_first_of(' '); 
-		cell.name = buf.substr(0,index1); 
-		cell.size = stoi(buf.substr(index1 + 1,sizeof(buf)));
+        line += '\n';
+        for(auto iter=line.begin();iter!=line.end();iter++)
+        {
+            if((*iter) == ' ' || (*iter) == '\n')
+            {
+                if(buf == "")
+                {
+                    continue;
+                }
+                temp_buf.push_back(buf);
+                buf = "";
+            }
+            else
+            {
+                buf += (*iter);
+            }
+        }
+        cell.name = temp_buf[0];
+		cell.size = stoi(temp_buf[1]);
         cells.insert(make_pair(cell.name,cell));
         //cells_key.push_back(cell.name);
         cells_vec.push_back(cell);
+        temp_buf.clear();
     }
     //return cells;
 }
@@ -125,7 +132,7 @@ vector<Net> net_parser(char *filename, unordered_map<string,Cell> &cells)
         else
         {
             line += temp_line;
-            for(auto iter=line.begin()+4;iter!=line.end();iter++)
+            for(auto iter=line.begin();iter!=line.end();iter++)
             {
                 if ((*iter) == '}')
                 {
@@ -154,6 +161,7 @@ vector<Net> net_parser(char *filename, unordered_map<string,Cell> &cells)
                     buf = "";
                 }
             }
+            temp_s.pop_front();
             net.name = temp_s[0];
             temp_s.pop_front();
             while(temp_s.empty() != 1)
@@ -311,126 +319,126 @@ void create_bucket(unordered_map<string,Cell> &cells_hash, map<int,unordered_map
 }
 
 
-bool check_and_swap(Cell* cell, int &area_A, int &area_B, int &area_n)
-{
-    if (cell->set == 'A')
-    {
-        if (constraint_check(area_A-(cell->size), area_B+(cell->size), area_n) == 1)
-        {
-            area_A = area_A-(cell->size);
-            area_B = area_B+(cell->size);
-            cell->lock = 1;
-            cell->set = 'B';
-            return 1;
-        }
-        else
-        {
-            return 0;
-        }
-    }
-    else if (cell->set == 'B')
-    {
-        if (constraint_check(area_A+(cell->size), area_B-(cell->size), area_n) == 1)
-        {
-            area_A = area_A+(cell->size);
-            area_B = area_B-(cell->size);
-            cell->lock = 1;
-            cell->set = 'A';
-            return 1;
-        }
-        else
-        {
-            return 0;
-        }
-    }
-    
-}
-
-Cell* find_cell(map<int,unordered_map<string, Cell*>,greater<int>> &bucket, int &area_A, int &area_B, int &area_n)
-{
-    unordered_map<string, Cell*> *p_max_cells;
-    Cell *p_max_cell;
-    bool swap;
-    for(auto &i : bucket)
-    {
-        p_max_cells = &(i.second);
-        for(auto &j : *p_max_cells)
-        {
-            p_max_cell = j.second;
-            if(p_max_cell->lock == 1)
-            {
-                continue;
-            }
-            else
-            {
-                swap = check_and_swap(p_max_cell, area_A, area_B, area_n);
-                if (swap == 1)
-                {
-                    p_max_cells->erase(p_max_cell->name);
-                    return p_max_cell;
-                }
-            }
-        }
-    }
-}
-
-// int get_max(map<int,unordered_map<string, Cell*>,greater<int>> &bucket)
+// bool check_and_swap(Cell* cell, int &area_A, int &area_B, int &area_n)
 // {
-//     int max_gain = 0;
-//     for (auto &i : bucket)
+//     if (cell->set == 'A')
 //     {
-//         if(i.second.empty() != 1)
+//         if (constraint_check(area_A-(cell->size), area_B+(cell->size), area_n) == 1)
 //         {
-//             max_gain = i.first;
-//             return max_gain;
+//             area_A = area_A-(cell->size);
+//             area_B = area_B+(cell->size);
+//             cell->lock = 1;
+//             cell->set = 'B';
+//             return 1;
+//         }
+//         else
+//         {
+//             return 0;
 //         }
 //     }
+//     else if (cell->set == 'B')
+//     {
+//         if (constraint_check(area_A+(cell->size), area_B-(cell->size), area_n) == 1)
+//         {
+//             area_A = area_A+(cell->size);
+//             area_B = area_B-(cell->size);
+//             cell->lock = 1;
+//             cell->set = 'A';
+//             return 1;
+//         }
+//         else
+//         {
+//             return 0;
+//         }
+//     }
+    
 // }
 
 // Cell* find_cell(map<int,unordered_map<string, Cell*>,greater<int>> &bucket, int &area_A, int &area_B, int &area_n)
 // {
-//     int max_gain = get_max(bucket);
-//     unordered_map<string, Cell*> *p_candidate;
-//     Cell *max_cell = NULL;
-//     while(max_cell == NULL)
+//     unordered_map<string, Cell*> *p_max_cells;
+//     Cell *p_max_cell;
+//     bool swap;
+//     for(auto &i : bucket)
 //     {
-//         p_candidate = &(bucket[max_gain]);
-//         for (auto &i : *p_candidate)
+//         p_max_cells = &(i.second);
+//         for(auto &j : *p_max_cells)
 //         {
-//             if (i.second->set == 'A')
+//             p_max_cell = j.second;
+//             if(p_max_cell->lock == 1)
 //             {
-//                 if (constraint_check(area_A - (i.second->size), area_B + (i.second->size), area_n))
+//                 continue;
+//             }
+//             else
+//             {
+//                 swap = check_and_swap(p_max_cell, area_A, area_B, area_n);
+//                 if (swap == 1)
 //                 {
-//                     area_A = area_A - (i.second->size);
-//                     area_B = area_B + (i.second->size);
-//                     max_cell = i.second;
-//                     max_cell->lock = 1;
-//                     max_cell->set = 'B';
-//                     p_candidate->erase(max_cell->name);
-//                     return max_cell;
+//                     p_max_cells->erase(p_max_cell->name);
+//                     return p_max_cell;
 //                 }
 //             }
-//             else if (i.second->set == 'B')
-//             {
-//                 if (constraint_check(area_A + (i.second->size), area_B - (i.second->size), area_n))
-//                 {
-//                     area_A = area_A + (i.second->size);
-//                     area_B = area_B - (i.second->size);
-//                     max_cell = i.second;
-//                     max_cell->lock = 1;
-//                     max_cell->set = 'A';
-//                     p_candidate->erase(max_cell->name);
-//                     return max_cell;
-//                 }
-//             }  
-//         }
-//         max_gain -= 1;
-//         while (bucket[max_gain].empty() == 1) //如果当前max gain已无元素，则更新max_gain
-//         {
-//             max_gain -= 1;
 //         }
 //     }
 // }
+
+int get_max(map<int,unordered_map<string, Cell*>,greater<int>> &bucket)
+{
+    int max_gain = 0;
+    for (auto &i : bucket)
+    {
+        if(i.second.empty() != 1)
+        {
+            max_gain = i.first;
+            return max_gain;
+        }
+    }
+}
+
+Cell* find_cell(map<int,unordered_map<string, Cell*>,greater<int>> &bucket, int &area_A, int &area_B, int &area_n)
+{
+    int max_gain = get_max(bucket);
+    unordered_map<string, Cell*> *p_candidate;
+    Cell *max_cell = NULL;
+    while(max_cell == NULL)
+    {
+        p_candidate = &(bucket[max_gain]);
+        for (auto &i : *p_candidate)
+        {
+            if (i.second->set == 'A')
+            {
+                if (constraint_check(area_A - (i.second->size), area_B + (i.second->size), area_n))
+                {
+                    area_A = area_A - (i.second->size);
+                    area_B = area_B + (i.second->size);
+                    max_cell = i.second;
+                    max_cell->lock = 1;
+                    max_cell->set = 'B';
+                    p_candidate->erase(max_cell->name);
+                    return max_cell;
+                }
+            }
+            else if (i.second->set == 'B')
+            {
+                if (constraint_check(area_A + (i.second->size), area_B - (i.second->size), area_n))
+                {
+                    area_A = area_A + (i.second->size);
+                    area_B = area_B - (i.second->size);
+                    max_cell = i.second;
+                    max_cell->lock = 1;
+                    max_cell->set = 'A';
+                    p_candidate->erase(max_cell->name);
+                    return max_cell;
+                }
+            }  
+        }
+        max_gain -= 1;
+        while (bucket[max_gain].empty() == 1) //如果当前max gain已无元素，则更新max_gain
+        {
+            max_gain -= 1;
+        }
+    }
+}
 
 void update_gain(map<int,unordered_map<string,Cell*>,greater<int>> &bucket, unordered_map<string,Net*> &nets_hash, Cell* &max_cell)
 {   
@@ -592,172 +600,6 @@ void update_gain(map<int,unordered_map<string,Cell*>,greater<int>> &bucket, unor
     }
 }
 
-// void update_gain(map<int,unordered_map<string,Cell*>,greater<int>> &bucket_A, map<int,unordered_map<string,Cell*>,greater<int>> &bucket_B, unordered_map<string,Net*> &nets_hash, int &max_gain_A, int &max_gain_B, int &init_cut, Cell* &max_cell)
-// {
-//     if(max_cell->set == 'A')
-//     {
-//         for (auto &i : max_cell->nets) //当前拿走的cell的所有net
-//         {
-//             if(nets_hash[i]->B_n == 0)
-//             {
-//                 for(auto &j : nets_hash[i]->cells)
-//                 {
-//                     if(j->lock == 1)
-//                     {
-//                         continue;
-//                     }
-//                     else
-//                     {
-//                         bucket_A[j->gain].erase(j->name);
-//                         j->gain += 1;
-//                         bucket_A[j->gain].insert(make_pair(j->name,j));
-//                     }
-//                 }
-//             }
-//             else if(nets_hash[i]->B_n == 1)
-//             {
-//                 for(auto &j : nets_hash[i]->cells)
-//                 {
-//                     if(j->lock == 1)
-//                     {
-//                         continue;
-//                     }
-//                     else
-//                     {
-//                         if(j->set == 'B')
-//                         {
-//                             bucket_B[j->gain].erase(j->name);
-//                             j->gain -= 1;
-//                             bucket_B[j->gain].insert(make_pair(j->name,j));
-//                         }
-//                     }
-//                 }
-//             }
-//             nets_hash[i]->B_n += 1;
-//             nets_hash[i]->A_n -= 1;
-//             if(nets_hash[i]->A_n == 0)
-//             {
-//                 for(auto &j : nets_hash[i]->cells)
-//                 {
-//                     if(j->lock == 1)
-//                     {
-//                         continue;
-//                     }
-//                     else
-//                     {
-//                         bucket_B[j->gain].erase(j->name);
-//                         j->gain -= 1;
-//                         bucket_B[j->gain].insert(make_pair(j->name,j));
-//                     }
-//                 }   
-//             }
-//             else if(nets_hash[i]->A_n == 1)
-//             {
-//                 for(auto &j : nets_hash[i]->cells)
-//                 {
-//                     if(j->lock == 1)
-//                     {
-//                         continue;
-//                     }
-//                     else
-//                     {
-//                         if(j->set == 'A')
-//                         {
-//                             bucket_A[j->gain].erase(j->name);
-//                             j->gain += 1;
-//                             bucket_A[j->gain].insert(make_pair(j->name,j));
-//                         }
-//                     }
-//                 } 
-//             }
-//         }
-//          //将当前cell拿出bucket
-//         bucket_A[max_gain_A].erase(max_cell->name);
-//         max_cell->set = 'B'; //将当前cell从a换到b
-//     }
-//     else if(max_cell->set == 'B')
-//     {
-//         for (auto &i : max_cell->nets) //当前拿走的cell的所有net
-//         {
-//             if(nets_hash[i]->A_n == 0)
-//             {
-//                 for(auto &j : nets_hash[i]->cells)
-//                 {
-//                     if(j->lock == 1)
-//                     {
-//                         continue;
-//                     }
-//                     else
-//                     {
-//                         bucket_B[j->gain].erase(j->name);
-//                         j->gain += 1;
-//                         bucket_B[j->gain].insert(make_pair(j->name,j));
-//                     }
-//                 }
-//             }
-//             else if(nets_hash[i]->A_n == 1)
-//             {
-//                 for(auto &j : nets_hash[i]->cells)
-//                 {
-//                     if(j->lock == 1)
-//                     {
-//                         continue;
-//                     }
-//                     else
-//                     {
-//                         if(j->set == 'A')
-//                         {
-//                             bucket_A[j->gain].erase(j->name);
-//                             j->gain -= 1;
-//                             bucket_A[j->gain].insert(make_pair(j->name,j));
-//                         }
-//                     }
-//                 }
-//             }
-//             nets_hash[i]->B_n -= 1;
-//             nets_hash[i]->A_n += 1;
-//             if(nets_hash[i]->B_n == 0)
-//             {
-//                 for(auto &j : nets_hash[i]->cells)
-//                 {
-//                     if(j->lock == 1)
-//                     {
-//                         continue;
-//                     }
-//                     else
-//                     {
-//                         bucket_A[j->gain].erase(j->name);
-//                         j->gain -= 1;
-//                         bucket_A[j->gain].insert(make_pair(j->name,j));
-//                     }
-//                 }   
-//             }
-//             else if(nets_hash[i]->B_n == 1)
-//             {
-//                 for(auto &j : nets_hash[i]->cells)
-//                 {
-//                     if(j->lock == 1)
-//                     {
-//                         continue;
-//                     }
-//                     else
-//                     {
-//                         if(j->set == 'B')
-//                         {
-//                             bucket_B[j->gain].erase(j->name);
-//                             j->gain += 1;
-//                             bucket_B[j->gain].insert(make_pair(j->name,j));
-//                         }
-//                     }
-//                 } 
-//             }
-//         }
-//          //将当前cell拿出bucket B
-//         bucket_B[max_gain_B].erase(max_cell->name);
-//         max_cell->set = 'A'; //将当前cell从a换到b
-//     }
-// }
-
 void best_result(unordered_map<string,Cell*> &set_A, unordered_map<string,Cell*> &set_B, vector<Solution> &solution, int init_cut, int best_step)
 {
     int n_cut = init_cut;
@@ -821,6 +663,8 @@ void result_output(char *filename, int best_cut, unordered_map<string,Cell*> set
 
 int main(int argc, char *argv[])
 {
+    clock_t start,end;
+    start =clock();
     char *cell_filename = argv[2];
     unordered_map<string,Cell> cells_hash;
     vector<Cell> cells_vec;
@@ -857,4 +701,6 @@ int main(int argc, char *argv[])
 
     char *out_filename = argv[3];
     result_output(out_filename, best_cut, set_A, set_B);
+    end =clock();
+    cout <<"best cut: "<< best_cut << " time: "<< (double) (end-start)/CLOCKS_PER_SEC<<endl;
 }
