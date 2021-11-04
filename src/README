@@ -1,1 +1,29 @@
-How to compile:
+--How to compile:
+    In this directory, enter the following command:
+    $ make
+    It will generate the executable file "hw2" in "HW2/bin", out file "main.o", out file "parser.o" and out file "fm_core.o".
+
+    If you want to remove all of them, please enter the following command:
+    $ make clean
+
+--How to Run
+    In this directory enter the following command:
+    Usage: ../bin/<exe> <net file> <cell file> <output file>
+    e.g.:
+    $ ../bin/hw2 ../testcases/p2-1.nets ../testcases/p2-1.cells ../output/p2-1.out
+
+    In "HW2/bin/", enter the following command:
+    Usage: ./<exe> <net file> <cell file> <output file>
+    e.g.:
+    $ ./hw2 ../testcases/p2-1.nets ../testcases/p2-1.cells ../output/p2-1.out
+
+--Test
+    In this directory enter the following command:
+    $ bash script.sh
+    It will Run:
+    $ time ../bin/hw2 ../testcases/p2-1.nets ../testcases/p2-1.cells ../output/p2-1.out
+    $ time ../bin/hw2 ../testcases/p2-2.nets ../testcases/p2-2.cells ../output/p2-2.out
+    $ time ../bin/hw2 ../testcases/p2-3.nets ../testcases/p2-3.cells ../output/p2-3.out
+    $ time ../bin/hw2 ../testcases/p2-4.nets ../testcases/p2-4.cells ../output/p2-4.out
+    $ time ../bin/hw2 ../testcases/p2-5.nets ../testcases/p2-5.cells ../output/p2-5.out
+    and use verifier to check result
